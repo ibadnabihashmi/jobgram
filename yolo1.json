@@ -1,9 +1,2055 @@
 {
-  "data": {
-    "$deletedFields": [],
-    "versionTag": "1287525737",
-    "$type": "com.linkedin.voyager.identity.profile.VersionTag",
-    "$id": "nzJlA4yvZJaDktQDAB49Ig==,root"
+  "metadata": {
+    "locationInfo": {
+      "locationId": "pk:0",
+      "location": "Pakistan"
+    },
+    "guides": [
+      {
+        "displayText": "Top",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "TOP"
+          }
+        },
+        "urlParameter": "v->TOP",
+        "selected": false
+      },
+      {
+        "displayText": "People",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "PEOPLE"
+          }
+        },
+        "urlParameter": "v->PEOPLE",
+        "selected": false
+      },
+      {
+        "displayText": "Jobs",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "JOBS"
+          }
+        },
+        "urlParameter": "v->JOBS",
+        "selected": true
+      },
+      {
+        "displayText": "Posts",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "CONTENT"
+          }
+        },
+        "urlParameter": "v->CONTENT",
+        "selected": false
+      },
+      {
+        "displayText": "Companies",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "COMPANIES"
+          }
+        },
+        "urlParameter": "v->COMPANIES",
+        "selected": false
+      },
+      {
+        "displayText": "Groups",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "GROUPS"
+          }
+        },
+        "urlParameter": "v->GROUPS",
+        "selected": false
+      },
+      {
+        "displayText": "Schools",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "SCHOOLS"
+          }
+        },
+        "urlParameter": "v->SCHOOLS",
+        "selected": false
+      }
+    ],
+    "keywords": "",
+    "origin": "JOB_SEARCH_RESULTS_PAGE",
+    "location": "Pakistan",
+    "id": "3465704101496153541945",
+    "type": "JOBS",
+    "facets": [
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "COMPANY"
+        },
+        "displayName": "Company",
+        "facetValues": [
+          {
+            "displayValue": "Western NSW Local Health District",
+            "count": 14,
+            "value": "2545815",
+            "selected": false
+          },
+          {
+            "displayValue": "Nestlé",
+            "count": 9,
+            "value": "1393",
+            "selected": false
+          },
+          {
+            "displayValue": "GSK",
+            "count": 7,
+            "value": "1399",
+            "selected": false
+          },
+          {
+            "displayValue": "Novartis",
+            "count": 6,
+            "value": "1406",
+            "selected": false
+          },
+          {
+            "displayValue": "S&P Global Market Intelligence",
+            "count": 6,
+            "value": "162892",
+            "selected": false
+          },
+          {
+            "displayValue": "Telenor",
+            "count": 5,
+            "value": "1963",
+            "selected": false
+          },
+          {
+            "displayValue": "UNICEF",
+            "count": 5,
+            "value": "4881",
+            "selected": false
+          },
+          {
+            "displayValue": "HealthShare NSW",
+            "count": 4,
+            "value": "412278",
+            "selected": false
+          },
+          {
+            "displayValue": "BBC",
+            "count": 1,
+            "value": "1762",
+            "selected": false
+          },
+          {
+            "displayValue": "Humanity (ShiftPlanning)",
+            "count": 1,
+            "value": "3798316",
+            "selected": false
+          }
+        ],
+        "facetParameterName": "f_C"
+      },
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "FUNCTION"
+        },
+        "displayName": "Job Function",
+        "facetValues": [
+          {
+            "displayValue": "Information Technology",
+            "count": 124,
+            "value": "it",
+            "selected": false
+          },
+          {
+            "displayValue": "Business Development",
+            "count": 78,
+            "value": "bd",
+            "selected": false
+          },
+          {
+            "displayValue": "Management",
+            "count": 56,
+            "value": "mgmt",
+            "selected": false
+          },
+          {
+            "displayValue": "Other",
+            "count": 51,
+            "value": "othr",
+            "selected": false
+          },
+          {
+            "displayValue": "Manufacturing",
+            "count": 38,
+            "value": "mnfc",
+            "selected": false
+          },
+          {
+            "displayValue": "Health Care Provider",
+            "count": 32,
+            "value": "hcpr",
+            "selected": false
+          },
+          {
+            "displayValue": "Customer Service",
+            "count": 18,
+            "value": "cust",
+            "selected": false
+          },
+          {
+            "displayValue": "Human Resources",
+            "count": 14,
+            "value": "hr",
+            "selected": false
+          },
+          {
+            "displayValue": "Art/Creative",
+            "count": 8,
+            "value": "art",
+            "selected": false
+          },
+          {
+            "displayValue": "Design",
+            "count": 8,
+            "value": "dsgn",
+            "selected": false
+          }
+        ],
+        "facetParameterName": "f_F"
+      },
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "INDUSTRY"
+        },
+        "displayName": "Industry",
+        "facetValues": [
+          {
+            "displayValue": "Information Technology and Services",
+            "count": 152,
+            "value": "96",
+            "selected": false
+          },
+          {
+            "displayValue": "Computer Software",
+            "count": 138,
+            "value": "4",
+            "selected": false
+          },
+          {
+            "displayValue": "Financial Services",
+            "count": 100,
+            "value": "43",
+            "selected": false
+          },
+          {
+            "displayValue": "Nonprofit Organization Management",
+            "count": 52,
+            "value": "100",
+            "selected": false
+          },
+          {
+            "displayValue": "Food & Beverages",
+            "count": 44,
+            "value": "34",
+            "selected": false
+          },
+          {
+            "displayValue": "Hospital & Health Care",
+            "count": 36,
+            "value": "14",
+            "selected": false
+          },
+          {
+            "displayValue": "Telecommunications",
+            "count": 34,
+            "value": "8",
+            "selected": false
+          },
+          {
+            "displayValue": "Pharmaceuticals",
+            "count": 26,
+            "value": "15",
+            "selected": false
+          },
+          {
+            "displayValue": "Mental Health Care",
+            "count": 19,
+            "value": "139",
+            "selected": false
+          },
+          {
+            "displayValue": "Broadcast Media",
+            "count": 3,
+            "value": "36",
+            "selected": false
+          }
+        ],
+        "facetParameterName": "f_I"
+      },
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "EXPERIENCE"
+        },
+        "displayName": "Experience Level",
+        "facetValues": [
+          {
+            "displayValue": "Mid-Senior level",
+            "count": 135,
+            "value": "4",
+            "selected": false
+          },
+          {
+            "displayValue": "Entry level",
+            "count": 130,
+            "value": "2",
+            "selected": false
+          },
+          {
+            "displayValue": "Associate",
+            "count": 109,
+            "value": "3",
+            "selected": false
+          },
+          {
+            "displayValue": "Not Applicable",
+            "count": 99,
+            "value": "0",
+            "selected": false
+          },
+          {
+            "displayValue": "Director",
+            "count": 17,
+            "value": "5",
+            "selected": false
+          },
+          {
+            "displayValue": "Executive",
+            "count": 9,
+            "value": "6",
+            "selected": false
+          },
+          {
+            "displayValue": "Internship",
+            "count": 7,
+            "value": "1",
+            "selected": false
+          }
+        ],
+        "facetParameterName": "f_E"
+      },
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "TIME_POSTED"
+        },
+        "displayName": "Date Posted",
+        "facetValues": [
+          {
+            "displayValue": "Past 24 hours",
+            "count": 20,
+            "value": "1",
+            "selected": false
+          },
+          {
+            "displayValue": "Past Week",
+            "count": 114,
+            "value": "1,2",
+            "selected": false
+          },
+          {
+            "displayValue": "Past Month",
+            "count": 305,
+            "value": "1,2,3,4",
+            "selected": false
+          },
+          {
+            "displayValue": "Any Time",
+            "count": 504,
+            "value": "",
+            "selected": true
+          }
+        ],
+        "facetParameterName": "f_TP"
+      },
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "GEO_CITY"
+        },
+        "displayName": "Location",
+        "facetValues": [
+          {
+            "displayValue": "Hasan Abdal, Norhern Punajb Rawalpindi, Pakistan",
+            "count": 90,
+            "value": "pk.1-1070",
+            "selected": false
+          },
+          {
+            "displayValue": "Mustafabad, Lahore, Pakistan",
+            "count": 68,
+            "value": "pk.5-2282",
+            "selected": false
+          },
+          {
+            "displayValue": "Bossa Gala, Federal Capial &AJK, Pakistan",
+            "count": 55,
+            "value": "pk.2-214",
+            "selected": false
+          },
+          {
+            "displayValue": "Tian, Federal Capial &AJK, Pakistan",
+            "count": 55,
+            "value": "pk.2-215",
+            "selected": false
+          },
+          {
+            "displayValue": "Bhalgran Surdari, Federal Capial &AJK, Pakistan",
+            "count": 55,
+            "value": "pk.2-216",
+            "selected": false
+          },
+          {
+            "displayValue": "Nur, Federal Capial &AJK, Pakistan",
+            "count": 55,
+            "value": "pk.2-217",
+            "selected": false
+          },
+          {
+            "displayValue": "Azizabad, NWFP Peshawar, Pakistan",
+            "count": 55,
+            "value": "pk.3-583",
+            "selected": false
+          },
+          {
+            "displayValue": "Bando Go, NWFP Peshawar, Pakistan",
+            "count": 35,
+            "value": "pk.3-392",
+            "selected": false
+          },
+          {
+            "displayValue": "Islamabad Gpo, Federal Capial &AJK, Pakistan",
+            "count": 24,
+            "value": "pk.2-522",
+            "selected": false
+          },
+          {
+            "displayValue": "Jutial, Federal Capial &AJK, Pakistan",
+            "count": 3,
+            "value": "pk.2-401",
+            "selected": false
+          }
+        ],
+        "facetParameterName": "f_GC"
+      }
+    ]
   },
-  "included": []
+  "elements": [
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:319138776",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:162892",
+                  "name": "S&P Global Market Intelligence",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAzXAAAAJDcwYWJjMjJkLWJhMDQtNDFjMy05M2U3LTEwMzEyODFiZGU3Yg.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:162892"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Islamabad, PK",
+            "jobState": "LISTED",
+            "title": "Specialist, Sales Operations/Support",
+            "listedAt": 1496150767000,
+            "expireAt": 1498742767000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:319138776)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:319138776",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:319138776,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:319138776",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.SchoolRecruitRelevanceReasonDetails": {
+                  "mostRecentSchool": "urn:li:fs_normalized_school:15865",
+                  "totalNumberOfAlumni": 43,
+                  "mostRecentSchoolResolutionResult": {
+                    "entityUrn": "urn:li:fs_normalized_school:15865",
+                    "name": "National University of Computer and Emerging Sciences",
+                    "logo": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/6/005/02b/271/184cc03.png"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.applytracking.com/x.aspx?method=direct&type=apply&board=D92FCD45-1292-4AE2-B555-D7A273418B42&Job=226724&ClientCode=7021"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:319138776",
+              "applied": false
+            },
+            "sourceDomain": "www.applytracking.com"
+          },
+          "descriptionSnippet": "Our Hiring Manager says: “I’m looking for the kind of person who has excellent communication skills, is a go-getter & can work under minimal supervision”."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:319141331",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1406",
+                  "name": "Novartis",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAiZAAAAJDIwMDk4YTJhLTMxNDgtNGUyYi1hMmM0LTIxM2E2YzI5YmY4Nw.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAkSAAAAJGEwMGNiZmExLTY5NzItNDE4OC05MTE2LThmOTgxMzg5OTMyNg.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1400,
+                      "y": 349,
+                      "height": 205
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1406"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Training Manager",
+            "listedAt": 1496149311000,
+            "expireAt": 1498741311000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:319141331)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:319141331",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:319141331,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:319141331",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.SchoolRecruitRelevanceReasonDetails": {
+                  "mostRecentSchool": "urn:li:fs_normalized_school:15865",
+                  "totalNumberOfAlumni": 1,
+                  "mostRecentSchoolResolutionResult": {
+                    "entityUrn": "urn:li:fs_normalized_school:15865",
+                    "name": "National University of Computer and Emerging Sciences",
+                    "logo": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/6/005/02b/271/184cc03.png"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://sjobs.brassring.com/TGWebHost/jobdetails.aspx?partnerid=13617&siteid=5260&alcon&jobId=2487587&JobReqLang=140&codes=LIIN"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:319141331",
+              "applied": false
+            },
+            "sourceDomain": "sjobs.brassring.com"
+          },
+          "descriptionSnippet": "Experience of training in previous assignments. To develop, define and nationally implement core training strategy and programs for generalist and specialist teams in the Country."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:319138604",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1406",
+                  "name": "Novartis",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAiZAAAAJDIwMDk4YTJhLTMxNDgtNGUyYi1hMmM0LTIxM2E2YzI5YmY4Nw.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAkSAAAAJGEwMGNiZmExLTY5NzItNDE4OC05MTE2LThmOTgxMzg5OTMyNg.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1400,
+                      "y": 349,
+                      "height": 205
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1406"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Field Officer - Ophtha",
+            "listedAt": 1496149311000,
+            "expireAt": 1498741311000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:319138604)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:319138604",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:319138604,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:319138604",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://sjobs.brassring.com/TGWebHost/jobdetails.aspx?partnerid=13617&siteid=5260&alcon&jobId=2487591&JobReqLang=140&codes=LIIN"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:319138604",
+              "applied": false
+            },
+            "sourceDomain": "sjobs.brassring.com"
+          },
+          "descriptionSnippet": "Minimum requirements Graduate/Pharm-D/MBBS/B. Pharm English Graduate preferably with science background or in case of non-science background, at least 1year successful Pharma ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:303018354",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1762",
+                  "name": "BBC",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/2/005/0b7/3b2/3d53178.png"
+                      }
+                    },
+                    "type": "LOGO_LEGACY"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1762"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Pakistan",
+            "jobState": "LISTED",
+            "title": "Online/Digital Senior Broadcast Journalist, (Based Islamabad, Pakistan)",
+            "listedAt": 1496148257000,
+            "expireAt": 1498740255000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:303018354)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:303018354",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:303018354,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:303018354",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "http://careerssearch.bbc.co.uk/jobs/job/Senior-Broadcast-Journalist-Multimedia-Based-Islamabad-Pakistan/20298"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:303018354",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "The ideal candidate will be an experienced and competent Broadcast Journalist who has innovative and creative ideas about broadcasting news digitally/online."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:319139303",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1399",
+                  "name": "GSK",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAANrAAAAJGM4NzMzMzRkLWRkNDEtNDFmNC1hYjg1LWJlN2U2NDVjZGVmYw.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1399"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Packaging Engineer",
+            "listedAt": 1496146340000,
+            "expireAt": 1498738340000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:319139303)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:319139303",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:319139303,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:319139303",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://careers.peopleclick.com/careerscp/client_gsk/external1931/gateway.do?functionName=viewFromLink&jobPostId=342355&localeCode=en-us&eresc=LinkedIn"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:319139303",
+              "applied": false
+            },
+            "sourceDomain": "careers.peopleclick.com"
+          },
+          "descriptionSnippet": "Fresh to 3 years experience in process and packaging support role on the shopfloor of GMP manufacturing."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:303017190",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:3798316",
+                  "name": "Humanity (ShiftPlanning)",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAA1OAAAAJDU5ZmY4NjY5LWQ0MTYtNGU3OC1hNDE5LWQ1ZmZmMjk2Y2QzZg.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAzWAAAAJGNkYWUwYjYwLWFhMmUtNDc1OC04OTA5LTdiYmE2NTdmZTkwYQ.png"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1563,
+                      "y": 207,
+                      "height": 242
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:3798316"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Lahore, Pakistan",
+            "jobState": "LISTED",
+            "title": "Recruitment & HR Specialist",
+            "listedAt": 1496142521000,
+            "expireAt": 1498734468000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:303017190)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:303017190",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:303017190,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:303017190",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.humanity.com/job?id=30e7a622-a51a-4d29-9404-1771040117ab"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:303017190",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "We are looking for a Recruitment & HR Specialist  to join our Lahore, Pakistan team of 60+ creative and talented people. Experience in ICT industry as advantage;"
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:355375215",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2545815",
+                  "name": "Western NSW Local Health District",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAkcAAAAJGI3N2IzNTY5LWRiNjEtNDU3Ny1iODAzLTcwYzllMGEyZjg1OQ.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2545815"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Bega, PK",
+            "jobState": "LISTED",
+            "title": "Motor Vehicle Driver Bega Valley Heath Service",
+            "listedAt": 1496137555000,
+            "expireAt": 1498729555000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:355375215)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:355375215",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:355375215,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:355375215",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://nswhealth.erecruit.com.au/ViewPosition.aspx?id=396432"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:355375215",
+              "applied": false
+            },
+            "sourceDomain": "nswhealth.erecruit.com.au"
+          },
+          "descriptionSnippet": "Demonstrated previous experience in transporting, equipment or goods, patients or staff in a healthcare environment. Which will involve regular safety checks."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:355375217",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:412278",
+                  "name": "HealthShare NSW",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAA0xAAAAJGU0ODVlNGFiLWIzMTYtNDg0My04NzBkLTA4OGViYzk2MjQ5NQ.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:412278"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Kanwal, PK",
+            "jobState": "LISTED",
+            "title": "Hospital Assistant - Food",
+            "listedAt": 1496137555000,
+            "expireAt": 1498729555000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:355375217)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:355375217",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:355375217,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:355375217",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://nswhealth.erecruit.com.au/ViewPosition.aspx?id=396699"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:355375217",
+              "applied": false
+            },
+            "sourceDomain": "nswhealth.erecruit.com.au"
+          },
+          "descriptionSnippet": "2 Good verbal and written communication skills including the ability to read and write, understand and carry out written instructions in English. This is a Category A position."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:355362852",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1393",
+                  "name": "Nestlé",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAzLAAAAJGUxMTA5OWI5LWM1ZjMtNGI4Zi04ODdkLTlkYzg3NDk3NGMxZg.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1393"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Team Leader Supply Chain - Nestlé Water (Port Qasim Factory Karachi)",
+            "listedAt": 1496134888000,
+            "expireAt": 1498726888000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:355362852)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:355362852",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:355362852,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:355362852",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.SchoolRecruitRelevanceReasonDetails": {
+                  "mostRecentSchool": "urn:li:fs_normalized_school:15865",
+                  "totalNumberOfAlumni": 26,
+                  "mostRecentSchoolResolutionResult": {
+                    "entityUrn": "urn:li:fs_normalized_school:15865",
+                    "name": "National University of Computer and Emerging Sciences",
+                    "logo": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/6/005/02b/271/184cc03.png"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://nestle.taleo.net/careersection/3/jobdetail.ftl?job=170004JA&lang=en&source=LinkedIn"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:355362852",
+              "applied": false
+            },
+            "sourceDomain": "nestle.taleo.net"
+          },
+          "descriptionSnippet": "2 to 3 years of relevant experience (Distribution operations, Supply Chain, warehousing) Required Experience And Qualification. To provide traceability data as and when required."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:303014674",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1963",
+                  "name": "Telenor",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAb5AAAAJGFiMTkyMjEyLTc5ZWItNGE5MC1iMDM1LTY5YTM4YzVmYTdhYw.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAnKAAAAJGIyYWE2NzQ0LTUzODEtNGFjYi1iMTQwLWVlMDY0ODQyMDU1Yw.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1600,
+                      "y": 134,
+                      "height": 266
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1963"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Islamabad Gpo, Federal Capial &AJK, Pakistan",
+            "jobState": "LISTED",
+            "title": "Java Software Developer (Contractual)",
+            "listedAt": 1496134226000,
+            "expireAt": 1498726223000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:303014674)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:303014674",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:303014674,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:303014674",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.InNetworkRelevanceReasonDetails": {
+                  "totalNumberOfConnections": 1,
+                  "topConnectionsResolutionResults": {
+                    "urn:li:fs_normalized_profile:ACoAAAuoPbcBicLTlZw9CFp8yPIqDur700CrILU": {
+                      "profilePicture": {
+                        "com.linkedin.voyager.common.MediaProcessorImage": {
+                          "id": "/AAEAAQAAAAAAAAzCAAAAJDgwZTgzYzgxLWI5MWYtNDFhMC04Yjk1LWU3MzA2NDAwYzliOA.jpg"
+                        }
+                      },
+                      "firstName": "Hassan",
+                      "lastName": "Ammad",
+                      "entityUrn": "urn:li:fs_normalized_profile:ACoAAAuoPbcBicLTlZw9CFp8yPIqDur700CrILU"
+                    }
+                  },
+                  "topConnections": [
+                    "urn:li:fs_normalized_profile:ACoAAAuoPbcBicLTlZw9CFp8yPIqDur700CrILU"
+                  ]
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.SimpleOnsiteApply": {}
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:303014674",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "Minimum 3+ years of experience in designing and development of business applications with MVC Frame works, JAVA, Restful Services and XML including component based development, ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:355352897",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1393",
+                  "name": "Nestlé",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAzLAAAAJGUxMTA5OWI5LWM1ZjMtNGI4Zi04ODdkLTlkYzg3NDk3NGMxZg.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1393"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Lahore, Pakistan",
+            "jobState": "LISTED",
+            "title": "Assistant Brand Manager-Juices",
+            "listedAt": 1496130655000,
+            "expireAt": 1498722652000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:355352897)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:355352897",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:355352897,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:355352897",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.SchoolRecruitRelevanceReasonDetails": {
+                  "mostRecentSchool": "urn:li:fs_normalized_school:15865",
+                  "totalNumberOfAlumni": 26,
+                  "mostRecentSchoolResolutionResult": {
+                    "entityUrn": "urn:li:fs_normalized_school:15865",
+                    "name": "National University of Computer and Emerging Sciences",
+                    "logo": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/6/005/02b/271/184cc03.png"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.SimpleOnsiteApply": {}
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:355352897",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "2-3 Years of cross-functional experience. Qualification, Knowledge and Experience: Working closely with manufacturing and technical for defining and delivering I&R projects."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:303007837",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1963",
+                  "name": "Telenor",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAb5AAAAJGFiMTkyMjEyLTc5ZWItNGE5MC1iMDM1LTY5YTM4YzVmYTdhYw.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAnKAAAAJGIyYWE2NzQ0LTUzODEtNGFjYi1iMTQwLWVlMDY0ODQyMDU1Yw.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1600,
+                      "y": 134,
+                      "height": 266
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1963"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Islamabad",
+            "jobState": "LISTED",
+            "title": "Pricing Executive / Specialist",
+            "listedAt": 1496128232000,
+            "expireAt": 1498720229000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:303007837)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:303007837",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:303007837,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:303007837",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.InNetworkRelevanceReasonDetails": {
+                  "totalNumberOfConnections": 1,
+                  "topConnectionsResolutionResults": {
+                    "urn:li:fs_normalized_profile:ACoAAAuoPbcBicLTlZw9CFp8yPIqDur700CrILU": {
+                      "profilePicture": {
+                        "com.linkedin.voyager.common.MediaProcessorImage": {
+                          "id": "/AAEAAQAAAAAAAAzCAAAAJDgwZTgzYzgxLWI5MWYtNDFhMC04Yjk1LWU3MzA2NDAwYzliOA.jpg"
+                        }
+                      },
+                      "firstName": "Hassan",
+                      "lastName": "Ammad",
+                      "entityUrn": "urn:li:fs_normalized_profile:ACoAAAuoPbcBicLTlZw9CFp8yPIqDur700CrILU"
+                    }
+                  },
+                  "topConnections": [
+                    "urn:li:fs_normalized_profile:ACoAAAuoPbcBicLTlZw9CFp8yPIqDur700CrILU"
+                  ]
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://ars2.equest.com/?response_id=1f1b999428314e8ad34da8d349d708b6"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:303007837",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "Solid work experience in data analytics / segments / pricing / geo-marketing and/or any other field with experience in data analysis. Functional Skills / Knowledge Areas:"
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:303008609",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:56917",
+                  "name": "TechAccess Distribution",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/2/000/101/036/187ec44.png"
+                      }
+                    },
+                    "type": "LOGO_LEGACY"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:56917"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Lahore, Pakistan",
+            "jobState": "LISTED",
+            "title": "Graphic and Web Designer",
+            "listedAt": 1496122219000,
+            "expireAt": 1498714216000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:303008609)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:303008609",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:303008609,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:303008609",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.SimpleOnsiteApply": {}
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:303008609",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "Experience with CMS, GUI design and web content creating tools such as Wordpress, Drupal, Java, jQuery, HTML/XHTML/CSS, Javascript, php & CorelDraw."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:355182601",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:4881",
+                  "name": "UNICEF",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAlUAAAAJGQ2Nzc3MGZmLThjZGQtNDNkNS1iMjMzLTU0YTQ2ODk1MzM5ZA.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:4881"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "The, PK",
+            "jobState": "LISTED",
+            "title": "Health Officer - Polio, NOB/TA, Karachi, Pakistan (For Pakistan Nationals Only)",
+            "listedAt": 1496116467000,
+            "expireAt": 1498709984000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:355182601)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:355182601",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:355182601,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:355182601",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "http://jobs.unicef.org:80/cw/en-us/job/504954/"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:355182601",
+              "applied": false
+            },
+            "sourceDomain": "jobs.unicef.org"
+          },
+          "descriptionSnippet": "A minimum of 2 years of professional experience in public health/immunization, nutrition planning and management and/or in relevant areas of maternal and neonatal health care, ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:355117080",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1202765",
+                  "name": "Arbisoft",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcWAAAAJDc3NmMzZGUyLTY2ODctNDA5OC1iMjk4LTM0ZTI5OTc5ZTY5Yg.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1202765"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Lahore, PK",
+            "jobState": "LISTED",
+            "title": "Data Analyst",
+            "listedAt": 1496109851000,
+            "expireAt": 1498703510000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:355117080)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:355117080",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:355117080,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:355117080",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://careers.jobscore.com/careers/arbisoft/jobs/data-analyst-cO8ujOrdmr56EHeMg-44q7?jpid=cESUy-rdqr56EHeMg-44q7&name=LinkedInLimited&sid=69"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:355117080",
+              "applied": false
+            },
+            "sourceDomain": "careers.jobscore.com"
+          },
+          "descriptionSnippet": "Data Entry Skills (Compile, sort, verify the accuracy of data while working) (optional) Experience: 0 - 2 years. Shifts and off days are rotated every month."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:354895460",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:285906",
+                  "name": "Avanceon",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAvYAAAAJGM1N2M5NTA0LTQwNGItNGEzYS05NzY3LTBlY2M2M2RkYWNmMQ.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAA0IAAAAJGQ0ZmFhOTE1LTlhOGEtNDk3MS1hNDViLTQ0ODg4YWI0ODQ3ZA.png"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1535,
+                      "y": 34,
+                      "height": 237
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:285906"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Lahore, PK",
+            "jobState": "LISTED",
+            "title": "Accounts Officer",
+            "listedAt": 1496086663000,
+            "expireAt": 1498678663000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:354895460)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:354895460",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:354895460,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:354895460",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.SchoolRecruitRelevanceReasonDetails": {
+                  "mostRecentSchool": "urn:li:fs_normalized_school:15865",
+                  "totalNumberOfAlumni": 1,
+                  "mostRecentSchoolResolutionResult": {
+                    "entityUrn": "urn:li:fs_normalized_school:15865",
+                    "name": "National University of Computer and Emerging Sciences",
+                    "logo": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/6/005/02b/271/184cc03.png"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://jobs.smartrecruiters.com/AvanceonLimited/743999651462526-accounts-officer"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:354895460",
+              "applied": false
+            },
+            "sourceDomain": "jobs.smartrecruiters.com"
+          },
+          "descriptionSnippet": "Self-motivated with excellent communication and negotiation skills. Timely booking of all the Petty cash expenses for Karachi Office and maintain the Imprest limit of PKR 100k."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:354892896",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:285906",
+                  "name": "Avanceon",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAvYAAAAJGM1N2M5NTA0LTQwNGItNGEzYS05NzY3LTBlY2M2M2RkYWNmMQ.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAA0IAAAAJGQ0ZmFhOTE1LTlhOGEtNDk3MS1hNDViLTQ0ODg4YWI0ODQ3ZA.png"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1535,
+                      "y": 34,
+                      "height": 237
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:285906"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Lahore, PK",
+            "jobState": "LISTED",
+            "title": "Accounts Executive",
+            "listedAt": 1496086663000,
+            "expireAt": 1498678663000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:354892896)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:354892896",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:354892896,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:354892896",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.SchoolRecruitRelevanceReasonDetails": {
+                  "mostRecentSchool": "urn:li:fs_normalized_school:15865",
+                  "totalNumberOfAlumni": 1,
+                  "mostRecentSchoolResolutionResult": {
+                    "entityUrn": "urn:li:fs_normalized_school:15865",
+                    "name": "National University of Computer and Emerging Sciences",
+                    "logo": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/6/005/02b/271/184cc03.png"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://jobs.smartrecruiters.com/AvanceonLimited/743999651462557-accounts-executive"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:354892896",
+              "applied": false
+            },
+            "sourceDomain": "jobs.smartrecruiters.com"
+          },
+          "descriptionSnippet": "Sales Tax Filing in SRB (Collect sales tax data and upload after arranging, verification and submission of sales tax return and filing of sales tax evidences)."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:354740730",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:6884",
+                  "name": "Oxfam",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/2/000/18f/020/2c991ea.png"
+                      }
+                    },
+                    "type": "LOGO_LEGACY"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:6884"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Islamabad, PK",
+            "jobState": "LISTED",
+            "relevanceReasonInjectionError": {
+              "message": "Downstream service returned an empty response for URN.",
+              "status": 404
+            },
+            "title": "Programme Quality and Funding Director",
+            "listedAt": 1496071125000,
+            "expireAt": 1498663211000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:354740730)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:354740730",
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.impactpool.org/jobs/291928"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:354740730",
+              "applied": false
+            },
+            "sourceDomain": "www.impactpool.org"
+          },
+          "descriptionSnippet": "We are looking for national candidate with a passion to make a strong contribution to quality and impact of OXFAM programmes in Pakistan and be part of the team in reducing ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:354738795",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:4881",
+                  "name": "UNICEF",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAlUAAAAJGQ2Nzc3MGZmLThjZGQtNDNkNS1iMjMzLTU0YTQ2ODk1MzM5ZA.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:4881"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Health Officer - Polio, NOB/TA, Karachi, Pakistan (For Pakistan Nationals Only)",
+            "listedAt": 1496070819000,
+            "expireAt": 1498662819000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:354738795)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:354738795",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:354738795,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:354738795",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.impactpool.org/jobs/291825"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:354738795",
+              "applied": false
+            },
+            "sourceDomain": "www.impactpool.org"
+          },
+          "descriptionSnippet": "A minimum of 2 years of professional experience in public health/immunization, nutrition planning and management and/or in relevant areas of maternal and neonatal health care, ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:319123864",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompanyName": {
+                "companyName": "AbacusConsulting"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Lahore, Pakistan",
+            "jobState": "LISTED",
+            "relevanceReasonInjectionError": {
+              "message": "Downstream service returned an empty response for URN.",
+              "status": 404
+            },
+            "title": "Assistant Web Master",
+            "listedAt": 1496066627000,
+            "expireAt": 1498658622000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:319123864)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:319123864",
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.SimpleOnsiteApply": {}
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:319123864",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "Software: IIS Configuration, Microsoft Visual Studio, WampServer, LAMP Server, PHPmyAdmin, Hosting Control Panels, Microsoft Office 2007/2010, 2016, Microsoft Visio 2007, 2010, ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:303001840",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompanyName": {
+                "companyName": "The Abraaj Group - Healthcare Fund: Pakistan"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Lahore, Pakistan",
+            "jobState": "LISTED",
+            "relevanceReasonInjectionError": {
+              "message": "Downstream service returned an empty response for URN.",
+              "status": 404
+            },
+            "title": "Information & Communications Manager",
+            "listedAt": 1496065208000,
+            "expireAt": 1498657207000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:303001840)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:303001840",
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.SimpleOnsiteApply": {}
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:303001840",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "We will deliver impact through improved access, quality and affordability of healthcare and by focusing on the investment in human capital development in the communities we serve."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:303000603",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompanyName": {
+                "companyName": "Interflow Healthcare"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Pakistan",
+            "jobState": "LISTED",
+            "relevanceReasonInjectionError": {
+              "message": "Downstream service returned an empty response for URN.",
+              "status": 404
+            },
+            "title": "Business Development Manager Serialization",
+            "listedAt": 1496061284000,
+            "expireAt": 1511613232000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:303000603)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:303000603",
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.SimpleOnsiteApply": {}
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:303000603",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "This role is responsible for effective communication, verbally, visually, and in writing, with cross-functional business teams to determine and implement the optimal client ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:319121822",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:269450",
+                  "name": "METRO Cash & Carry Pakistan",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAmYAAAAJDdiMjJiYTc5LTRkMmYtNGRmMC04ZTA2LTJlYjRlN2MxMWE5NA.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAA1xAAAAJDQyYjhjNGY5LWM2ODItNDEwMS1hNjY1LTNiYWEwNTUwZGZhZA.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 960,
+                      "y": 179,
+                      "height": 156
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:269450"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Pakistan",
+            "jobState": "LISTED",
+            "title": "Floor Manager Non Food - Karachi",
+            "listedAt": 1496057907000,
+            "expireAt": 1498649905000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:319121822)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:319121822",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:319121822,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:319121822",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.SchoolRecruitRelevanceReasonDetails": {
+                  "mostRecentSchool": "urn:li:fs_normalized_school:15865",
+                  "totalNumberOfAlumni": 2,
+                  "mostRecentSchoolResolutionResult": {
+                    "entityUrn": "urn:li:fs_normalized_school:15865",
+                    "name": "National University of Computer and Emerging Sciences",
+                    "logo": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/6/005/02b/271/184cc03.png"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.SimpleOnsiteApply": {}
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:319121822",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "  Development of staff skills and capability through on-going training, as provided by the company.   Evaluating and analysing the effectiveness of promotional activities."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:354544233",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1393",
+                  "name": "Nestlé",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAzLAAAAJGUxMTA5OWI5LWM1ZjMtNGI4Zi04ODdkLTlkYzg3NDk3NGMxZg.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1393"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Lahore, Pakistan",
+            "jobState": "LISTED",
+            "title": "Nutrition Specialist",
+            "listedAt": 1496050324000,
+            "expireAt": 1498642321000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:354544233)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:354544233",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:354544233,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:354544233",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.SimpleOnsiteApply": {}
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:354544233",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "Looking for Nutrition Specialists (Medical Representatives) based in Multan, Bahawalpur, Islamabad, Abbottabad, Toba Tek Singh, Karachi and Quetta."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:319115876",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1009",
+                  "name": "IBM",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAf_AAAAJGYzOTZiMmE1LTJmYzctNDVkMC1hZTkzLTE2NzNmNTVhNTE2YQ.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAoHAAAAJDM2MDU3Y2NmLTgwOTYtNGZhMy05NjczLTRhODJlZDU1M2Q0NQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1700,
+                      "y": 607,
+                      "height": 236
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1009"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "ISLAMABAD",
+            "jobState": "LISTED",
+            "title": "Territory Sales Representative - Travel and Transport Industry",
+            "listedAt": 1496049861000,
+            "expireAt": 1498641858000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:319115876)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:319115876",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:319115876,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:319115876",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.InNetworkRelevanceReasonDetails": {
+                  "totalNumberOfConnections": 1,
+                  "topConnectionsResolutionResults": {
+                    "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY": {
+                      "profilePicture": {
+                        "com.linkedin.voyager.common.MediaProcessorImage": {
+                          "id": "/AAEAAQAAAAAAAApyAAAAJDZlNjE4MDIyLWM1ZjUtNGRiOS04NDUxLTU1NTk1OGM3NDA4Nw.jpg"
+                        }
+                      },
+                      "firstName": "Waleed",
+                      "lastName": "Arshad",
+                      "entityUrn": "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY"
+                    }
+                  },
+                  "topConnections": [
+                    "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY"
+                  ]
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://krb-sjobs.brassring.com/tgwebhost/jobdetails.aspx?partnerid=26059&siteid=5016&jobid=44822&AReq=37185BR&Codes=SN_LinkedIn"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:319115876",
+              "applied": false
+            }
+          },
+          "descriptionSnippet": "This position is responsible for generating leads, (client LOB and IT) and for closing IBM business via telephone, electronic mail , Internet or in person."
+        }
+      }
+    }
+  ],
+  "paging": {
+    "total": 504,
+    "count": 25,
+    "start": 0,
+    "links": []
+  }
 }
