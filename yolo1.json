@@ -1,0 +1,2274 @@
+{
+  "metadata": {
+    "locationInfo": {
+      "locationId": "pk:0",
+      "location": "Pakistan"
+    },
+    "guides": [
+      {
+        "displayText": "Top",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "TOP"
+          }
+        },
+        "urlParameter": "v->TOP",
+        "selected": false
+      },
+      {
+        "displayText": "People",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "PEOPLE"
+          }
+        },
+        "urlParameter": "v->PEOPLE",
+        "selected": false
+      },
+      {
+        "displayText": "Jobs",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "JOBS"
+          }
+        },
+        "urlParameter": "v->JOBS",
+        "selected": true
+      },
+      {
+        "displayText": "Posts",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "CONTENT"
+          }
+        },
+        "urlParameter": "v->CONTENT",
+        "selected": false
+      },
+      {
+        "displayText": "Companies",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "COMPANIES"
+          }
+        },
+        "urlParameter": "v->COMPANIES",
+        "selected": false
+      },
+      {
+        "displayText": "Groups",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "GROUPS"
+          }
+        },
+        "urlParameter": "v->GROUPS",
+        "selected": false
+      },
+      {
+        "displayText": "Schools",
+        "type": "VERTICAL",
+        "guideInfo": {
+          "com.linkedin.voyager.search.VerticalGuide": {
+            "vertical": "SCHOOLS"
+          }
+        },
+        "urlParameter": "v->SCHOOLS",
+        "selected": false
+      }
+    ],
+    "keywords": "",
+    "origin": "JOB_SEARCH_RESULTS_PAGE",
+    "location": "Pakistan",
+    "id": "3465704101497190037965",
+    "type": "JOBS",
+    "facets": [
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "COMPANY"
+        },
+        "displayName": "Company",
+        "facetValues": [
+          {
+            "displayValue": "EMPREGO.pt",
+            "count": 117,
+            "value": "2612102",
+            "selected": false
+          },
+          {
+            "displayValue": "IBM",
+            "count": 23,
+            "value": "1009",
+            "selected": false
+          },
+          {
+            "displayValue": "Standard Chartered Bank",
+            "count": 21,
+            "value": "2235",
+            "selected": false
+          },
+          {
+            "displayValue": "Teradata",
+            "count": 14,
+            "value": "1466",
+            "selected": false
+          },
+          {
+            "displayValue": "Wärtsilä",
+            "count": 10,
+            "value": "166989",
+            "selected": false
+          },
+          {
+            "displayValue": "Fern Hotels & Resorts",
+            "count": 10,
+            "value": "9279578",
+            "selected": false
+          },
+          {
+            "displayValue": "JUSTICE AND FORENSIC MENTAL HEALTH NETWORK",
+            "count": 9,
+            "value": "5579287",
+            "selected": false
+          },
+          {
+            "displayValue": "Champion Agro Ltd.",
+            "count": 8,
+            "value": "941590",
+            "selected": false
+          },
+          {
+            "displayValue": "Huawei Consumer Business Group",
+            "count": 4,
+            "value": "10617746",
+            "selected": false
+          }
+        ],
+        "facetParameterName": "f_C"
+      },
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "FUNCTION"
+        },
+        "displayName": "Job Function",
+        "facetValues": [
+          {
+            "displayValue": "Information Technology",
+            "count": 163,
+            "value": "it",
+            "selected": false
+          },
+          {
+            "displayValue": "Sales",
+            "count": 153,
+            "value": "sale",
+            "selected": false
+          },
+          {
+            "displayValue": "Business Development",
+            "count": 105,
+            "value": "bd",
+            "selected": false
+          },
+          {
+            "displayValue": "Marketing",
+            "count": 64,
+            "value": "mrkt",
+            "selected": false
+          },
+          {
+            "displayValue": "Finance",
+            "count": 37,
+            "value": "fin",
+            "selected": false
+          },
+          {
+            "displayValue": "Administrative",
+            "count": 24,
+            "value": "adm",
+            "selected": false
+          },
+          {
+            "displayValue": "Accounting/Auditing",
+            "count": 22,
+            "value": "acct",
+            "selected": false
+          },
+          {
+            "displayValue": "Design",
+            "count": 15,
+            "value": "dsgn",
+            "selected": false
+          },
+          {
+            "displayValue": "Art/Creative",
+            "count": 12,
+            "value": "art",
+            "selected": false
+          },
+          {
+            "displayValue": "General Business",
+            "count": 7,
+            "value": "genb",
+            "selected": false
+          }
+        ],
+        "facetParameterName": "f_F"
+      },
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "INDUSTRY"
+        },
+        "displayName": "Industry",
+        "facetValues": [
+          {
+            "displayValue": "Financial Services",
+            "count": 231,
+            "value": "43",
+            "selected": false
+          },
+          {
+            "displayValue": "Information Technology and Services",
+            "count": 181,
+            "value": "96",
+            "selected": false
+          },
+          {
+            "displayValue": "Staffing and Recruiting",
+            "count": 145,
+            "value": "104",
+            "selected": false
+          },
+          {
+            "displayValue": "Computer Software",
+            "count": 142,
+            "value": "4",
+            "selected": false
+          },
+          {
+            "displayValue": "Retail",
+            "count": 134,
+            "value": "27",
+            "selected": false
+          },
+          {
+            "displayValue": "Internet",
+            "count": 58,
+            "value": "6",
+            "selected": false
+          },
+          {
+            "displayValue": "Mechanical or Industrial Engineering",
+            "count": 53,
+            "value": "135",
+            "selected": false
+          },
+          {
+            "displayValue": "Banking",
+            "count": 53,
+            "value": "41",
+            "selected": false
+          },
+          {
+            "displayValue": "Nonprofit Organization Management",
+            "count": 46,
+            "value": "100",
+            "selected": false
+          },
+          {
+            "displayValue": "Telecommunications",
+            "count": 30,
+            "value": "8",
+            "selected": false
+          }
+        ],
+        "facetParameterName": "f_I"
+      },
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "EXPERIENCE"
+        },
+        "displayName": "Experience Level",
+        "facetValues": [
+          {
+            "displayValue": "Entry level",
+            "count": 198,
+            "value": "2",
+            "selected": false
+          },
+          {
+            "displayValue": "Associate",
+            "count": 137,
+            "value": "3",
+            "selected": false
+          },
+          {
+            "displayValue": "Mid-Senior level",
+            "count": 137,
+            "value": "4",
+            "selected": false
+          },
+          {
+            "displayValue": "Not Applicable",
+            "count": 105,
+            "value": "0",
+            "selected": false
+          },
+          {
+            "displayValue": "Director",
+            "count": 13,
+            "value": "5",
+            "selected": false
+          },
+          {
+            "displayValue": "Executive",
+            "count": 9,
+            "value": "6",
+            "selected": false
+          },
+          {
+            "displayValue": "Internship",
+            "count": 7,
+            "value": "1",
+            "selected": false
+          }
+        ],
+        "facetParameterName": "f_E"
+      },
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "TIME_POSTED"
+        },
+        "displayName": "Date Posted",
+        "facetValues": [
+          {
+            "displayValue": "Past 24 hours",
+            "count": 56,
+            "value": "1",
+            "selected": false
+          },
+          {
+            "displayValue": "Past Week",
+            "count": 258,
+            "value": "1,2",
+            "selected": false
+          },
+          {
+            "displayValue": "Past Month",
+            "count": 429,
+            "value": "1,2,3,4",
+            "selected": false
+          },
+          {
+            "displayValue": "Any Time",
+            "count": 603,
+            "value": "",
+            "selected": true
+          }
+        ],
+        "facetParameterName": "f_TP"
+      },
+      {
+        "facetTypeV2": {
+          "com.linkedin.voyager.search.JobSearchFacetType": "GEO_CITY"
+        },
+        "displayName": "Location",
+        "facetValues": [
+          {
+            "displayValue": "Hasan Abdal, Norhern Punajb Rawalpindi, Pakistan",
+            "count": 89,
+            "value": "pk.1-1070",
+            "selected": false
+          },
+          {
+            "displayValue": "Mustafabad, Lahore, Pakistan",
+            "count": 86,
+            "value": "pk.5-2282",
+            "selected": false
+          },
+          {
+            "displayValue": "Bossa Gala, Federal Capial &AJK, Pakistan",
+            "count": 43,
+            "value": "pk.2-214",
+            "selected": false
+          },
+          {
+            "displayValue": "Tian, Federal Capial &AJK, Pakistan",
+            "count": 43,
+            "value": "pk.2-215",
+            "selected": false
+          },
+          {
+            "displayValue": "Bhalgran Surdari, Federal Capial &AJK, Pakistan",
+            "count": 43,
+            "value": "pk.2-216",
+            "selected": false
+          },
+          {
+            "displayValue": "Nur, Federal Capial &AJK, Pakistan",
+            "count": 43,
+            "value": "pk.2-217",
+            "selected": false
+          },
+          {
+            "displayValue": "Azizabad, NWFP Peshawar, Pakistan",
+            "count": 43,
+            "value": "pk.3-583",
+            "selected": false
+          },
+          {
+            "displayValue": "Ghous Pur, Hyderabad, Pakistan",
+            "count": 38,
+            "value": "pk.6-1491",
+            "selected": false
+          },
+          {
+            "displayValue": "Bando Go, NWFP Peshawar, Pakistan",
+            "count": 33,
+            "value": "pk.3-392",
+            "selected": false
+          },
+          {
+            "displayValue": "Sui Gas, Lahore, Pakistan",
+            "count": 2,
+            "value": "pk.5-1024",
+            "selected": false
+          }
+        ],
+        "facetParameterName": "f_GC"
+      }
+    ]
+  },
+  "elements": [
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365815856",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Lahore, PK",
+            "jobState": "LISTED",
+            "title": "Front Desk Officer",
+            "listedAt": 1497116059000,
+            "expireAt": 1499708059000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365815856)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365815856",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365815856,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365815856",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/front-desk-officer-lahore/27615723889471907228971907206?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365815856",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Efficiently operate telephone exchange coordinate with the service contractors in case of any mechanical fault to telephone exchange or fax machine. Apply Before:Jul 30, 2017."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365818017",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Lahore, PK",
+            "jobState": "LISTED",
+            "title": "Business Development Executive",
+            "listedAt": 1497116059000,
+            "expireAt": 1499708059000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365818017)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365818017",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365818017,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365818017",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/business-development-executive-lahore/27615723594324002049619081336?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365818017",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "This role would suit a recent graduate or an entry level professional, which is money-motivated and looking for an opportunity to progress within a company. Must be a team player."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365816494",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Gujrāt, PK",
+            "jobState": "LISTED",
+            "title": "Accountant",
+            "listedAt": 1497116058000,
+            "expireAt": 1499708058000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365816494)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365816494",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365816494,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365816494",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/accountant-gujrat/27615725457445153494283794590?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365816494",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Review and recommend modifications to accounting systems and procedures. Produce error-free accounting reports and present their results. Accounts, Finance & Financial Services."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365817454",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Lahore, PK",
+            "jobState": "LISTED",
+            "title": "Business Development Executive",
+            "listedAt": 1497116058000,
+            "expireAt": 1499708058000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365817454)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365817454",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365817454,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365817454",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/business-development-executive-lahore/27615724387533997219129800853?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365817454",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Contribute to the development of Pink Ribbon marketing planRelationship building with corporates and private companies for events and sponsorshipsOrganize and conduct corporate ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365817413",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Business Development Officers",
+            "listedAt": 1497116054000,
+            "expireAt": 1499708054000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365817413)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365817413",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365817413,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365817413",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/business-development-officers-karachi/27615732393420925209075202322?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365817413",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "We are looking for services of a \"Business Development Officers\". Candidates with experience are encouraged to apply. Online sales & Marketing. Sales & Business Development."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365817416",
+          "jobPostingResolutionResult": {
+            "new": true,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "relevanceReasonInjectionError": {
+              "message": "Downstream service returned an empty response for URN.",
+              "status": 404
+            },
+            "title": "HR Manager",
+            "listedAt": 1497116054000,
+            "expireAt": 1499708054000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365817416)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365817416",
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/hr-manager-karachi/27615732098273020029722376460?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365817416",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Incumbent should have experience in developing HR strategies and policies and have the skills to implement those as well. 7 Years 10 Years."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:327546271",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1035",
+                  "name": "Microsoft",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAjfAAAAJGMyYmExNThhLTNlYmMtNDAzYi05MmNmLWFmOTY1NDcyMTFjMA.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAjrAAAAJDU4ZTI2YzVjLTBhYTItNDQ5Yy1hN2QyLTJjZjBhMDFlOWU1OQ.jpg"
+                      }
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1035"
+              }
+            },
+            "eligibleForReferrals": true,
+            "formattedLocation": "Lahore, PK",
+            "jobState": "LISTED",
+            "title": "Account Executive",
+            "listedAt": 1497085091000,
+            "expireAt": 1499755674000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:327546271)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:327546271",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:327546271,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:327546271",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.InNetworkRelevanceReasonDetails": {
+                  "totalNumberOfConnections": 1,
+                  "topConnectionsResolutionResults": {
+                    "urn:li:fs_normalized_profile:ACoAABgFRcEBor-PigslW4qcpYHJgYY6H8-0BnQ": {
+                      "profilePicture": {
+                        "com.linkedin.voyager.common.MediaProcessorImage": {
+                          "id": "/AAEAAQAAAAAAAAkRAAAAJDY3Mjk3N2RhLWIxYzEtNDQ2NC05MzQ2LTI1ZDYzZmUzMWZjZQ.jpg"
+                        }
+                      },
+                      "firstName": "Rumeel",
+                      "lastName": "Hussain",
+                      "entityUrn": "urn:li:fs_normalized_profile:ACoAABgFRcEBor-PigslW4qcpYHJgYY6H8-0BnQ"
+                    }
+                  },
+                  "topConnections": [
+                    "urn:li:fs_normalized_profile:ACoAABgFRcEBor-PigslW4qcpYHJgYY6H8-0BnQ"
+                  ]
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://careers.microsoft.com/jobdetails.aspx?jid=244991&job_id=983577&utm_source=LinkedIn&show_desc=true"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:327546271",
+              "applied": false
+            },
+            "sourceDomain": "careers.microsoft.com"
+          },
+          "descriptionSnippet": "Experiences Required: Education, Key Experiences, Skills and Knowledge: A strong sales and business background, with 8-10+ years of technology-related experience."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:366013486",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1009",
+                  "name": "IBM",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAf_AAAAJGYzOTZiMmE1LTJmYzctNDVkMC1hZTkzLTE2NzNmNTVhNTE2YQ.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAoHAAAAJDM2MDU3Y2NmLTgwOTYtNGZhMy05NjczLTRhODJlZDU1M2Q0NQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1700,
+                      "y": 607,
+                      "height": 236
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1009"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Network Support Specialist",
+            "listedAt": 1497040962000,
+            "expireAt": 1499718372000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:366013486)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:366013486",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:366013486,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:366013486",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.InNetworkRelevanceReasonDetails": {
+                  "totalNumberOfConnections": 1,
+                  "topConnectionsResolutionResults": {
+                    "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY": {
+                      "profilePicture": {
+                        "com.linkedin.voyager.common.MediaProcessorImage": {
+                          "id": "/AAEAAQAAAAAAAApyAAAAJDZlNjE4MDIyLWM1ZjUtNGRiOS04NDUxLTU1NTk1OGM3NDA4Nw.jpg"
+                        }
+                      },
+                      "firstName": "Waleed",
+                      "lastName": "Arshad",
+                      "entityUrn": "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY"
+                    }
+                  },
+                  "topConnections": [
+                    "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY"
+                  ]
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://krb-sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=26059&siteid=5034&jobId=108115&Codes=JB_LinkedInorganic"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:366013486",
+              "applied": false
+            },
+            "sourceDomain": "krb-sjobs.brassring.com"
+          },
+          "descriptionSnippet": "Est-ce que ce rôle est un poste rémunéré à la commission et avec des primes de motivation? Hands on experience on network devices: Router, Switches, firewalls, VoIP, IPT."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365198306",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1009",
+                  "name": "IBM",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAf_AAAAJGYzOTZiMmE1LTJmYzctNDVkMC1hZTkzLTE2NzNmNTVhNTE2YQ.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAoHAAAAJDM2MDU3Y2NmLTgwOTYtNGZhMy05NjczLTRhODJlZDU1M2Q0NQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1700,
+                      "y": 607,
+                      "height": 236
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1009"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Islamabad, PK",
+            "jobState": "LISTED",
+            "title": "SAP Consultant FIN.FI",
+            "listedAt": 1497040962000,
+            "expireAt": 1499632962000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365198306)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365198306",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365198306,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365198306",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.InNetworkRelevanceReasonDetails": {
+                  "totalNumberOfConnections": 1,
+                  "topConnectionsResolutionResults": {
+                    "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY": {
+                      "profilePicture": {
+                        "com.linkedin.voyager.common.MediaProcessorImage": {
+                          "id": "/AAEAAQAAAAAAAApyAAAAJDZlNjE4MDIyLWM1ZjUtNGRiOS04NDUxLTU1NTk1OGM3NDA4Nw.jpg"
+                        }
+                      },
+                      "firstName": "Waleed",
+                      "lastName": "Arshad",
+                      "entityUrn": "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY"
+                    }
+                  },
+                  "topConnections": [
+                    "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY"
+                  ]
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://krb-sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=26059&siteid=5034&jobId=108751&Codes=JB_LinkedInorganic"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365198306",
+              "applied": false
+            },
+            "sourceDomain": "krb-sjobs.brassring.com"
+          },
+          "descriptionSnippet": "Est-ce que ce rôle est un poste rémunéré à la commission et avec des primes de motivation? You’ll learn directly from expert developers in the field; our team leads love to mentor."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365185958",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:1009",
+                  "name": "IBM",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAf_AAAAJGYzOTZiMmE1LTJmYzctNDVkMC1hZTkzLTE2NzNmNTVhNTE2YQ.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAoHAAAAJDM2MDU3Y2NmLTgwOTYtNGZhMy05NjczLTRhODJlZDU1M2Q0NQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1700,
+                      "y": 607,
+                      "height": 236
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:1009"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Server Support Specialist",
+            "listedAt": 1497039083000,
+            "expireAt": 1499631185000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365185958)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365185958",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365185958,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365185958",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.InNetworkRelevanceReasonDetails": {
+                  "totalNumberOfConnections": 1,
+                  "topConnectionsResolutionResults": {
+                    "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY": {
+                      "profilePicture": {
+                        "com.linkedin.voyager.common.MediaProcessorImage": {
+                          "id": "/AAEAAQAAAAAAAApyAAAAJDZlNjE4MDIyLWM1ZjUtNGRiOS04NDUxLTU1NTk1OGM3NDA4Nw.jpg"
+                        }
+                      },
+                      "firstName": "Waleed",
+                      "lastName": "Arshad",
+                      "entityUrn": "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY"
+                    }
+                  },
+                  "topConnections": [
+                    "urn:li:fs_normalized_profile:ACoAAAxn1_UBbdicprVgG7-pu3OgYS_-rpM_YMY"
+                  ]
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://krb-sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=26059&siteid=5041&jobId=108003&Codes=JB_LinkedInorganic"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365185958",
+              "applied": false
+            },
+            "sourceDomain": "krb-sjobs.brassring.com"
+          },
+          "descriptionSnippet": "Two (2) years of experience must include utilizing Red Hat Linux, Ubuntu Linux, OpenStack, Endpoint Manager, and System x. Automate system administration using shell scripting."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365154342",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:285906",
+                  "name": "Avanceon",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAvYAAAAJGM1N2M5NTA0LTQwNGItNGEzYS05NzY3LTBlY2M2M2RkYWNmMQ.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAA0IAAAAJGQ0ZmFhOTE1LTlhOGEtNDk3MS1hNDViLTQ0ODg4YWI0ODQ3ZA.png"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1535,
+                      "y": 34,
+                      "height": 237
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:285906"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Lahore, PK",
+            "jobState": "LISTED",
+            "title": "Taxation Executive",
+            "listedAt": 1497035206000,
+            "expireAt": 1499707123000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365154342)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365154342",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365154342,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365154342",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.SchoolRecruitRelevanceReasonDetails": {
+                  "mostRecentSchool": "urn:li:fs_normalized_school:15865",
+                  "totalNumberOfAlumni": 1,
+                  "mostRecentSchoolResolutionResult": {
+                    "entityUrn": "urn:li:fs_normalized_school:15865",
+                    "name": "National University of Computer and Emerging Sciences",
+                    "logo": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/p/6/005/02b/271/184cc03.png"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://jobs.smartrecruiters.com/AvanceonLimited/743999652718894-taxation-executive"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365154342",
+              "applied": false
+            },
+            "sourceDomain": "jobs.smartrecruiters.com"
+          },
+          "descriptionSnippet": "Sales Tax Filing in SRB (Collect sales tax data and upload after arranging, verification and submission of sales tax return and filing of sales tax evidences)."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365077453",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Marketing Executive",
+            "listedAt": 1497029380000,
+            "expireAt": 1499621380000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365077453)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365077453",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365077453,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365077453",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/marketing-executive-karachi/27614115112027751276081661364?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365077453",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Marketing person aim to maximise profits through developing sales strategies that match customer requirements and by promoting products, services or ideas. Less than 1 Year 2 Years."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365076621",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Academic Writers - Computer Science",
+            "listedAt": 1497029378000,
+            "expireAt": 1499621378000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365076621)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365076621",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365076621,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365076621",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/academic-writers-computer-science-karachi/27614114872220078317857490346?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365076621",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "We are looking for academic writers having a BSc/MS in ComputerScience. Fresh graduates are encouraged to apply."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365078135",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Creative Graphic Designer",
+            "listedAt": 1497029378000,
+            "expireAt": 1499621378000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365078135)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365078135",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365078135,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365078135",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/creative-graphic-designer-karachi/27614114946007054612695696811?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365078135",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Good communication skills, a positive attitude, and excellent organization tendencies. Attend team meetings, take detailed notes, and collaborate with the client on deliverables."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365076635",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Restaurant Manager",
+            "listedAt": 1497029378000,
+            "expireAt": 1499621379000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365076635)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365076635",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365076635,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365076635",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/restaurant-manager-karachi/27614114558625429064795112868?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365076635",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Candidates with experience are encouraged to apply. Required Restaurant Manager for a restaurant loocated at Zamzama DHA."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365078142",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Executive Secretary Managing Trustee",
+            "listedAt": 1497029378000,
+            "expireAt": 1499621379000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365078142)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365078142",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365078142,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365078142",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/executive-secretary-managing-trustee-karachi/27614114687752637580761974185?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365078142",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "At least 3 yearsâ€™ work experience in administrative and personal assistant roles at the executive level. Excellent written and verbal English communication skills."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365077441",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "relevanceReasonInjectionError": {
+              "message": "Downstream service returned an empty response for URN.",
+              "status": 404
+            },
+            "title": "Admin Officer",
+            "listedAt": 1497029378000,
+            "expireAt": 1499621378000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365077441)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365077441",
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/admin-officer-karachi/27614114484838452769956906401?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365077441",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Maintain Box files of Cheques & Pay orders according to the sequential cheque & POs numbers. Maintain Box file of other fund transfers according to the sequential numbers."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365076623",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Agile Project Manager",
+            "listedAt": 1497029378000,
+            "expireAt": 1499621378000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365076623)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365076623",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365076623,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365076623",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/agile-project-manager-karachi/27614114577072173138504664485?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365076623",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "We are looking for Agile Project Manager who will be working on high tech software products based on multiple technology platforms developing on a fast pace."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365076619",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Sales Man",
+            "listedAt": 1497029377000,
+            "expireAt": 1499621378000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365076619)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365076619",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365076619,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365076619",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/sales-man-karachi/27614115241154959792048522683?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365076619",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Greet customers and understand what each customer wants or needs.Open and close cash registers, performing tasks such as counting money, separating charge slips, coupons, and ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365078125",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Telemarketing (female)",
+            "listedAt": 1497029377000,
+            "expireAt": 1499621377000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365078125)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365078125",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365078125,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365078125",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/telemarketing-female-karachi/27614115554749609045110900170?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365078125",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Answer incoming calls from prospective customersUse scripts to provide information about product&#x2019;s features, prices etc. and present their benefitsAsk relevant questions to ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365078133",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Content Specialist",
+            "listedAt": 1497029377000,
+            "expireAt": 1499621378000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365078133)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365078133",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365078133,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365078133",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/content-specialist-karachi/27614115370282168308015384002?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365078133",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Experience of 2 to 3 years in writing for Websites, Blogs, forums, Social Media sites. Experience with HTML, CSS, and working with content management systems (CMS)"
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365075740",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Outdoor Marketer",
+            "listedAt": 1497029377000,
+            "expireAt": 1499621378000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365075740)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365075740",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365075740,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365075740",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/outdoor-marketer-karachi/27614115185814727570919867831?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365075740",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Required male female staff for outdoor marketing. There is no age limit. Open opportunity for everyone. Sales & Business Development."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365075739",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Sales Executive (male)",
+            "listedAt": 1497029377000,
+            "expireAt": 1499621377000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365075739)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365075739",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365075739,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365075739",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/sales-executive-male-karachi/27614115554749609045110900171?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365075739",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Conducting market research to identify selling possibilities and evaluate customer needsActively seeking out new sales opportunities through cold calling, networking and social ..."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365075735",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Customer Support - Sales / Marketing",
+            "listedAt": 1497029377000,
+            "expireAt": 1499621377000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365075735)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365075735",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365075735,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365075735",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/customer-support-sales-marketing-karachi/27614115296495192013177177535?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365075735",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "The ideal candidate must have ability to manage and lead the team. We are looking for a Team Lead, who can manage our Sales & Marketing Team."
+        }
+      }
+    },
+    {
+      "hitInfo": {
+        "com.linkedin.voyager.search.SearchJobJserp": {
+          "jobPosting": "urn:li:fs_normalized_jobPosting:365075732",
+          "jobPostingResolutionResult": {
+            "new": false,
+            "companyDetails": {
+              "com.linkedin.voyager.jobs.JobPostingCompany": {
+                "companyResolutionResult": {
+                  "entityUrn": "urn:li:fs_normalized_company:2612102",
+                  "name": "EMPREGO.pt",
+                  "logo": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAcoAAAAJDUyN2VmYzNlLTk2ZDEtNDlhMC1hYTc2LWU0Y2VjNGNlMjU2Ng.png"
+                      }
+                    },
+                    "type": "SQUARE_LOGO"
+                  },
+                  "backgroundCoverImage": {
+                    "image": {
+                      "com.linkedin.voyager.common.MediaProcessorImage": {
+                        "id": "/AAEAAQAAAAAAAAdmAAAAJGUxMTZkYjQyLTMyZTUtNGRkNC1iY2VmLTA3OGUyNDgzNTQ5YQ.jpg"
+                      }
+                    },
+                    "cropInfo": {
+                      "x": 0,
+                      "width": 1200,
+                      "y": 148,
+                      "height": 142
+                    }
+                  }
+                },
+                "company": "urn:li:fs_normalized_company:2612102"
+              }
+            },
+            "eligibleForReferrals": false,
+            "formattedLocation": "Karachi, PK",
+            "jobState": "LISTED",
+            "title": "Associate Chartered Accountant",
+            "listedAt": 1497029377000,
+            "expireAt": 1499621377000,
+            "jobSeekerQualityInjectionResult": {
+              "entityUrn": "urn:li:fs_jobSeekerQuality:(urn:li:fs_normalized_profile:ACoAABSoPqoBEnYehigkvsAJnhT23UjEILG1E4g,urn:li:fs_normalized_jobPosting:365075732)",
+              "qualityType": "NO_MATCH"
+            },
+            "entityUrn": "urn:li:fs_normalized_jobPosting:365075732",
+            "relevanceReasonInjectionResult": {
+              "entityUrn": "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:365075732,_)",
+              "jobPosting": "urn:li:fs_normalized_jobPosting:365075732",
+              "details": {
+                "com.linkedin.voyager.jobs.shared.HiddenGemRelevanceReasonDetails": {}
+              }
+            },
+            "applyMethod": {
+              "com.linkedin.voyager.jobs.OffsiteApply": {
+                "applyStartersPreferenceVoid": false,
+                "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/associate-chartered-accountant-karachi/27614115480962632750272693704?utm_source=linkedin.com"
+              }
+            },
+            "applyingInfo": {
+              "entityUrn": "urn:li:fs_jobApplyingInfo:365075732",
+              "applied": false
+            },
+            "sourceDomain": "www.emprego.pt"
+          },
+          "descriptionSnippet": "Hubstaff provides a platform for the fresh graduates to nourish their skills, enhance their financial analysis techniques and refine their writing intelligence. Age:19 - 27 Years."
+        }
+      }
+    }
+  ],
+  "paging": {
+    "total": 603,
+    "count": 25,
+    "start": 50,
+    "links": []
+  }
+}
