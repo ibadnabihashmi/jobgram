@@ -13,8 +13,7 @@ logs
 results
 tmp
 coverage
-
-# API keys
+build/
 
 # Dependency directory
 node_modules

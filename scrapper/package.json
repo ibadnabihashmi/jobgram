@@ -1,0 +1,17 @@
+{
+  "name": "jobgram",
+  "version": "1.0.0",
+  "description": "My app description",
+  "scripts": {},
+  "dependencies": {
+    "async": "^2.4.0",
+    "cheerio": "^0.22.0",
+    "elasticsearch": "^13.0.1",
+    "phantom": "^4.0.3",
+    "request": "^2.81.0",
+    "underscore": "^1.8.3"
+  },
+  "engines": {
+    "node": "7.8.0"
+  }
+}

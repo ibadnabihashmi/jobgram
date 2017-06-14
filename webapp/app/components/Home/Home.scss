@@ -1,0 +1,53 @@
+$grey: #808080;
+$white: #fff;
+$border-color: rgba(233, 233, 233, .96);
+$shadow-color: rgba(167, 167, 167, .75);
+
+.home {
+  margin-bottom: 50px;
+
+  .feed {
+    .job {
+      background-color: $white;
+      border: 1px solid $border-color;
+      -moz-box-shadow: 0 3px 10px 0 $shadow-color; // scss-lint:disable VendorPrefix
+      -webkit-box-shadow: 0 3px 10px 0 $shadow-color; // scss-lint:disable VendorPrefix
+      box-shadow: 0 3px 10px 0 $shadow-color;
+      margin-top: 20px;
+      padding-top: 20px;
+
+      .job-head {
+        img {
+          border-radius: 35px;
+          width: 70px;
+        }
+
+        h2 {
+          margin-top: 0;
+        }
+
+        time {
+          color: $grey;
+          font-size: 12px;
+        }
+      }
+
+      .job-content {
+        padding: 10px 15px;
+
+        span {
+          background-color: $grey;
+          border-radius: 14px;
+          color: $white;
+          font-size: 14px;
+          margin-right: 6px;
+          padding: 4px 10px;
+        }
+      }
+
+      .job-footer {
+        padding: 8px 15px;
+      }
+    }
+  }
+}
