@@ -35,7 +35,8 @@ async.whilst(
                             jobTitle: _$('[itemprop="title"]').attr('title'),
                             jobId: 'indeed-'+$(this).attr('data-jk'),
                             jobProvider: _$('[itemprop="hiringOrganization"]').text().trim(),
-                            jobLocation: [_$('[itemprop="addressLocality"]').text().trim()]
+                            jobLocation: [_$('[itemprop="addressLocality"]').text().trim()],
+                            jobShortDescription:$('[itemprop="description"]').text().trim()
                         };
                         var salary = _$('.snip > .no-wrap').text().trim();
                         if(salary){
@@ -70,6 +71,7 @@ async.whilst(
                             if(response1.statusCode === 200){
                                 var $ = cheerio.load(body1);
                                 job['jobContent'] = '<div class="description">'+$('#job_summary').html()+'</div>';
+                                job['shortDescription'] = element.jobShortDescription.trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ')+'.....';
                                 job['jobDatePosted'] = Date.now();
                                 job['jobLocation'] = element.jobLocation;
                                 job['jobUrl'] = link;

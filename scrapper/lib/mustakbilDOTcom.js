@@ -30,7 +30,8 @@ async.whilst(
                         jobLink:$($($(this).children()['1']).children()['0']).attr('href'),
                         jobTitle:$($($(this).children()['1']).children()['0']).text().trim(),
                         jobProvider:$($($(this).children()['2']).children()['0']).text().trim(),
-                        image:$($(this).children()['4']).children().length ? $($($($($(this).children()['4'])).html()).children()['0']).attr('src') : ''
+                        image:$($(this).children()['4']).children().length ? $($($($($(this).children()['4'])).html()).children()['0']).attr('src') : '',
+                        jobShortDescription: $($(this).children()['4']).text().trim() + '.....'
                     });
                 });
                 console.log('Number of links retrieved for page : '+jobsList.length);
@@ -70,6 +71,7 @@ async.whilst(
                                 job['jobProvider'] = element.jobProvider;
                                 job['jobProviderLogo'] = element.image;
                                 job['jobSource'] = 'mustakbil';
+                                job['shortDescription'] = element.jobShortDescription;
                                 client.index({
                                     index:'jobgram',
                                     id:job['jobId'],

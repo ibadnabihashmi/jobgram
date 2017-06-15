@@ -280,6 +280,7 @@ phantom.create()
                                                 if(data.hasOwnProperty('companyDetails')){
                                                     console.log("extracting ........");
                                                     job['jobContent'] = data.description.text;
+                                                    job['shortDescription'] = data.description.text.trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ')+'.....';
                                                     job['jobDatePosted'] = list.datePosted;
                                                     job['jobLocation'] = list.jobLocation;
                                                     job['jobUrl'] = list.jobLink;

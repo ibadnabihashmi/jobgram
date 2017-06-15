@@ -7,6 +7,8 @@ var client = require('../config/connection.js');
 var fpn = 0;
 var rootUrl = ['https://www.rozee.pk/job/jsearch/q/all/?fpn='+fpn];
 
+var link = 'https://www.rozee.pk/right-solution-front-end-developer-karachi-jobs-625160.php';
+
 async.whilst(
     function () {
         return rootUrl.length !== 0;
@@ -28,7 +30,7 @@ async.whilst(
                 $('.jobt > h3 > a').each(function (element) {
                     jobslist.push({
                         link:$(this).attr('href'),
-                        class:$(this).parent().parent().parent().parent().parent().attr('class').match(/sponsored/ig)
+                        class:$(this).parent().parent().parent().parent().parent().attr('class').match(/sponsored/ig),
                     });
                 });
                 console.log('Number of links retrieved for page : '+jobslist.length);
@@ -76,6 +78,8 @@ async.whilst(
                                 job['jobContent'] = '<div class="rozeeDOTpk-details">'+$($('.jblk')[0]).html()+$($('.jblk')[1]).html()+$($('.jblk')[2]).html()+'</div>';
                                 job['jobId'] = "rozee-"+id;
                                 job['jobSource'] = "rozee";
+                                job['shortDescription'] = $($('.jblk')[0]).text().trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ') + '.....';
+                                // $($('.jblk')[0]).text().trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,'-')
                                 if(salary !== 'Please Login to view salary' && salary.split('-')[0].match(/\d+/g)){
                                     job['jobSalary'] = {
                                         min:Number(salary.split('-')[0].replace(/[^\d]/g,'')),

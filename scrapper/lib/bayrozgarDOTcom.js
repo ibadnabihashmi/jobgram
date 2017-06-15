@@ -65,6 +65,7 @@ async.whilst(
                                     if($(this).text().trim() === 'Job Description:'){
                                         content += '<div class="job_head2_s">Job Description</div>';
                                         content += '<div class="job-summary">'+$(this).next().html()+'</div>';
+                                        job['shortDescription'] = $(this).next().text().trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ')+'.....';
                                     }
                                     if($(this).text().trim() === 'Skills Required:'){
                                         content += '<div class="job_head2_s">Skills Required</div>';
