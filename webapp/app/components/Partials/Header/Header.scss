@@ -1,14 +1,12 @@
 $black: #000;
 $black-hover: #5b5b5b;
-$shadow-color: rgba(167, 167, 167, .36);
 $white: #fff;
 $border-color: rgba(233, 233, 233, .96);
 
 header {
   background-color: $white;
-  -moz-box-shadow: 0 3px 10px 0 $shadow-color; // scss-lint:disable VendorPrefix
-  -webkit-box-shadow: 0 3px 10px 0 $shadow-color; // scss-lint:disable VendorPrefix
-  box-shadow: 0 3px 10px 0 $shadow-color;
+  border-bottom: 1px solid $border-color;
+  height: 67px;
 
   nav .navbar-nav {
     text-align: center;
@@ -27,6 +25,12 @@ header {
           color: $black-hover;
           cursor: pointer;
         }
+      }
+
+      .main-logo {
+        padding: 20px 0;
+        font-family: 'Yesteryear', cursive;
+        font-weight: 900;
       }
     }
   }

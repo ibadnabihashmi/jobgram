@@ -1,6 +1,15 @@
 @import 'vendor/bootstrap';
 $body-color: #f7f7f7;
+$shadow-color: rgba(167, 167, 167, .36);
 
 body {
   background-color: $body-color;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.shadow {
+  -moz-box-shadow: 0 3px 10px 0 $shadow-color; // scss-lint:disable VendorPrefix
+  -webkit-box-shadow: 0 3px 10px 0 $shadow-color; // scss-lint:disable VendorPrefix
+  box-shadow: 0 3px 10px 0 $shadow-color;
 }

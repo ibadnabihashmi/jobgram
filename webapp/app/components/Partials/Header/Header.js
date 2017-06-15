@@ -25,7 +25,7 @@ class Header extends React.Component {
               <ul className="nav navbar-nav">
                 {/*<li><a href="#">Link</a></li>*/}
                 {/*<li><a href="#">Link</a></li>*/}
-                <li><a href="#">Jobgram</a></li>
+                <li><a href="#" className="main-logo">Jobgram</a></li>
                 {/*<li><a href="#">Link</a></li>*/}
                 {/*<li><a href="#">Link</a></li>*/}
               </ul>

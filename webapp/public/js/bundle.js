@@ -2989,13 +2989,61 @@ var Home = function (_get__$Component) {
 
       var _TimeAgo_Component3 = _get__('TimeAgo');
 
+      var _TimeAgo_Component4 = _get__('TimeAgo');
+
+      var _TimeAgo_Component5 = _get__('TimeAgo');
+
       return _react2.default.createElement(
         'div',
-        { className: 'container home' },
+        { className: 'col-md-12 home' },
         _react2.default.createElement(_Messages_Component, { messages: this.props.messages }),
         _react2.default.createElement(
           'div',
-          { className: 'col-lg-8 col-lg-offset-2 feed' },
+          { className: 'col-lg-3 search' },
+          _react2.default.createElement(
+            'div',
+            { className: 'form-group' },
+            _react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: 'keyword or hashtag' })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'form-group' },
+            _react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Country' })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'form-group' },
+            _react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: 'City' })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'input-group' },
+            _react2.default.createElement(
+              'div',
+              { className: 'input-group-addon' },
+              'min'
+            ),
+            _react2.default.createElement('input', { type: 'number', className: 'form-control', placeholder: '$$$' }),
+            _react2.default.createElement('input', { type: 'number', className: 'form-control', placeholder: '$$$' }),
+            _react2.default.createElement(
+              'div',
+              { className: 'input-group-addon' },
+              'max'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'form-group' },
+            _react2.default.createElement(
+              'button',
+              { className: 'btn btn-default' },
+              'Search'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-6 feed' },
           _react2.default.createElement(
             'div',
             { className: 'col-lg-12 job' },
@@ -3021,12 +3069,22 @@ var Home = function (_get__$Component) {
                   _react2.default.createElement(
                     'h4',
                     null,
-                    'provider'
+                    _react2.default.createElement(
+                      'i',
+                      { className: 'material-icons' },
+                      'business'
+                    ),
+                    ' provider'
                   )
                 ),
                 _react2.default.createElement(
                   'span',
                   { className: 'col-lg-2 text-right' },
+                  _react2.default.createElement(
+                    'i',
+                    { className: 'material-icons' },
+                    'schedule'
+                  ),
                   _react2.default.createElement(_TimeAgo_Component, { date: new Date(1497371817000) })
                 )
               )
@@ -3035,9 +3093,14 @@ var Home = function (_get__$Component) {
               'div',
               { className: 'col-lg-12 job-content' },
               _react2.default.createElement(
-                'p',
+                'span',
                 null,
-                'PKR 30000 - 40000'
+                _react2.default.createElement(
+                  'i',
+                  { className: 'material-icons' },
+                  'attach_money'
+                ),
+                ' PKR 30000 - 40000'
               ),
               _react2.default.createElement(
                 'p',
@@ -3046,12 +3109,12 @@ var Home = function (_get__$Component) {
               ),
               _react2.default.createElement(
                 'span',
-                null,
+                { className: 'location' },
                 'lahore'
               ),
               _react2.default.createElement(
                 'span',
-                null,
+                { className: 'location' },
                 'karachi'
               )
             ),
@@ -3061,8 +3124,14 @@ var Home = function (_get__$Component) {
               _react2.default.createElement(
                 'p',
                 null,
-                'via linkedin ',
-                _react2.default.createElement('img', { src: 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png', width: '13', height: '13' })
+                'via ',
+                _react2.default.createElement(
+                  'span',
+                  null,
+                  'linkedin'
+                ),
+                ' ',
+                _react2.default.createElement('img', { src: 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png' })
               )
             )
           ),
@@ -3091,12 +3160,22 @@ var Home = function (_get__$Component) {
                   _react2.default.createElement(
                     'h4',
                     null,
-                    'provider'
+                    _react2.default.createElement(
+                      'i',
+                      { className: 'material-icons' },
+                      'business'
+                    ),
+                    ' provider'
                   )
                 ),
                 _react2.default.createElement(
                   'span',
                   { className: 'col-lg-2 text-right' },
+                  _react2.default.createElement(
+                    'i',
+                    { className: 'material-icons' },
+                    'schedule'
+                  ),
                   _react2.default.createElement(_TimeAgo_Component2, { date: new Date(1497371817000) })
                 )
               )
@@ -3105,9 +3184,14 @@ var Home = function (_get__$Component) {
               'div',
               { className: 'col-lg-12 job-content' },
               _react2.default.createElement(
-                'p',
+                'span',
                 null,
-                'PKR 30000 - 40000'
+                _react2.default.createElement(
+                  'i',
+                  { className: 'material-icons' },
+                  'attach_money'
+                ),
+                ' PKR 30000 - 40000'
               ),
               _react2.default.createElement(
                 'p',
@@ -3116,12 +3200,12 @@ var Home = function (_get__$Component) {
               ),
               _react2.default.createElement(
                 'span',
-                null,
+                { className: 'location' },
                 'lahore'
               ),
               _react2.default.createElement(
                 'span',
-                null,
+                { className: 'location' },
                 'karachi'
               )
             ),
@@ -3131,8 +3215,14 @@ var Home = function (_get__$Component) {
               _react2.default.createElement(
                 'p',
                 null,
-                'via linkedin ',
-                _react2.default.createElement('img', { src: 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png', width: '13', height: '13' })
+                'via ',
+                _react2.default.createElement(
+                  'span',
+                  null,
+                  'linkedin'
+                ),
+                ' ',
+                _react2.default.createElement('img', { src: 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png' })
               )
             )
           ),
@@ -3161,12 +3251,22 @@ var Home = function (_get__$Component) {
                   _react2.default.createElement(
                     'h4',
                     null,
-                    'provider'
+                    _react2.default.createElement(
+                      'i',
+                      { className: 'material-icons' },
+                      'business'
+                    ),
+                    ' provider'
                   )
                 ),
                 _react2.default.createElement(
                   'span',
                   { className: 'col-lg-2 text-right' },
+                  _react2.default.createElement(
+                    'i',
+                    { className: 'material-icons' },
+                    'schedule'
+                  ),
                   _react2.default.createElement(_TimeAgo_Component3, { date: new Date(1497371817000) })
                 )
               )
@@ -3175,9 +3275,14 @@ var Home = function (_get__$Component) {
               'div',
               { className: 'col-lg-12 job-content' },
               _react2.default.createElement(
-                'p',
+                'span',
                 null,
-                'PKR 30000 - 40000'
+                _react2.default.createElement(
+                  'i',
+                  { className: 'material-icons' },
+                  'attach_money'
+                ),
+                ' PKR 30000 - 40000'
               ),
               _react2.default.createElement(
                 'p',
@@ -3186,12 +3291,12 @@ var Home = function (_get__$Component) {
               ),
               _react2.default.createElement(
                 'span',
-                null,
+                { className: 'location' },
                 'lahore'
               ),
               _react2.default.createElement(
                 'span',
-                null,
+                { className: 'location' },
                 'karachi'
               )
             ),
@@ -3201,9 +3306,271 @@ var Home = function (_get__$Component) {
               _react2.default.createElement(
                 'p',
                 null,
-                'via linkedin ',
-                _react2.default.createElement('img', { src: 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png', width: '13', height: '13' })
+                'via ',
+                _react2.default.createElement(
+                  'span',
+                  null,
+                  'linkedin'
+                ),
+                ' ',
+                _react2.default.createElement('img', { src: 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png' })
               )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-lg-12 job' },
+            _react2.default.createElement(
+              'div',
+              { className: 'col-lg-12 job-head' },
+              _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                  'span',
+                  { className: 'col-lg-2' },
+                  _react2.default.createElement('img', { src: 'https://conferencecloud-assets.s3.amazonaws.com/default_avatar.png' })
+                ),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'col-lg-8' },
+                  _react2.default.createElement(
+                    'h2',
+                    null,
+                    'Some Title'
+                  ),
+                  _react2.default.createElement(
+                    'h4',
+                    null,
+                    _react2.default.createElement(
+                      'i',
+                      { className: 'material-icons' },
+                      'business'
+                    ),
+                    ' provider'
+                  )
+                ),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'col-lg-2 text-right' },
+                  _react2.default.createElement(
+                    'i',
+                    { className: 'material-icons' },
+                    'schedule'
+                  ),
+                  _react2.default.createElement(_TimeAgo_Component4, { date: new Date(1497371817000) })
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'col-lg-12 job-content' },
+              _react2.default.createElement(
+                'span',
+                null,
+                _react2.default.createElement(
+                  'i',
+                  { className: 'material-icons' },
+                  'attach_money'
+                ),
+                ' PKR 30000 - 40000'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature.'
+              ),
+              _react2.default.createElement(
+                'span',
+                { className: 'location' },
+                'lahore'
+              ),
+              _react2.default.createElement(
+                'span',
+                { className: 'location' },
+                'karachi'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'col-lg-12 job-footer' },
+              _react2.default.createElement(
+                'p',
+                null,
+                'via ',
+                _react2.default.createElement(
+                  'span',
+                  null,
+                  'linkedin'
+                ),
+                ' ',
+                _react2.default.createElement('img', { src: 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png' })
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-lg-12 job' },
+            _react2.default.createElement(
+              'div',
+              { className: 'col-lg-12 job-head' },
+              _react2.default.createElement(
+                'div',
+                { className: 'row' },
+                _react2.default.createElement(
+                  'span',
+                  { className: 'col-lg-2' },
+                  _react2.default.createElement('img', { src: 'https://conferencecloud-assets.s3.amazonaws.com/default_avatar.png' })
+                ),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'col-lg-8' },
+                  _react2.default.createElement(
+                    'h2',
+                    null,
+                    'Some Title'
+                  ),
+                  _react2.default.createElement(
+                    'h4',
+                    null,
+                    _react2.default.createElement(
+                      'i',
+                      { className: 'material-icons' },
+                      'business'
+                    ),
+                    ' provider'
+                  )
+                ),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'col-lg-2 text-right' },
+                  _react2.default.createElement(
+                    'i',
+                    { className: 'material-icons' },
+                    'schedule'
+                  ),
+                  _react2.default.createElement(_TimeAgo_Component5, { date: new Date(1497371817000) })
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'col-lg-12 job-content' },
+              _react2.default.createElement(
+                'span',
+                null,
+                _react2.default.createElement(
+                  'i',
+                  { className: 'material-icons' },
+                  'attach_money'
+                ),
+                ' PKR 30000 - 40000'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature.'
+              ),
+              _react2.default.createElement(
+                'span',
+                { className: 'location' },
+                'lahore'
+              ),
+              _react2.default.createElement(
+                'span',
+                { className: 'location' },
+                'karachi'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'col-lg-12 job-footer' },
+              _react2.default.createElement(
+                'p',
+                null,
+                'via ',
+                _react2.default.createElement(
+                  'span',
+                  null,
+                  'linkedin'
+                ),
+                ' ',
+                _react2.default.createElement('img', { src: 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png' })
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'col-lg-3 hashtag-container' },
+          _react2.default.createElement(
+            'span',
+            { className: 'tag' },
+            '#businessdevelopment',
+            _react2.default.createElement(
+              'span',
+              { className: 'tag-count' },
+              '45'
+            )
+          ),
+          _react2.default.createElement(
+            'span',
+            { className: 'tag' },
+            '#java',
+            _react2.default.createElement(
+              'span',
+              { className: 'tag-count' },
+              '4'
+            )
+          ),
+          _react2.default.createElement(
+            'span',
+            { className: 'tag' },
+            '#accounts',
+            _react2.default.createElement(
+              'span',
+              { className: 'tag-count' },
+              '25'
+            )
+          ),
+          _react2.default.createElement(
+            'span',
+            { className: 'tag' },
+            '#industrialdevelopment',
+            _react2.default.createElement(
+              'span',
+              { className: 'tag-count' },
+              '45'
+            )
+          ),
+          _react2.default.createElement(
+            'span',
+            { className: 'tag' },
+            '#photoshop',
+            _react2.default.createElement(
+              'span',
+              { className: 'tag-count' },
+              '8'
+            )
+          ),
+          _react2.default.createElement(
+            'span',
+            { className: 'tag' },
+            '#css',
+            _react2.default.createElement(
+              'span',
+              { className: 'tag-count' },
+              '5'
+            )
+          ),
+          _react2.default.createElement(
+            'span',
+            { className: 'tag' },
+            '#illustrator',
+            _react2.default.createElement(
+              'span',
+              { className: 'tag-count' },
+              '15'
             )
           )
         )
@@ -3790,7 +4157,7 @@ var Header = function (_get__$Component) {
                   null,
                   _react2.default.createElement(
                     'a',
-                    { href: '#' },
+                    { href: '#', className: 'main-logo' },
                     'Jobgram'
                   )
                 )
