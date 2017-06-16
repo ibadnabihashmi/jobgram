@@ -1,7 +1,7 @@
 $grey: #808080;
 $white: #fff;
 $black: #000;
-$border-color: rgba(233, 233, 233, .96);
+$border-color: rgb(200, 200, 200);
 $job-provider: #005ab7;
 $salary-background: #ababab;
 $focus-color: #737373;
@@ -176,7 +176,7 @@ $inset2: rgba(208, 208, 208, .6);
 
     .tag {
       color: $white;
-      background-color: $salary-background;
+      background-color: $grey;
       padding: 2px 4px;
       border-radius: 13px;
       float: left;
@@ -184,7 +184,7 @@ $inset2: rgba(208, 208, 208, .6);
 
       .tag-count {
         background-color: $black;
-        padding: 2px 4px;
+        padding: 3px 4px;
         border-top-right-radius: 12px;
         border-bottom-right-radius: 12px;
         position: relative;
