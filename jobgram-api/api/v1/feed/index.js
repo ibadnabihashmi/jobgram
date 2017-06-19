@@ -21,9 +21,8 @@ router.get('/getFeed',function (req,res) {
       }
     }
   }).then(function (resp) {
-    var hits = resp.hits.hits;
     res.status(200).send({
-      resp:resp
+      resp:resp.hits
     });
   }, function (err) {
     console.trace(err.message);

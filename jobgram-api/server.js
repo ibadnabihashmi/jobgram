@@ -25,7 +25,7 @@ var app = express();
 //   process.exit(1);
 // });
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3001);
 app.use(cors());
 app.use(compression());
 app.use(logger('dev'));
