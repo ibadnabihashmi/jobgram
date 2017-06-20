@@ -10,6 +10,7 @@ export default function messages(state = {}, action) {
     case 'OAUTH_FAILURE':
     case 'UNLINK_FAILURE':
     case 'LINK_FAILURE':
+    case 'FETCH_FEED_FAILURE':
       return {
         error: action.messages
       };

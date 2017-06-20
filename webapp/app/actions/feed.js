@@ -11,7 +11,7 @@ export function fetchFeed() {
         return response.json().then((json) => {
           dispatch({
             type: 'FETCH_FEED_SUCCESS',
-            feed: [json.resp]
+            feed: json.resp
           });
         });
       } else {

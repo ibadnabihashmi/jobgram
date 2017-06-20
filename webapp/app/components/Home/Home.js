@@ -9,20 +9,75 @@ class Home extends React.Component {
     super(props);
     this.state = {
       feed:props.feed,
-    }
+    };
   }
 
   componentDidMount() {
     this.props.dispatch(fetchFeed());
   }
 
+  renderFeed() {
+    const jobs = [];
+    const renderLocation = function(jlo) {
+      var location = [];
+      jlo.forEach(function (loc) {
+        location.push(
+          <span className="location" key={loc}>{loc}</span>
+        );
+      });
+      return location;
+    };
+
+    this.props.feed.jobs.hits.forEach(function (job) {
+      jobs.push(
+        <div className="col-lg-12 job" key={job._id}>
+          <div className="col-lg-12 job-head">
+            <div className="row">
+                <span className="col-lg-2">
+                  <img src={job._source.jobProviderLogo}/>
+                </span>
+              <span className="col-lg-8">
+                  <h2>{job._source.jobTitle}</h2>
+                  <h4><i className="material-icons">business</i> {job._source.jobProvider}</h4>
+                </span>
+              <span className="col-lg-2 text-right">
+                  <i className="material-icons">schedule</i><TimeAgo date={new Date(job._source.jobDatePosted)} />
+                </span>
+            </div>
+          </div>
+          <div className="col-lg-12 job-content">
+            {
+              job._source.jobSalary ? (
+                <span><i className="material-icons">attach_money</i> {job._source.jobSalary.min} - {job._source.jobSalary.max}</span>
+              ) : ''
+            }
+            <p>{job._source.shortDescription}</p>
+
+            {
+              job._source.jobLocation ? (
+                <div>
+                  <i className="material-icons">place</i>
+                  {
+                    renderLocation(job._source.jobLocation)
+                  }
+                </div>
+              ) : ''
+            }
+
+          </div>
+          <div className="col-lg-12 job-footer">
+            <p>via <span>{job._source.jobSource}</span> <img src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png"/></p>
+          </div>
+        </div>
+      );
+    });
+    return jobs;
+  }
+
   render() {
     return (
       <div className="col-md-12 home">
         <Messages messages={this.props.messages}/>
-        <div className="col-lg-10">
-          {this.state.feed.length > 0 ? this.state.feed.length :'yolo'}
-        </div>
         <div className="col-lg-3 search">
           <div className="form-group">
             <input type="text" className="form-control" placeholder="keyword or hashtag"/>
@@ -44,78 +99,9 @@ class Home extends React.Component {
           </div>
         </div>
         <div className="col-lg-6 feed">
-          <div className="col-lg-12 job">
-            <div className="col-lg-12 job-head">
-              <div className="row">
-                <span className="col-lg-2">
-                  <img src="https://conferencecloud-assets.s3.amazonaws.com/default_avatar.png"/>
-                </span>
-                <span className="col-lg-8">
-                  <h2>Some Title</h2>
-                  <h4><i className="material-icons">business</i> provider</h4>
-                </span>
-                <span className="col-lg-2 text-right">
-                  <i className="material-icons">schedule</i><TimeAgo date={new Date(1497371817000)} />
-                </span>
-              </div>
-            </div>
-            <div className="col-lg-12 job-content">
-              <span><i className="material-icons">attach_money</i> PKR 30000 - 40000</span>
-              <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature.</p>
-              <i className="material-icons">place</i><span className="location">lahore</span><span className="location">karachi</span>
-            </div>
-            <div className="col-lg-12 job-footer">
-              <p>via <span>linkedin</span> <img src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png"/></p>
-            </div>
-          </div>
-          <div className="col-lg-12 job">
-            <div className="col-lg-12 job-head">
-              <div className="row">
-                <span className="col-lg-2">
-                  <img src="https://conferencecloud-assets.s3.amazonaws.com/default_avatar.png"/>
-                </span>
-                <span className="col-lg-8">
-                  <h2>Some Title</h2>
-                  <h4><i className="material-icons">business</i> provider</h4>
-                </span>
-                <span className="col-lg-2 text-right">
-                  <i className="material-icons">schedule</i><TimeAgo date={new Date(1497371817000)} />
-                </span>
-              </div>
-            </div>
-            <div className="col-lg-12 job-content">
-              <span><i className="material-icons">attach_money</i> PKR 30000 - 40000</span>
-              <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature.</p>
-              <i className="material-icons">place</i><span className="location">lahore</span><span className="location">karachi</span>
-            </div>
-            <div className="col-lg-12 job-footer">
-              <p>via <span>linkedin</span> <img src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png"/></p>
-            </div>
-          </div>
-          <div className="col-lg-12 job">
-            <div className="col-lg-12 job-head">
-              <div className="row">
-                <span className="col-lg-2">
-                  <img src="https://conferencecloud-assets.s3.amazonaws.com/default_avatar.png"/>
-                </span>
-                <span className="col-lg-8">
-                  <h2>Some Title</h2>
-                  <h4><i className="material-icons">business</i> provider</h4>
-                </span>
-                <span className="col-lg-2 text-right">
-                  <i className="material-icons">schedule</i><TimeAgo date={new Date(1497371817000)} />
-                </span>
-              </div>
-            </div>
-            <div className="col-lg-12 job-content">
-              <span><i className="material-icons">attach_money</i> PKR 30000 - 40000</span>
-              <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature.</p>
-              <i className="material-icons">place</i><span className="location">lahore</span><span className="location">karachi</span>
-            </div>
-            <div className="col-lg-12 job-footer">
-              <p>via <span>linkedin</span> <img src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png"/></p>
-            </div>
-          </div>
+          {
+            this.props.feed.jobs.hits ? this.renderFeed() : ''
+          }
         </div>
         <div className="col-lg-3 hashtag-container">
           <span className="tag">#businessdevelopment<span className="tag-count">45</span></span>
