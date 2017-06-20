@@ -5812,7 +5812,9 @@ body {
       left: -18px; }
     .home .feed .job .job-head img {
       border-radius: 35px;
-      width: 70px; }
+      width: 70px;
+      height: 70px;
+      border: 2px solid #c8c8c8; }
     .home .feed .job .job-head h2 {
       font-weight: 300;
       margin-top: 0; }

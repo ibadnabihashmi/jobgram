@@ -82,6 +82,7 @@ async.whilst(
                                 job['jobProviderLogo'] = $('.new_img > div > a > img').attr('src');
                                 job['jobId'] = 'bayrozgar-'+id;
                                 job['jobSource'] = 'bayrozgar';
+                                job['jobSourceLogo'] = 'http://www.bayrozgar.com/images/logo.jpg';
                                 client.index({
                                     index:'jobgram',
                                     id:job['jobId'],

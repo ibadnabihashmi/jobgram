@@ -34,7 +34,7 @@ class Home extends React.Component {
           <div className="col-lg-12 job-head">
             <div className="row">
                 <span className="col-lg-2">
-                  <img src={job._source.jobProviderLogo}/>
+                  <img src={job._source.jobProviderLogo ? job._source.jobProviderLogo : job._source.jobSourceLogo}/>
                 </span>
               <span className="col-lg-8">
                   <h2>{job._source.jobTitle}</h2>
@@ -66,7 +66,7 @@ class Home extends React.Component {
 
           </div>
           <div className="col-lg-12 job-footer">
-            <p>via <span>{job._source.jobSource}</span> <img src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png"/></p>
+            <p>via <span>{job._source.jobSource}</span> <img src={job._source.jobSourceLogo}/></p>
           </div>
         </div>
       );

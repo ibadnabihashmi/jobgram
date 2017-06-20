@@ -289,6 +289,7 @@ phantom.create()
                                                     job['jobProviderLogo'] = 'https://media.licdn.com/mpr/mpr/shrink_200_200'+data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.logo.image["com.linkedin.voyager.common.MediaProcessorImage"].id;
                                                     job['jobId'] = 'linkedin-'+list.id;
                                                     job['jobSource'] = 'linkedin';
+                                                    job['jobSourceLogo'] = 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png';
                                                 }
                                             } catch (e) {
                                                 console.log("exception thrown");

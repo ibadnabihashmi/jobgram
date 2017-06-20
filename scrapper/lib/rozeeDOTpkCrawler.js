@@ -78,6 +78,7 @@ async.whilst(
                                 job['jobContent'] = '<div class="rozeeDOTpk-details">'+$($('.jblk')[0]).html()+$($('.jblk')[1]).html()+$($('.jblk')[2]).html()+'</div>';
                                 job['jobId'] = "rozee-"+id;
                                 job['jobSource'] = "rozee";
+                                job['jobSourceLogo'] = "http://parvaaz.rozee.pk/company_images/bucket22/o_17760905819659.gif";
                                 job['shortDescription'] = $($('.jblk')[0]).text().trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ') + '.....';
                                 // $($('.jblk')[0]).text().trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,'-')
                                 if(salary !== 'Please Login to view salary' && salary.split('-')[0].match(/\d+/g)){

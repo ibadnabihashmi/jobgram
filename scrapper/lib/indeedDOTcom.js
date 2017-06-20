@@ -80,6 +80,7 @@ async.whilst(
                                 job['jobProviderLogo'] = $('.cmp_logo_img').attr('src') ? $('.cmp_logo_img').attr('src') : 'https://d3fw5vlhllyvee.cloudfront.net/tophat/s/975c6f4/indeed.png';
                                 job['jobId'] = element.jobId;
                                 job['jobSource'] = 'indeed';
+                                job['jobSourceLogo'] = 'https://d3fw5vlhllyvee.cloudfront.net/tophat/s/975c6f4/indeed.png';
                                 if(element.jobSalary){
                                     job['jobSalary'] = element.jobSalary;
                                 }

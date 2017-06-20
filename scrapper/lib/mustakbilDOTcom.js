@@ -69,8 +69,9 @@ async.whilst(
                                 job['jobUrl'] = link;
                                 job['jobTitle'] = element.jobTitle;
                                 job['jobProvider'] = element.jobProvider;
-                                job['jobProviderLogo'] = element.image;
+                                job['jobProviderLogo'] = element.image !== undefined ? 'http://www.mustakbil.com'+element.image : 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
                                 job['jobSource'] = 'mustakbil';
+                                job['jobSourceLogo'] = 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
                                 job['shortDescription'] = element.jobShortDescription;
                                 client.index({
                                     index:'jobgram',

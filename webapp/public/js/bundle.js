@@ -3056,7 +3056,7 @@ var Home = function (_get__$Component) {
               _react2.default.createElement(
                 'span',
                 { className: 'col-lg-2' },
-                _react2.default.createElement('img', { src: job._source.jobProviderLogo })
+                _react2.default.createElement('img', { src: job._source.jobProviderLogo ? job._source.jobProviderLogo : job._source.jobSourceLogo })
               ),
               _react2.default.createElement(
                 'span',
@@ -3135,7 +3135,7 @@ var Home = function (_get__$Component) {
                 job._source.jobSource
               ),
               ' ',
-              _react2.default.createElement('img', { src: 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png' })
+              _react2.default.createElement('img', { src: job._source.jobSourceLogo })
             )
           )
         ));

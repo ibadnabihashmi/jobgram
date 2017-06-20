@@ -85,6 +85,8 @@ $inset2: rgba(208, 208, 208, .6);
         img {
           border-radius: 35px;
           width: 70px;
+          height: 70px;
+          border: 2px solid $border-color;
         }
 
         h2 {
