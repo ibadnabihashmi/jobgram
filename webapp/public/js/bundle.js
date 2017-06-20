@@ -424,12 +424,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.fetchFeed = fetchFeed;
-function fetchFeed() {
+function fetchFeed(from) {
   return function (dispatch) {
     dispatch({
       type: 'CLEAR_MESSAGES'
     });
-    return fetch('http://localhost:3001/api/v1/feed/getFeed', {
+    return fetch('http://localhost:3001/api/v1/feed/getFeed?from=' + from, {
       method: 'get',
       headers: { 'Content-Type': 'application/json' }
     }).then(function (response) {
@@ -3015,15 +3015,36 @@ var Home = function (_get__$Component) {
     var _this = _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this, props));
 
     _this.state = {
-      feed: props.feed
+      feed: props.feed,
+      from: 0
     };
+    _this.gotoPrevious = _this.gotoPrevious.bind(_this);
+    _this.gotoNext = _this.gotoNext.bind(_this);
     return _this;
   }
 
   _createClass(Home, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      this.props.dispatch(_get__('fetchFeed')());
+      this.props.dispatch(_get__('fetchFeed')(this.state.from));
+    }
+  }, {
+    key: 'gotoNext',
+    value: function gotoNext() {
+      var current = this.state.from + 10;
+      this.setState({
+        from: current
+      });
+      this.props.dispatch(_get__('fetchFeed')(current));
+    }
+  }, {
+    key: 'gotoPrevious',
+    value: function gotoPrevious() {
+      var current = this.state.from - 10;
+      this.setState({
+        from: current
+      });
+      this.props.dispatch(_get__('fetchFeed')(current));
     }
   }, {
     key: 'renderFeed',
@@ -3198,7 +3219,21 @@ var Home = function (_get__$Component) {
         _react2.default.createElement(
           'div',
           { className: 'col-lg-6 feed' },
-          this.props.feed.jobs.hits ? this.renderFeed() : ''
+          this.props.feed.jobs.hits ? this.renderFeed() : '',
+          _react2.default.createElement(
+            'div',
+            { className: 'btn-group pagination-btn', role: 'group', 'aria-label': '...' },
+            _react2.default.createElement(
+              'button',
+              { type: 'button', className: 'btn btn-default', disabled: this.state.from === 0 ? true : false, onClick: this.gotoPrevious.bind(this) },
+              'previous'
+            ),
+            _react2.default.createElement(
+              'button',
+              { type: 'button', className: 'btn btn-default', onClick: this.gotoNext.bind(this) },
+              'next'
+            )
+          )
         ),
         _react2.default.createElement(
           'div',

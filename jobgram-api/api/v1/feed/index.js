@@ -18,7 +18,14 @@ router.get('/getFeed',function (req,res) {
     body: {
       query: {
         match_all: {}
-      }
+      },
+      sort: {
+        jobDatePosted: {
+          order: "asc"
+        }
+      },
+      from:req.query.from,
+      size:10
     }
   }).then(function (resp) {
     res.status(200).send({

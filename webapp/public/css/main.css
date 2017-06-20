@@ -5873,6 +5873,13 @@ body {
       .home .feed .job .job-footer img {
         margin-top: -8px;
         width: 20px; }
+  .home .feed .pagination-btn {
+    margin-top: 30px;
+    width: 100%; }
+    .home .feed .pagination-btn button {
+      width: 50%;
+      border-radius: 0;
+      border: 2px solid #c8c8c8; }
   .home .hashtag-container {
     background-color: #fff;
     border: 1px solid #c8c8c8;

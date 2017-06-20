@@ -9,11 +9,30 @@ class Home extends React.Component {
     super(props);
     this.state = {
       feed:props.feed,
+      from: 0
     };
+    this.gotoPrevious = this.gotoPrevious.bind(this);
+    this.gotoNext = this.gotoNext.bind(this);
   }
 
   componentDidMount() {
-    this.props.dispatch(fetchFeed());
+    this.props.dispatch(fetchFeed(this.state.from));
+  }
+
+  gotoNext() {
+    let current = this.state.from + 10;
+    this.setState({
+      from:current
+    });
+    this.props.dispatch(fetchFeed(current));
+  }
+
+  gotoPrevious() {
+    let current = this.state.from - 10;
+    this.setState({
+      from:current
+    });
+    this.props.dispatch(fetchFeed(current));
   }
 
   renderFeed() {
@@ -102,6 +121,10 @@ class Home extends React.Component {
           {
             this.props.feed.jobs.hits ? this.renderFeed() : ''
           }
+          <div className="btn-group pagination-btn" role="group" aria-label="...">
+            <button type="button" className="btn btn-default" disabled={this.state.from === 0 ? true : false} onClick={this.gotoPrevious.bind(this)}>previous</button>
+            <button type="button" className="btn btn-default" onClick={this.gotoNext.bind(this)}>next</button>
+          </div>
         </div>
         <div className="col-lg-3 hashtag-container">
           <span className="tag">#businessdevelopment<span className="tag-count">45</span></span>

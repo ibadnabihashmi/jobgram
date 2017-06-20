@@ -1,9 +1,9 @@
-export function fetchFeed() {
+export function fetchFeed(from) {
   return (dispatch) => {
     dispatch({
       type: 'CLEAR_MESSAGES'
     });
-    return fetch('http://localhost:3001/api/v1/feed/getFeed', {
+    return fetch(`http://localhost:3001/api/v1/feed/getFeed?from=${from}`, {
       method: 'get',
       headers: { 'Content-Type': 'application/json' },
     }).then((response) => {
