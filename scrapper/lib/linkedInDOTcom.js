@@ -57,7 +57,7 @@ phantom.create()
                         },
                         {
                             'name'     : 'JSESSIONID',
-                            'value'    : '"ajax:4123563552517787317"',
+                            'value'    : '"ajax:0743401093896612512"',
                             'domain'   : '.www.linkedin.com',
                             'path'     : '/',
                             'httponly' : false,
@@ -111,7 +111,7 @@ phantom.create()
                         },
                         {
                             'name'     : '_ga',
-                            'value'    : 'GA1.2.446100211.1472762252',
+                            'value'    : 'GA1.2.2498185.1471514951',
                             'domain'   : '.linkedin.com',
                             'path'     : '/',
                             'httponly' : false,
@@ -129,16 +129,7 @@ phantom.create()
                         },
                         {
                             'name'     : '_lipt',
-                            'value'    : 'CwEAAAFcTdKyPf47t6CiiMtsme4xfPqj20Xe3Pq9DG-04rPsYg9dHx7ntrD9kC71dLKxeBKVS8bdXuqur6xOG_l3-RiwX8Sw9B4dTxA_nTmn9xsHDhURX-8-3xLRs-EB1v2BAX-E4BgVgq_lk8LS2WKnhQfYqwgy3H91p85zEDLxigQRtNXBJWBzUby8iw-x7OnK6HOkDLS5RPidFbuWRVUfzzasVSYNiAXXPIIEkVZ4-kPleWEP8B3cqA-IMCryA2Y2YOsMmURqF7dijZ4S0SeCtMmB99PYHQhaY8FSE0_brCKs-09sFMqfP1d3WjtDg8N4U5meXQdkk59A9bGvtIqF4kntraKnv9jJcJHNWJof6vc-2QdDpyDW2kdQoqhEESrQ3k68nbTauCcCupCFMKnoTowUvrStqiXP',
-                            'domain'   : '.linkedin.com',
-                            'path'     : '/',
-                            'httponly' : false,
-                            'secure'   : false,
-                            'expires'  : (new Date()).getTime() + (10000 * 6000 * 600)
-                        },
-                        {
-                            'name'     : '_lipt',
-                            'value'    : 'CwEAAAFcTdKyPf47t6CiiMtsme4xfPqj20Xe3Pq9DG-04rPsYg9dHx7ntrD9kC71dLKxeBKVS8bdXuqur6xOG_l3-RiwX8Sw9B4dTxA_nTmn9xsHDhURX-8-3xLRs-EB1v2BAX-E4BgVgq_lk8LS2WKnhQfYqwgy3H91p85zEDLxigQRtNXBJWBzUby8iw-x7OnK6HOkDLS5RPidFbuWRVUfzzasVSYNiAXXPIIEkVZ4-kPleWEP8B3cqA-IMCryA2Y2YOsMmURqF7dijZ4S0SeCtMmB99PYHQhaY8FSE0_brCKs-09sFMqfP1d3WjtDg8N4U5meXQdkk59A9bGvtIqF4kntraKnv9jJcJHNWJof6vc-2QdDpyDW2kdQoqhEESrQ3k68nbTauCcCupCFMKnoTowUvrStqiXP',
+                            'value'    : 'CwEAAAFcyTPp_IL2j6WP_PGCnkGykFxteKbeNhYqC3pZfxd0IdCCm3iqzUKmqCGMKhxh9XxXh9-PRrFk_7RnmDN7Wbf20wNOq2TfGTMnPrOOTd5NIOZ0H-OoN5RkCKsDshML5m5qbWkkvh7DP-YSUxLt9apYXaMewiM9Zgg8LFPmrfCc87qHm7hdphOTb0QeE-2EHgkyXxRrQm6fhlIfErrGwBK_6HCmEDOVqdUlgBlmfBaIfhDN1SMVtnsg6V1lLqWBVG0m9PNbZTRuOjnBkjjuA-VVTqI3BERVbOf9NViuqW5MP4P6w5p0oCegwd9QMHL2mZX5vdbQCup6jF27zS_rJOR-Dhf_kuAqNg3EMlHsV90vZCz5edEsCWTP9N30ovaHY0mNXEbK9ONt',
                             'domain'   : '.linkedin.com',
                             'path'     : '/',
                             'httponly' : false,
@@ -147,7 +138,7 @@ phantom.create()
                         },
                         {
                             'name'     : 'bcookie',
-                            'value'    : '"v=2&d6f567f2-dc5a-49d3-842c-ba4ea9c87a02"',
+                            'value'    : '"v=2&bdb240a5-3278-4b47-8832-d64dd6c6d98a"',
                             'domain'   : '.linkedin.com',
                             'path'     : '/',
                             'httponly' : false,
@@ -156,7 +147,7 @@ phantom.create()
                         },
                         {
                             'name'     : 'bscookie',
-                            'value'    : '"v=1&201705130557293709094e-0bda-4a94-86a4-2c8410e2d39bAQGlRAYp3gPMTOKCD4CWT8FIXcotF-eb"',
+                            'value'    : '"v=1&20170512132337f87efcfe-188b-4969-8efd-314d2552bfe9AQFy9vluKwXFnuKdl5nWd4QBMXYD69F9"',
                             'domain'   : '.www.linkedin.com',
                             'path'     : '/',
                             'httponly' : false,
@@ -165,7 +156,7 @@ phantom.create()
                         },
                         {
                             'name'     : 'lang',
-                            'value'    : '"v=2&lang=en-us"',
+                            'value'    : 'v=2&lang=en-us',
                             'domain'   : '.linkedin.com',
                             'path'     : '/',
                             'httponly' : false,
@@ -174,7 +165,7 @@ phantom.create()
                         },
                         {
                             'name'     : 'li_at',
-                            'value'    : 'AQEDARSoPqoEQUf_AAABXE3RtxYAAAFcT4krFlEA0PfS09W-Xo9FYDNx97JdclCPEwT2vIWD5Q9qU7lwVMoo0JmySk-lRRUIfAUpo7kY_7bzBBWVLt9RC7WngH_nItmcFiXt8qYQ53MzR8tehYf93NXY',
+                            'value'    : 'AQEDARSoPqoERyadAAABXL87CPwAAAFcyq_sjVEAT0fWWph9ZqvaS91fxfh29qAxq5yb0lR13HqVPG5FurSheiM0_swmg5y-LggT6Ck_5-vybdCHVZjljR6T2wDCoSSsr-TnIaR0ESAWMxB673QsbqF9',
                             'domain'   : '.www.linkedin.com',
                             'path'     : '/',
                             'httponly' : false,
@@ -192,7 +183,7 @@ phantom.create()
                         },
                         {
                             'name'     : 'lidc',
-                            'value'    : '"b=TB10:g=932:u=95:i=1495954243:t=1495959564:s=AQHKVm45HAO8iPwXNSzBOSF77peBqDDS"',
+                            'value'    : '"b=SB10:g=27:u=96:i=1498024271:t=1498028509:s=AQGGuWFImXkppm3pEcdl72aTNnL0aORN"',
                             'domain'   : '.linkedin.com',
                             'path'     : '/',
                             'httponly' : false,
@@ -201,7 +192,7 @@ phantom.create()
                         },
                         {
                             'name'     : 'sl',
-                            'value'    : '"v=1&W-WFK"',
+                            'value'    : '"v=1&DG61W"',
                             'domain'   : '.www.linkedin.com',
                             'path'     : '/',
                             'httponly' : false,
@@ -247,7 +238,7 @@ phantom.create()
                     ]
                 ).then(function () {
                     console.log('Opening page .....');
-                    page.open('https://www.linkedin.com/jobs/search/?locationId=pk%3A0&sortBy=DD&start=50').then(function (status) {
+                    page.open('https://www.linkedin.com/jobs/search/?locationId=pk%3A0&sortBy=DD&start=0').then(function (status) {
                         console.log(status);
                         page.property('content').then(function (content) {
                             var $ = cheerio.load(content.toString());

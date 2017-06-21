@@ -16,16 +16,24 @@ router.get('/getFeed',function (req,res) {
     index: 'jobgram',
     type: 'job',
     body: {
-      query: {
-        match_all: {}
-      },
-      sort: {
-        jobDatePosted: {
-          order: "asc"
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "term": {
+                "jobSource": "linkedin"
+              }
+            }
+          ]
         }
       },
-      from:req.query.from,
-      size:10
+      "sort": {
+        "jobDatePosted": {
+          "order": "asc"
+        }
+      },
+      "from":req.query.from,
+      "size":10
     }
   }).then(function (resp) {
     res.status(200).send({
