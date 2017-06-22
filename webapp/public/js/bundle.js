@@ -424,6 +424,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.fetchFeed = fetchFeed;
+exports.applyFilters = applyFilters;
 function fetchFeed(from) {
   return function (dispatch) {
     dispatch({
@@ -445,6 +446,35 @@ function fetchFeed(from) {
           dispatch({
             type: 'FETCH_FEED_FAILURE',
             messages: Array.isArray(json) ? json : [json]
+          });
+        });
+      }
+    });
+  };
+}
+
+function applyFilters(filters) {
+  return function (dispatch) {
+    dispatch({
+      type: 'CLEAR_MESSAGES'
+    });
+    return fetch('http://localhost:3001/api/v1/feed/getFeed', {
+      method: 'post',
+      body: JSON.stringify(filters),
+      headers: { 'Content-Type': 'application/json' }
+    }).then(function (response) {
+      if (response.ok) {
+        return response.json().then(function (json) {
+          dispatch({
+            type: 'FETCH_FEED_SUCCESS',
+            feed: json.resp
+          });
+        });
+      } else {
+        return response.json().then(function (json) {
+          dispatch({
+            type: 'FETCH_FEED_SUCCESS',
+            feed: json.resp
           });
         });
       }
@@ -3016,10 +3046,22 @@ var Home = function (_get__$Component) {
 
     _this.state = {
       feed: props.feed,
-      from: 0
+      from: 0,
+      filters: {
+        keyword: '',
+        location: '',
+        salaryMin: '',
+        salaryMax: ''
+      }
     };
     _this.gotoPrevious = _this.gotoPrevious.bind(_this);
     _this.gotoNext = _this.gotoNext.bind(_this);
+    _this.applyFilters = _this.applyFilters.bind(_this);
+    _this.clearFilters = _this.clearFilters.bind(_this);
+    _this.handleKeywordChange = _this.handleKeywordChange.bind(_this);
+    _this.handleLocationChange = _this.handleLocationChange.bind(_this);
+    _this.handleMinSalaryChange = _this.handleMinSalaryChange.bind(_this);
+    _this.handleMaxSalaryChange = _this.handleMaxSalaryChange.bind(_this);
     return _this;
   }
 
@@ -3045,6 +3087,63 @@ var Home = function (_get__$Component) {
         from: current
       });
       this.props.dispatch(_get__('fetchFeed')(current));
+    }
+  }, {
+    key: 'applyFilters',
+    value: function applyFilters(e) {
+      this.props.dispatch(_get__('applyFilters')(this.state.filters));
+    }
+  }, {
+    key: 'clearFilters',
+    value: function clearFilters(e) {
+      this.setState({
+        filters: {
+          keyword: '',
+          location: '',
+          salaryMin: '',
+          salaryMax: ''
+        }
+      });
+    }
+  }, {
+    key: 'handleKeywordChange',
+    value: function handleKeywordChange(e) {
+      var filters = this.state.filters;
+      filters.keyword = e.target.value;
+      this.setState({
+        from: 0,
+        filters: filters
+      });
+    }
+  }, {
+    key: 'handleLocationChange',
+    value: function handleLocationChange(e) {
+      var filters = this.state.filters;
+      filters.location = e.target.value;
+      this.setState({
+        from: 0,
+        filters: filters
+      });
+    }
+  }, {
+    key: 'handleMinSalaryChange',
+    value: function handleMinSalaryChange(e) {
+      var filters = this.state.filters;
+      filters.salaryMin = e.target.value;
+      this.setState({
+        from: 0,
+        filters: filters
+      });
+    }
+  }, {
+    key: 'handleMaxSalaryChange',
+    value: function handleMaxSalaryChange(e) {
+      var filters = this.state.filters;
+      filters.salaryMax = e.target.value;
+      this.setState({
+        from: 0,
+        filters: filters
+      });
     }
   }, {
     key: 'renderFeed',
@@ -3156,7 +3255,7 @@ var Home = function (_get__$Component) {
                 job._source.jobSource
               ),
               ' ',
-              _react2.default.createElement('img', { src: job._source.jobSourceLogo })
+              _react2.default.createElement('img', { className: 'img-' + job._source.jobSource, src: job._source.jobSourceLogo })
             )
           )
         ));
@@ -3177,42 +3276,41 @@ var Home = function (_get__$Component) {
           { className: 'col-lg-3 search' },
           _react2.default.createElement(
             'div',
-            { className: 'form-group' },
-            _react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: 'keyword or hashtag' })
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'form-group' },
-            _react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Country' })
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'form-group' },
-            _react2.default.createElement('input', { type: 'text', className: 'form-control', placeholder: 'City' })
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'input-group' },
+            { className: 'col-lg-3 bs-docs-sidebar hidden-print hidden-sm hidden-xs affix' },
             _react2.default.createElement(
               'div',
-              { className: 'input-group-addon' },
-              'min'
+              { className: 'form-group' },
+              _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.keyword, onChange: this.handleKeywordChange, placeholder: 'keyword or hashtag' })
             ),
-            _react2.default.createElement('input', { type: 'number', className: 'form-control', placeholder: '$$$' }),
-            _react2.default.createElement('input', { type: 'number', className: 'form-control', placeholder: '$$$' }),
             _react2.default.createElement(
               'div',
-              { className: 'input-group-addon' },
-              'max'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'form-group' },
+              { className: 'form-group' },
+              _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.location, onChange: this.handleLocationChange, placeholder: 'Location' })
+            ),
             _react2.default.createElement(
-              'button',
-              { className: 'btn btn-default' },
-              'Search'
+              'div',
+              { className: 'input-group' },
+              _react2.default.createElement(
+                'div',
+                { className: 'input-group-addon' },
+                'min'
+              ),
+              _react2.default.createElement('input', { type: 'number', className: 'form-control', value: this.state.filters.salaryMin, onChange: this.handleMinSalaryChange, placeholder: '$$$' }),
+              _react2.default.createElement('input', { type: 'number', className: 'form-control', value: this.state.filters.salaryMax, onChange: this.handleMaxSalaryChange, placeholder: '$$$' }),
+              _react2.default.createElement(
+                'div',
+                { className: 'input-group-addon' },
+                'max'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'form-group' },
+              _react2.default.createElement(
+                'button',
+                { className: 'btn btn-default', onClick: this.applyFilters.bind(this) },
+                'Search'
+              )
             )
           )
         ),
@@ -3355,6 +3453,9 @@ function _get_original__(variableName) {
   switch (variableName) {
     case 'fetchFeed':
       return _feed.fetchFeed;
+
+    case 'applyFilters':
+      return _feed.applyFilters;
 
     case 'TimeAgo':
       return _reactTimeago2.default;
@@ -3862,7 +3963,7 @@ var Header = function (_get__$Component) {
     value: function render() {
       return _react2.default.createElement(
         'header',
-        { role: 'banner' },
+        { role: 'banner', className: 'navbar-fixed-top' },
         _react2.default.createElement(
           'nav',
           { id: 'navbar-primary', className: 'navbar', role: 'navigation' },

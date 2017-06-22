@@ -2,17 +2,29 @@ import React from 'react';
 import { connect } from 'react-redux'
 import Messages from '../Partials/Messages/Messages';
 import TimeAgo from 'react-timeago';
-import { fetchFeed } from '../../actions/feed'
+import { fetchFeed,applyFilters } from '../../actions/feed'
 
 class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       feed:props.feed,
-      from: 0
+      from: 0,
+      filters: {
+        keyword:'',
+        location:'',
+        salaryMin:'',
+        salaryMax:''
+      }
     };
     this.gotoPrevious = this.gotoPrevious.bind(this);
     this.gotoNext = this.gotoNext.bind(this);
+    this.applyFilters = this.applyFilters.bind(this);
+    this.clearFilters = this.clearFilters.bind(this);
+    this.handleKeywordChange = this.handleKeywordChange.bind(this);
+    this.handleLocationChange = this.handleLocationChange.bind(this);
+    this.handleMinSalaryChange = this.handleMinSalaryChange.bind(this);
+    this.handleMaxSalaryChange = this.handleMaxSalaryChange.bind(this);
   }
 
   componentDidMount() {
@@ -33,6 +45,57 @@ class Home extends React.Component {
       from:current
     });
     this.props.dispatch(fetchFeed(current));
+  }
+
+  applyFilters(e) {
+    this.props.dispatch(applyFilters(this.state.filters));
+  }
+
+  clearFilters(e) {
+    this.setState({
+      filters: {
+        keyword:'',
+        location:'',
+        salaryMin:'',
+        salaryMax:''
+      }
+    });
+  }
+
+  handleKeywordChange(e) {
+    let filters = this.state.filters;
+    filters.keyword = e.target.value;
+    this.setState({
+      from: 0,
+      filters: filters
+    });
+  }
+
+  handleLocationChange(e) {
+    let filters = this.state.filters;
+    filters.location = e.target.value;
+    this.setState({
+      from: 0,
+      filters: filters
+    });
+  }
+
+  handleMinSalaryChange(e) {
+    let filters = this.state.filters;
+    filters.salaryMin = e.target.value;
+    this.setState({
+      from: 0,
+      filters: filters
+    });
+  }
+
+  handleMaxSalaryChange(e) {
+    let filters = this.state.filters;
+    filters.salaryMax = e.target.value;
+    this.setState({
+      from: 0,
+      filters: filters
+    });
   }
 
   renderFeed() {
@@ -85,7 +148,7 @@ class Home extends React.Component {
 
           </div>
           <div className="col-lg-12 job-footer">
-            <p>via <span>{job._source.jobSource}</span> <img src={job._source.jobSourceLogo}/></p>
+            <p>via <span>{job._source.jobSource}</span> <img className={`img-${job._source.jobSource}`} src={job._source.jobSourceLogo}/></p>
           </div>
         </div>
       );
@@ -98,23 +161,22 @@ class Home extends React.Component {
       <div className="col-md-12 home">
         <Messages messages={this.props.messages}/>
         <div className="col-lg-3 search">
-          <div className="form-group">
-            <input type="text" className="form-control" placeholder="keyword or hashtag"/>
-          </div>
-          <div className="form-group">
-            <input type="text" className="form-control" placeholder="Country"/>
-          </div>
-          <div className="form-group">
-            <input type="text" className="form-control" placeholder="City"/>
-          </div>
-          <div className="input-group">
-            <div className="input-group-addon">min</div>
-            <input type="number" className="form-control" placeholder="$$$"/>
-            <input type="number" className="form-control" placeholder="$$$"/>
-            <div className="input-group-addon">max</div>
-          </div>
-          <div className="form-group">
-            <button className="btn btn-default">Search</button>
+          <div className="col-lg-3 bs-docs-sidebar hidden-print hidden-sm hidden-xs affix">
+            <div className="form-group">
+              <input type="text" className="form-control" value={this.state.filters.keyword} onChange={this.handleKeywordChange} placeholder="keyword or hashtag"/>
+            </div>
+            <div className="form-group">
+              <input type="text" className="form-control" value={this.state.filters.location} onChange={this.handleLocationChange} placeholder="Location"/>
+            </div>
+            <div className="input-group">
+              <div className="input-group-addon">min</div>
+              <input type="number" className="form-control" value={this.state.filters.salaryMin} onChange={this.handleMinSalaryChange} placeholder="$$$"/>
+              <input type="number" className="form-control" value={this.state.filters.salaryMax} onChange={this.handleMaxSalaryChange} placeholder="$$$"/>
+              <div className="input-group-addon">max</div>
+            </div>
+            <div className="form-group">
+              <button className="btn btn-default" onClick={this.applyFilters.bind(this)}>Search</button>
+            </div>
           </div>
         </div>
         <div className="col-lg-6 feed">

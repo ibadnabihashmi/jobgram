@@ -10,9 +10,14 @@ $inset2: rgba(208, 208, 208, .6);
 
 .home {
   margin-bottom: 50px;
+  margin-top: 65px;
 
   .search {
     margin-top: 20px;
+
+    .affix {
+      left: 20px;
+    }
 
     input {
       border-radius: 0;
@@ -176,6 +181,23 @@ $inset2: rgba(208, 208, 208, .6);
         img {
           margin-top: -8px;
           width: 20px;
+        }
+
+        .img-indeed {
+          width: 70px;
+        }
+
+        .img-bayrozgar {
+          width: 75px;
+        }
+
+        .img-mustakbil {
+          width: 30px;
+        }
+
+        .img-rozee {
+          margin-top: -2px;
+          width: 60px;
         }
       }
     }

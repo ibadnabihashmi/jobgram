@@ -17,14 +17,34 @@ router.get('/getFeed',function (req,res) {
     type: 'job',
     body: {
       "query": {
-        "bool": {
-          "must": [
-            {
-              "term": {
-                "jobSource": "linkedin"
-              }
-            }
-          ]
+        "match_all":{}
+      },
+      "sort": {
+        "jobDatePosted": {
+          "order": "asc"
+        }
+      },
+      "from":req.query.from,
+      "size":10
+    }
+  }).then(function (resp) {
+    res.status(200).send({
+      resp:resp.hits
+    });
+  }, function (err) {
+    console.trace(err.message);
+  });
+});
+
+router.post('/getFeed',function (req,res) {
+
+  client.search({
+    index: 'jobgram',
+    type: 'job',
+    body: {
+      "query": {
+        "query_string": {
+          "query": req.body.keyword
         }
       },
       "sort": {

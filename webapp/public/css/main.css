@@ -5761,9 +5761,12 @@ body {
 
 
 .home {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  margin-top: 65px; }
   .home .search {
     margin-top: 20px; }
+    .home .search .affix {
+      left: 20px; }
     .home .search input {
       border-radius: 0;
       background-color: #fff;
@@ -5873,6 +5876,15 @@ body {
       .home .feed .job .job-footer img {
         margin-top: -8px;
         width: 20px; }
+      .home .feed .job .job-footer .img-indeed {
+        width: 70px; }
+      .home .feed .job .job-footer .img-bayrozgar {
+        width: 75px; }
+      .home .feed .job .job-footer .img-mustakbil {
+        width: 30px; }
+      .home .feed .job .job-footer .img-rozee {
+        margin-top: -2px;
+        width: 60px; }
   .home .feed .pagination-btn {
     margin-top: 30px;
     width: 100%; }
