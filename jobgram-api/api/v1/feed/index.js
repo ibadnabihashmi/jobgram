@@ -38,53 +38,63 @@ router.get('/getFeed',function (req,res) {
 
 router.post('/getFeed',function (req,res) {
 
+  var query = {
+    bool: {
+      must: []
+    }
+  };
+
+  if(req.body.keyword && req.body.keyword !== ''){
+    query.bool.must.push({
+      "multi_match": {
+        "query": req.body.keyword,
+        "type": "phrase",
+        "fields": [
+          "jobTitle",
+          "jobContent"
+        ]
+      }
+    });
+  }
+
+  if(req.body.location && req.body.location !== ''){
+    query.bool.must.push({
+      "match": {
+        "jobLocation": req.body.location
+      }
+    });
+  }
+  var sMin = req.body.salaryMin && req.body.salaryMin !== '' ? Number(req.body.salaryMin) : 0;
+  var sMax = req.body.salaryMax && req.body.salaryMax !== '' ? Number(req.body.salaryMax) : 9999999999;
+
+  query.bool.must.push({
+    "bool": {
+      "should": [
+        {
+          "range": {
+            "jobSalary.min": {
+              "gte": sMin,
+              "lte": sMax
+            }
+          }
+        },
+        {
+          "range": {
+            "jobSalary.max": {
+              "gte": sMin,
+              "lte": sMax
+            }
+          }
+        }
+      ]
+    }
+  });
+
   client.search({
     index: 'jobgram',
     type: 'job',
     body: {
-      "query": {
-        "bool": {
-          "must": [
-            {
-              "multi_match": {
-                "query": "software engineer",
-                "type": "phrase",
-                "fields": [
-                  "jobTitle",
-                  "jobContent"
-                ]
-              }
-            },
-            {
-              "match": {
-                "jobLocation": "Karachi"
-              }
-            },
-            {
-              "bool": {
-                "should": [
-                  {
-                    "range": {
-                      "jobSalary.min": {
-                        "gte": 30000,
-                        "lte": 70000
-                      }
-                    }
-                  },
-                  {
-                    "range": {
-                      "jobSalary.max": {
-                        "gte": 30000,
-                        "lte": 70000
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
+      "query": query,
       "sort": {
         "jobDatePosted": {
           "order": "asc"
