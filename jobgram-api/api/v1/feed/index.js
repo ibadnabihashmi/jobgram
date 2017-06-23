@@ -43,8 +43,46 @@ router.post('/getFeed',function (req,res) {
     type: 'job',
     body: {
       "query": {
-        "query_string": {
-          "query": req.body.keyword
+        "bool": {
+          "must": [
+            {
+              "multi_match": {
+                "query": "software engineer",
+                "type": "phrase",
+                "fields": [
+                  "jobTitle",
+                  "jobContent"
+                ]
+              }
+            },
+            {
+              "match": {
+                "jobLocation": "Karachi"
+              }
+            },
+            {
+              "bool": {
+                "should": [
+                  {
+                    "range": {
+                      "jobSalary.min": {
+                        "gte": 30000,
+                        "lte": 70000
+                      }
+                    }
+                  },
+                  {
+                    "range": {
+                      "jobSalary.max": {
+                        "gte": 30000,
+                        "lte": 70000
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
         }
       },
       "sort": {
