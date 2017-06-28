@@ -120,7 +120,7 @@ gulp.task('watch', () => {
 });
 
 gulp.task('scss-lint', function() {
-  return gulp.src(['public/css/globals.scss','app/**/*.scss'])
+  return gulp.src(['app/**/*.scss'])
     .pipe(scsslint({
       'config': '.scss-lint.yml',
     }));

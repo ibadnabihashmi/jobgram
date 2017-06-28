@@ -2,7 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux'
 import Messages from '../Partials/Messages/Messages';
 import TimeAgo from 'react-timeago';
-import { fetchFeed,applyFilters } from '../../actions/feed'
+import { fetchFeed,applyFilters } from '../../actions/feed';
+import PlaceHolder from './FeedPlaceholder';
 
 class Home extends React.Component {
   constructor(props) {
@@ -180,6 +181,7 @@ class Home extends React.Component {
           </div>
         </div>
         <div className="col-lg-6 feed">
+          <PlaceHolder/>
           {
             this.props.feed.jobs.hits ? this.renderFeed() : ''
           }

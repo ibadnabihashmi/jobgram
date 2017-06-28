@@ -5759,6 +5759,98 @@ body {
 .shadow {
   box-shadow: 0 3px 10px 0 rgba(167, 167, 167, 0.36); }
 
+.timeline-item {
+  padding: 12px 18px;
+  margin: 0 auto;
+  height: 250px;
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+  margin-top: 20px;
+  padding-top: 20px; }
+
+@-webkit-keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0; }
+  100% {
+    background-position: 468px 0; } }
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0; }
+  100% {
+    background-position: 468px 0; } }
+
+.animated-background {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: placeHolderShimmer;
+          animation-name: placeHolderShimmer;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  height: 173px;
+  position: relative; }
+
+.background-masker {
+  background-color: #fff;
+  position: absolute; }
+
+.background-masker.separater {
+  width: 100%;
+  height: 30px;
+  top: 65px; }
+
+.header-img-separator {
+  width: 20px;
+  height: 65px;
+  left: 70px; }
+
+.header-separator-one {
+  width: 86%;
+  height: 15px;
+  top: 17px;
+  left: 90px; }
+
+.header-separator-two {
+  width: 86%;
+  height: 15px;
+  top: 50px;
+  left: 90px; }
+
+.header-separator-three {
+  width: 62%;
+  height: 18px;
+  top: 32px;
+  left: 243px; }
+
+.header-separator-four {
+  width: 40%;
+  height: 17px;
+  top: 0px;
+  left: 330px; }
+
+.content-separater-one {
+  width: 100%;
+  height: 15px;
+  top: 111px; }
+
+.content-separater-two {
+  width: 100%;
+  height: 15px;
+  top: 142px; }
+
+.content-separater-three {
+  width: 50%;
+  height: 16px;
+  top: 157px;
+  left: 319px; }
+
 
 .home {
   margin-bottom: 50px;
