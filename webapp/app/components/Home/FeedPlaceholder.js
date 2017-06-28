@@ -17,6 +17,7 @@ class FeedPlacholder extends React.Component {
             <div className="background-masker content-separater-three"></div>
           </div>
         </div>
+
         <div className="timeline-item">
           <div className="animated-background">
             <div className="background-masker header-img-separator"></div>
@@ -30,6 +31,7 @@ class FeedPlacholder extends React.Component {
             <div className="background-masker content-separater-three"></div>
           </div>
         </div>
+
         <div className="timeline-item">
           <div className="animated-background">
             <div className="background-masker header-img-separator"></div>
@@ -43,6 +45,7 @@ class FeedPlacholder extends React.Component {
             <div className="background-masker content-separater-three"></div>
           </div>
         </div>
+
         <div className="timeline-item">
           <div className="animated-background">
             <div className="background-masker header-img-separator"></div>
@@ -56,6 +59,7 @@ class FeedPlacholder extends React.Component {
             <div className="background-masker content-separater-three"></div>
           </div>
         </div>
+
         <div className="timeline-item">
           <div className="animated-background">
             <div className="background-masker header-img-separator"></div>
@@ -69,6 +73,7 @@ class FeedPlacholder extends React.Component {
             <div className="background-masker content-separater-three"></div>
           </div>
         </div>
+
         <div className="timeline-item">
           <div className="animated-background">
             <div className="background-masker header-img-separator"></div>
