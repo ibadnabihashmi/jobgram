@@ -5812,19 +5812,19 @@ body {
   left: 70px; }
 
 .header-separator-one {
-  width: 86%;
+  width: 89%;
   height: 15px;
   top: 17px;
   left: 90px; }
 
 .header-separator-two {
-  width: 86%;
+  width: 89%;
   height: 15px;
   top: 50px;
   left: 90px; }
 
 .header-separator-three {
-  width: 62%;
+  width: 65%;
   height: 18px;
   top: 32px;
   left: 243px; }
@@ -5846,7 +5846,7 @@ body {
   top: 142px; }
 
 .content-separater-three {
-  width: 50%;
+  width: 54%;
   height: 16px;
   top: 157px;
   left: 319px; }
@@ -5984,6 +5984,8 @@ body {
       width: 50%;
       border-radius: 0;
       border: 2px solid #c8c8c8; }
+  .home .feed .result-header {
+    padding: 20px; }
   .home .hashtag-container {
     background-color: #fff;
     border: 1px solid #c8c8c8;

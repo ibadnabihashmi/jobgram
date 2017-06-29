@@ -1,5 +1,6 @@
 const initialState = {
-  jobs: {}
+  jobs: {},
+  isLoaded: false
 };
 
 export default function feed(state = initialState, action) {
@@ -7,6 +8,10 @@ export default function feed(state = initialState, action) {
     case 'FETCH_FEED_SUCCESS':
       return Object.assign({}, state, {
         jobs: action.feed
+      });
+    case 'UPDATE_PLACEHOLDER':
+      return Object.assign({}, state, {
+        isLoaded: action.isLoaded
       });
     default:
       return state;

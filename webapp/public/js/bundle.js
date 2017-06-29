@@ -430,55 +430,75 @@ function fetchFeed(from) {
     dispatch({
       type: 'CLEAR_MESSAGES'
     });
-    return fetch('http://localhost:3001/api/v1/feed/getFeed?from=' + from, {
-      method: 'get',
-      headers: { 'Content-Type': 'application/json' }
-    }).then(function (response) {
-      if (response.ok) {
-        return response.json().then(function (json) {
-          dispatch({
-            type: 'FETCH_FEED_SUCCESS',
-            feed: json.resp
-          });
-        });
-      } else {
-        return response.json().then(function (json) {
-          dispatch({
-            type: 'FETCH_FEED_FAILURE',
-            messages: Array.isArray(json) ? json : [json]
-          });
-        });
-      }
+    dispatch({
+      type: 'UPDATE_PLACEHOLDER',
+      isLoaded: false
     });
+    setTimeout(function () {
+      return fetch('http://localhost:3001/api/v1/feed/getFeed?from=' + from, {
+        method: 'get',
+        headers: { 'Content-Type': 'application/json' }
+      }).then(function (response) {
+        if (response.ok) {
+          return response.json().then(function (json) {
+            dispatch({
+              type: 'FETCH_FEED_SUCCESS',
+              feed: json.resp
+            });
+            dispatch({
+              type: 'UPDATE_PLACEHOLDER',
+              isLoaded: true
+            });
+          });
+        } else {
+          return response.json().then(function (json) {
+            dispatch({
+              type: 'FETCH_FEED_FAILURE',
+              messages: Array.isArray(json) ? json : [json]
+            });
+          });
+        }
+      });
+    }, 1000);
   };
 }
 
-function applyFilters(filters) {
+function applyFilters(filters, from) {
   return function (dispatch) {
     dispatch({
       type: 'CLEAR_MESSAGES'
     });
-    return fetch('http://localhost:3001/api/v1/feed/getFeed', {
-      method: 'post',
-      body: JSON.stringify(filters),
-      headers: { 'Content-Type': 'application/json' }
-    }).then(function (response) {
-      if (response.ok) {
-        return response.json().then(function (json) {
-          dispatch({
-            type: 'FETCH_FEED_SUCCESS',
-            feed: json.resp
-          });
-        });
-      } else {
-        return response.json().then(function (json) {
-          dispatch({
-            type: 'FETCH_FEED_SUCCESS',
-            feed: json.resp
-          });
-        });
-      }
+    dispatch({
+      type: 'UPDATE_PLACEHOLDER',
+      isLoaded: false
     });
+    setTimeout(function () {
+      return fetch('http://localhost:3001/api/v1/feed/getFeed?from=' + from, {
+        method: 'post',
+        body: JSON.stringify(filters),
+        headers: { 'Content-Type': 'application/json' }
+      }).then(function (response) {
+        if (response.ok) {
+          return response.json().then(function (json) {
+            dispatch({
+              type: 'FETCH_FEED_SUCCESS',
+              feed: json.resp
+            });
+            dispatch({
+              type: 'UPDATE_PLACEHOLDER',
+              isLoaded: true
+            });
+          });
+        } else {
+          return response.json().then(function (json) {
+            dispatch({
+              type: 'FETCH_FEED_SUCCESS',
+              feed: json.resp
+            });
+          });
+        }
+      });
+    }, 1000);
   };
 }
 
@@ -3335,7 +3355,8 @@ var Home = function (_get__$Component) {
         location: '',
         salaryMin: '',
         salaryMax: ''
-      }
+      },
+      isFilterDirty: false
     };
     _this.gotoPrevious = _this.gotoPrevious.bind(_this);
     _this.gotoNext = _this.gotoNext.bind(_this);
@@ -3360,7 +3381,7 @@ var Home = function (_get__$Component) {
       this.setState({
         from: current
       });
-      this.props.dispatch(_get__('fetchFeed')(current));
+      this.props.dispatch(this.state.isFilterDirty ? _get__('applyFilters')(this.state.filters, current) : _get__('fetchFeed')(current));
     }
   }, {
     key: 'gotoPrevious',
@@ -3369,12 +3390,24 @@ var Home = function (_get__$Component) {
       this.setState({
         from: current
       });
-      this.props.dispatch(_get__('fetchFeed')(current));
+      this.props.dispatch(this.state.isFilterDirty ? _get__('applyFilters')(this.state.filters, current) : _get__('fetchFeed')(current));
     }
   }, {
     key: 'applyFilters',
     value: function applyFilters(e) {
-      this.props.dispatch(_get__('applyFilters')(this.state.filters));
+      if (this.state.filters.keyword === '' && this.state.filters.location === '' && this.state.filters.salaryMax === '' && this.state.filters.salaryMin === '') {
+        this.setState({
+          from: 0,
+          isFilterDirty: false
+        });
+        this.props.dispatch(_get__('fetchFeed')(0));
+      } else {
+        this.setState({
+          from: 0,
+          isFilterDirty: true
+        });
+        this.props.dispatch(_get__('applyFilters')(this.state.filters, 0));
+      }
     }
   }, {
     key: 'clearFilters',
@@ -3394,7 +3427,6 @@ var Home = function (_get__$Component) {
       var filters = this.state.filters;
       filters.keyword = e.target.value;
       this.setState({
-        from: 0,
         filters: filters
       });
     }
@@ -3404,7 +3436,6 @@ var Home = function (_get__$Component) {
       var filters = this.state.filters;
       filters.location = e.target.value;
       this.setState({
-        from: 0,
         filters: filters
       });
     }
@@ -3414,7 +3445,6 @@ var Home = function (_get__$Component) {
       var filters = this.state.filters;
       filters.salaryMin = e.target.value;
       this.setState({
-        from: 0,
         filters: filters
       });
     }
@@ -3424,7 +3454,6 @@ var Home = function (_get__$Component) {
       var filters = this.state.filters;
       filters.salaryMax = e.target.value;
       this.setState({
-        from: 0,
         filters: filters
       });
     }
@@ -3602,9 +3631,26 @@ var Home = function (_get__$Component) {
         _react2.default.createElement(
           'div',
           { className: 'col-lg-6 feed' },
-          _react2.default.createElement(_PlaceHolder_Component, null),
-          this.props.feed.jobs.hits ? this.renderFeed() : '',
-          _react2.default.createElement(
+          this.props.feed.isLoaded ? _react2.default.createElement(
+            'div',
+            { className: 'col-lg-12 job result-header' },
+            _react2.default.createElement(
+              'span',
+              null,
+              'showing ',
+              this.state.from + 1,
+              ' - ',
+              this.state.from + 10
+            ),
+            _react2.default.createElement(
+              'span',
+              { className: 'pull-right' },
+              'total ',
+              this.props.feed.jobs.total
+            )
+          ) : '',
+          !this.props.feed.isLoaded ? _react2.default.createElement(_PlaceHolder_Component, null) : this.props.feed.jobs.hits ? this.renderFeed() : '',
+          this.props.feed.isLoaded ? _react2.default.createElement(
             'div',
             { className: 'btn-group pagination-btn', role: 'group', 'aria-label': '...' },
             _react2.default.createElement(
@@ -3614,10 +3660,10 @@ var Home = function (_get__$Component) {
             ),
             _react2.default.createElement(
               'button',
-              { type: 'button', className: 'btn btn-default', onClick: this.gotoNext.bind(this) },
+              { type: 'button', className: 'btn btn-default', disabled: this.state.from + 10 >= this.props.feed.jobs.total ? true : false, onClick: this.gotoNext.bind(this) },
               'next'
             )
-          )
+          ) : ''
         ),
         _react2.default.createElement(
           'div',
@@ -4998,7 +5044,8 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 exports.default = feed;
 var initialState = {
-  jobs: {}
+  jobs: {},
+  isLoaded: false
 };
 
 function feed() {
@@ -5009,6 +5056,10 @@ function feed() {
     case 'FETCH_FEED_SUCCESS':
       return Object.assign({}, state, {
         jobs: action.feed
+      });
+    case 'UPDATE_PLACEHOLDER':
+      return Object.assign({}, state, {
+        isLoaded: action.isLoaded
       });
     default:
       return state;

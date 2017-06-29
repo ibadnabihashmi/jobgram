@@ -16,7 +16,8 @@ class Home extends React.Component {
         location:'',
         salaryMin:'',
         salaryMax:''
-      }
+      },
+      isFilterDirty:false
     };
     this.gotoPrevious = this.gotoPrevious.bind(this);
     this.gotoNext = this.gotoNext.bind(this);
@@ -37,7 +38,7 @@ class Home extends React.Component {
     this.setState({
       from:current
     });
-    this.props.dispatch(fetchFeed(current));
+    this.props.dispatch(this.state.isFilterDirty ? applyFilters(this.state.filters,current) : fetchFeed(current));
   }
 
   gotoPrevious() {
@@ -45,11 +46,26 @@ class Home extends React.Component {
     this.setState({
       from:current
     });
-    this.props.dispatch(fetchFeed(current));
+    this.props.dispatch(this.state.isFilterDirty ? applyFilters(this.state.filters,current) : fetchFeed(current));
   }
 
   applyFilters(e) {
-    this.props.dispatch(applyFilters(this.state.filters));
+    if(this.state.filters.keyword === '' &&
+    this.state.filters.location === '' &&
+    this.state.filters.salaryMax === '' &&
+    this.state.filters.salaryMin === '') {
+      this.setState({
+        from: 0,
+        isFilterDirty: false
+      });
+      this.props.dispatch(fetchFeed(0));
+    }else{
+      this.setState({
+        from: 0,
+        isFilterDirty: true
+      });
+      this.props.dispatch(applyFilters(this.state.filters,0));
+    }
   }
 
   clearFilters(e) {
@@ -67,7 +83,6 @@ class Home extends React.Component {
     let filters = this.state.filters;
     filters.keyword = e.target.value;
     this.setState({
-      from: 0,
       filters: filters
     });
   }
@@ -76,7 +91,6 @@ class Home extends React.Component {
     let filters = this.state.filters;
     filters.location = e.target.value;
     this.setState({
-      from: 0,
       filters: filters
     });
   }
@@ -85,7 +99,6 @@ class Home extends React.Component {
     let filters = this.state.filters;
     filters.salaryMin = e.target.value;
     this.setState({
-      from: 0,
       filters: filters
     });
   }
@@ -94,7 +107,6 @@ class Home extends React.Component {
     let filters = this.state.filters;
     filters.salaryMax = e.target.value;
     this.setState({
-      from: 0,
       filters: filters
     });
   }
@@ -181,14 +193,25 @@ class Home extends React.Component {
           </div>
         </div>
         <div className="col-lg-6 feed">
-          <PlaceHolder/>
           {
-            this.props.feed.jobs.hits ? this.renderFeed() : ''
+            this.props.feed.isLoaded ? (
+              <div className="col-lg-12 job result-header">
+                <span>showing {(this.state.from) + 1} - {(this.state.from) + 10}</span>
+                <span className="pull-right">total {this.props.feed.jobs.total}</span>
+              </div>
+            ) : ''
           }
-          <div className="btn-group pagination-btn" role="group" aria-label="...">
-            <button type="button" className="btn btn-default" disabled={this.state.from === 0 ? true : false} onClick={this.gotoPrevious.bind(this)}>previous</button>
-            <button type="button" className="btn btn-default" onClick={this.gotoNext.bind(this)}>next</button>
-          </div>
+          {
+            !this.props.feed.isLoaded ? <PlaceHolder/> : this.props.feed.jobs.hits ? this.renderFeed() : ''
+          }
+          {
+            this.props.feed.isLoaded ? (
+              <div className="btn-group pagination-btn" role="group" aria-label="...">
+                <button type="button" className="btn btn-default" disabled={this.state.from === 0 ? true : false} onClick={this.gotoPrevious.bind(this)}>previous</button>
+                <button type="button" className="btn btn-default" disabled={(this.state.from + 10) >= this.props.feed.jobs.total ? true : false} onClick={this.gotoNext.bind(this)}>next</button>
+              </div>
+            ) : ''
+          }
         </div>
         <div className="col-lg-3 hashtag-container">
           <span className="tag">#businessdevelopment<span className="tag-count">45</span></span>
