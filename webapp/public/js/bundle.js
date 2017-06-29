@@ -3382,6 +3382,7 @@ var Home = function (_get__$Component) {
         from: current
       });
       this.props.dispatch(this.state.isFilterDirty ? _get__('applyFilters')(this.state.filters, current) : _get__('fetchFeed')(current));
+      window.scrollTo(0, 0);
     }
   }, {
     key: 'gotoPrevious',
@@ -3391,6 +3392,7 @@ var Home = function (_get__$Component) {
         from: current
       });
       this.props.dispatch(this.state.isFilterDirty ? _get__('applyFilters')(this.state.filters, current) : _get__('fetchFeed')(current));
+      window.scrollTo(0, 0);
     }
   }, {
     key: 'applyFilters',
@@ -3477,97 +3479,101 @@ var Home = function (_get__$Component) {
         var _TimeAgo_Component = _get__('TimeAgo');
 
         jobs.push(_react2.default.createElement(
-          'div',
-          { className: 'col-lg-12 job', key: job._id },
+          'a',
+          { href: job._source.jobUrl, target: '_blank', key: job._id },
           _react2.default.createElement(
             'div',
-            { className: 'col-lg-12 job-head' },
+            { className: 'col-lg-12 job' },
             _react2.default.createElement(
               'div',
-              { className: 'row' },
+              { className: 'col-lg-12 job-head' },
               _react2.default.createElement(
-                'span',
-                { className: 'col-lg-2' },
-                _react2.default.createElement('img', { src: job._source.jobProviderLogo ? job._source.jobProviderLogo : job._source.jobSourceLogo })
-              ),
-              _react2.default.createElement(
-                'span',
-                { className: 'col-lg-8' },
+                'div',
+                { className: 'row' },
                 _react2.default.createElement(
-                  'h2',
-                  null,
-                  job._source.jobTitle
+                  'span',
+                  { className: 'col-lg-2' },
+                  _react2.default.createElement('img', { src: job._source.jobProviderLogo ? job._source.jobProviderLogo : job._source.jobSourceLogo })
                 ),
                 _react2.default.createElement(
-                  'h4',
-                  null,
+                  'span',
+                  { className: 'col-lg-8' },
+                  _react2.default.createElement(
+                    'h2',
+                    null,
+                    job._source.jobTitle
+                  ),
+                  _react2.default.createElement(
+                    'h4',
+                    null,
+                    _react2.default.createElement(
+                      'i',
+                      { className: 'material-icons' },
+                      'business'
+                    ),
+                    ' ',
+                    job._source.jobProvider
+                  )
+                ),
+                _react2.default.createElement(
+                  'span',
+                  { className: 'col-lg-2 text-right' },
                   _react2.default.createElement(
                     'i',
                     { className: 'material-icons' },
-                    'business'
+                    'schedule'
                   ),
-                  ' ',
-                  job._source.jobProvider
+                  _react2.default.createElement(_TimeAgo_Component, { date: new Date(job._source.jobDatePosted) })
                 )
-              ),
-              _react2.default.createElement(
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'col-lg-12 job-content' },
+              job._source.jobSalary ? _react2.default.createElement(
                 'span',
-                { className: 'col-lg-2 text-right' },
+                null,
                 _react2.default.createElement(
                   'i',
                   { className: 'material-icons' },
-                  'schedule'
+                  'attach_money'
                 ),
-                _react2.default.createElement(_TimeAgo_Component, { date: new Date(job._source.jobDatePosted) })
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'col-lg-12 job-content' },
-            job._source.jobSalary ? _react2.default.createElement(
-              'span',
-              null,
+                ' ',
+                job._source.jobSalary.min,
+                ' - ',
+                job._source.jobSalary.max
+              ) : '',
               _react2.default.createElement(
-                'i',
-                { className: 'material-icons' },
-                'attach_money'
-              ),
-              ' ',
-              job._source.jobSalary.min,
-              ' - ',
-              job._source.jobSalary.max
-            ) : '',
-            _react2.default.createElement(
-              'p',
-              null,
-              job._source.shortDescription
-            ),
-            job._source.jobLocation ? _react2.default.createElement(
-              'div',
-              null,
-              _react2.default.createElement(
-                'i',
-                { className: 'material-icons' },
-                'place'
-              ),
-              renderLocation(job._source.jobLocation)
-            ) : ''
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'col-lg-12 job-footer' },
-            _react2.default.createElement(
-              'p',
-              null,
-              'via ',
-              _react2.default.createElement(
-                'span',
+                'p',
                 null,
-                job._source.jobSource
+                job._source.shortDescription
               ),
-              ' ',
-              _react2.default.createElement('img', { className: 'img-' + job._source.jobSource, src: job._source.jobSourceLogo })
+              job._source.jobLocation ? _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                  'i',
+                  { className: 'material-icons' },
+                  'place'
+                ),
+                renderLocation(job._source.jobLocation)
+              ) : ''
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'col-lg-12 job-footer' },
+              _react2.default.createElement(
+                'p',
+                null,
+                'via ',
+                _react2.default.createElement(
+                  'span',
+                  null,
+                  job._source.jobSource
+                ),
+                ' ',
+                _react2.default.createElement('img', { className: 'img-' + job._source.jobSource, src: job._source.jobSourceLogo })
+              )
             )
           )
         ));
