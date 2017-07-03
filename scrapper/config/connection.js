@@ -1,7 +1,8 @@
 var elasticsearch = require('elasticsearch');
+var url = require('./urls').elasticSearch;
 
 var client = new elasticsearch.Client( {
-    host: 'localhost:9200',
+    host: url,
     log: 'trace'
 });
 
