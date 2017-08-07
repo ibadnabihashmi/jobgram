@@ -1,0 +1,138 @@
+
+==========================================================
+On page : https://www.mustakbil.com/jobs/search/?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/jobs/job/171294/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171085/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/170704/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/170603/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/170572/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/170529/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/170428/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/170399/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/170398/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171474/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171402/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171370/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171347/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171177/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171499/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171498/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171495/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171477/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171476/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171475/
+res
+done crawling : https://www.mustakbil.com/jobs/search/?page=1
+==========================================================
+On page : https://www.mustakbil.com/jobs/search/?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/jobs/job/171473/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171472/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171469/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171468/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171467/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171465/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171461/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171459/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171458/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171454/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171453/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171452/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171413/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171410/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171401/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171337/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171446/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171441/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171428/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171423/
+res
+done crawling : https://www.mustakbil.com/jobs/search/?page=2
+==========================================================
+On page : https://www.mustakbil.com/jobs/search/?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/jobs/job/171423/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171439/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171436/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171333/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171334/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171435/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171432/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171431/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171429/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171427/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171425/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171422/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171421/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171420/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171419/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171384/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171414/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171411/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171409/
+res
+Scrapping : https://www.mustakbil.com/jobs/job/171406/
+res
+done crawling : https://www.mustakbil.com/jobs/search/?page=3
+SUCCESSFULLY EXECUTED
+state updated

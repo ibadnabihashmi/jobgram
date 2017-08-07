@@ -12,7 +12,7 @@ function successExecution(db,id) {
             _id:id
         },{
             $set: {
-                "end":Date.now(),
+                "end":new Date(),
                 "status":"completed"
             }
         },function (err,result) {
@@ -34,7 +34,7 @@ function failureExecution(db,err,id) {
             _id:id
         },{
             $set: {
-                "end":Date.now(),
+                "end":new Date(),
                 "status":"failed",
                 "logs": err.toString()
             }
@@ -61,7 +61,7 @@ MongoClient.connect(url, function(err, db) {
     }else {
         db.collection('jobs').insertOne({
             "jobName":"indeed",
-            "start":Date.now(),
+            "start":new Date(),
             "end":undefined,
             "status":"running",
             "logs":"clear :)"
@@ -84,8 +84,7 @@ MongoClient.connect(url, function(err, db) {
                             if(error) {
                                 console.log("Error: " + error);
                                 failureExecution(db,error,mongoResult.insertedId);
-                            }
-                            if(response.statusCode === 200) {
+                            }else if(response.statusCode === 200) {
                                 // Parse the document body
                                 var $ = cheerio.load(body);
                                 var jobsList = [];
@@ -131,12 +130,11 @@ MongoClient.connect(url, function(err, db) {
                                             if(error1) {
                                                 console.log("Error: " + error1);
                                                 failureExecution(db,error1,mongoResult.insertedId);
-                                            }
-                                            if(response1.statusCode === 200){
+                                            }else if(response1.statusCode === 200){
                                                 var $ = cheerio.load(body1);
                                                 job['jobContent'] = '<div class="description">'+$('#job_summary').html()+'</div>';
                                                 job['shortDescription'] = element.jobShortDescription.trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ')+'.....';
-                                                job['jobDatePosted'] = Date.now();
+                                                job['jobDatePosted'] = new Date();
                                                 job['jobLocation'] = element.jobLocation;
                                                 job['jobUrl'] = link;
                                                 job['jobTitle'] = element.jobTitle;
@@ -157,11 +155,9 @@ MongoClient.connect(url, function(err, db) {
                                                     if(err){
                                                         console.log(err);
                                                         failureExecution(db,err,mongoResult.insertedId);
-                                                    }
-                                                    if(res){
+                                                    }else if(res){
                                                         console.log(res);
-                                                    }
-                                                    if(status){
+                                                    }else if(status){
                                                         console.log(status);
                                                     }
                                                     callback();
@@ -170,22 +166,27 @@ MongoClient.connect(url, function(err, db) {
                                         });
                                     }
                                 },function (err) {
-                                    if(err) failureExecution(db,err,mongoResult.insertedId);
-                                    console.log('done crawling : '+url);
-                                    page+=10;
-                                    if(page < 60){
-                                        rootUrl.push('https://www.indeed.com.pk/jobs?l=Pakistan&sort=date&start='+page);
+                                    if(err) {
+                                        failureExecution(db,err,mongoResult.insertedId);
+                                    }else {
+                                        console.log('done crawling : '+url);
+                                        page+=10;
+                                        if(page < 60){
+                                            rootUrl.push('https://www.indeed.com.pk/jobs?l=Pakistan&sort=date&start='+page);
+                                        }
+                                        callbackOuter(null,'all done');
                                     }
-                                    callbackOuter(null,'all done');
                                 });
                             }
                         });
                     },
                     function (err,msg) {
-                        if(err) failureExecution(db,err,mongoResult.insertedId);
-
-                        console.log(msg);
-                        successExecution(db,mongoResult.insertedId);
+                        if(err) {
+                            failureExecution(db,err,mongoResult.insertedId);
+                        }else {
+                            console.log(msg);
+                            successExecution(db,mongoResult.insertedId);
+                        }
                     }
                 );
             }

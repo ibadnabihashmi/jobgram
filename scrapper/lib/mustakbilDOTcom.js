@@ -5,14 +5,16 @@ var _ = require('underscore');
 var client = require('../config/connection.js');
 var MongoClient = require('mongodb').MongoClient;
 var url = require('../config/urls').mongo;
+var fs = require('fs');
 
 function successExecution(db,id) {
+    fs.appendFileSync('message.txt', '\nSUCCESSFULLY EXECUTED');
     db.collection('jobs').updateOne(
         {
             _id:id
         },{
             $set: {
-                "end":Date.now(),
+                "end":new Date(),
                 "status":"completed"
             }
         },function (err,result) {
@@ -22,6 +24,7 @@ function successExecution(db,id) {
                 return;
             }else{
                 console.log('state updated');
+                fs.appendFileSync('message.txt', '\nstate updated');
                 db.close();
                 return;
             }
@@ -29,12 +32,13 @@ function successExecution(db,id) {
 }
 
 function failureExecution(db,err,id) {
+    fs.appendFileSync('message.txt', '\nFAILURE EXECUTED');
     db.collection('jobs').updateOne(
         {
             _id:id
         },{
             $set: {
-                "end":Date.now(),
+                "end":new Date(),
                 "status":"failed",
                 "logs": err.toString()
             }
@@ -45,6 +49,7 @@ function failureExecution(db,err,id) {
                 return;
             }else{
                 console.log('state updated');
+                fs.appendFileSync('message.txt', '\nstate updated');
                 db.close();
                 return;
             }
@@ -61,7 +66,7 @@ MongoClient.connect(url, function(err, db) {
     }else {
         db.collection('jobs').insertOne({
             "jobName":"mustakbil",
-            "start":Date.now(),
+            "start":new Date(),
             "end":undefined,
             "status":"running",
             "logs":"clear :)"
@@ -80,12 +85,15 @@ MongoClient.connect(url, function(err, db) {
                         console.log("==========================================================");
                         console.log("On page : "+url);
                         console.log("==========================================================");
+                        fs.appendFileSync('message.txt', '\n==========================================================');
+                        fs.appendFileSync('message.txt', "\nOn page : "+url);
+                        fs.appendFileSync('message.txt', '\n==========================================================');
                         request(url, function(error, response, body) {
                             if(error) {
                                 console.log("Error: " + error);
+                                fs.appendFileSync('message.txt', "\nError: " + error);
                                 failureExecution(db,error,mongoResult.insertedId);
-                            }
-                            if(response.statusCode === 200) {
+                            }else if(response.statusCode === 200) {
                                 // Parse the document body
                                 var $ = cheerio.load(body);
                                 var jobsList = [];
@@ -99,17 +107,19 @@ MongoClient.connect(url, function(err, db) {
                                     });
                                 });
                                 console.log('Number of links retrieved for page : '+jobsList.length);
+                                fs.appendFileSync('message.txt', '\nNumber of links retrieved for page : '+jobsList.length);
                                 async.eachSeries(jobsList,function (element,callback) {
                                     if(element.jobLink){
                                         var link = 'https://www.mustakbil.com'+element.jobLink;
                                         console.log('Scrapping : '+link);
+                                        fs.appendFileSync('message.txt', '\nScrapping : '+link);
                                         request(link, function (error1, response1, body1) {
                                             var job = {};
                                             if(error1) {
                                                 console.log("Error: " + error1);
+                                                fs.appendFileSync('message.txt', "\nError: " + error1);
                                                 failureExecution(db,error1,mongoResult.insertedId);
-                                            }
-                                            if(response1.statusCode === 200){
+                                            }else if(response1.statusCode === 200){
                                                 var $ = cheerio.load(body1);
                                                 var id = link.split("/");
                                                 id = id[id.length-2];
@@ -145,13 +155,14 @@ MongoClient.connect(url, function(err, db) {
                                                 },function (err,res,status) {
                                                     if(err){
                                                         console.log(err);
+                                                        fs.appendFileSync('message.txt', '\nerror');
                                                         failureExecution(db,err,mongoResult.insertedId);
-                                                    }
-                                                    if(res){
+                                                    }else if(res){
                                                         console.log(res);
-                                                    }
-                                                    if(status){
+                                                        fs.appendFileSync('message.txt', '\nres');
+                                                    }else if(status){
                                                         console.log(status);
+                                                        fs.appendFileSync('message.txt', '\nstatus');
                                                     }
                                                     callback();
                                                 });
@@ -159,22 +170,29 @@ MongoClient.connect(url, function(err, db) {
                                         });
                                     }
                                 },function (err) {
-                                    if(err) failureExecution(db,err,mongoResult.insertedId);
-                                    console.log('done crawling : '+url);
-                                    page+=1;
-                                    if(page < 4){
-                                        rootUrl.push('https://www.mustakbil.com/jobs/search/?page='+page);
+                                    if(err) {
+                                        failureExecution(db,err,mongoResult.insertedId);
+                                    } else {
+                                        console.log('done crawling : '+url);
+                                        fs.appendFileSync('message.txt', '\ndone crawling : '+url);
+                                        page+=1;
+                                        if(page < 4){
+                                            rootUrl.push('https://www.mustakbil.com/jobs/search/?page='+page);
+                                        }
+                                        callbackOuter(null,'all done');
                                     }
-                                    callbackOuter(null,'all done');
+
                                 });
                             }
                         });
                     },
                     function (err,msg) {
-                        if(err) failureExecution(db,err,mongoResult.insertedId);
-
-                        console.log(msg);
-                        successExecution(db,mongoResult.insertedId);
+                        if(err){
+                            failureExecution(db,err,mongoResult.insertedId);
+                        }else {
+                            console.log(msg);
+                            successExecution(db,mongoResult.insertedId);
+                        }
                     }
                 );
             }

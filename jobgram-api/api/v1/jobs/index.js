@@ -1,7 +1,7 @@
 var express     = require('express');
 var router      = express.Router();
 var Jobs        = require('../../../models/Jobs');
-var exec        = require('child_process').exec;
+var exec        = require('child_process').fork;
 var fs          = require('fs');
 
 router.get('/getAllJobs',function (req,res) {
@@ -21,17 +21,17 @@ router.get('/getAllJobs',function (req,res) {
 });
 
 router.get('/run/:file',function (req,res) {
-  var cmd = 'node /home/ehashmi/Documents/jobgram/scrapper/lib/'+req.params.file;
-
+  var cmd = process.env.LIB_PATH+req.params.file;
+  console.log(cmd);
   exec(cmd);
   res.status(200).send({
     status:200,
     message:'some message'
   });
 });
-
-router.get('/runAll',function () {
-  fs.
-});
+//
+// router.get('/runAll',function () {
+//   fs.
+// });
 
 module.exports = router;

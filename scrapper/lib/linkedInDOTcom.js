@@ -15,7 +15,7 @@ function successExecution(db,phInstance,id) {
             _id:id
         },{
             $set: {
-                "end":Date.now(),
+                "end":new Date()(),
                 "status":"completed"
             }
         },function (err,result) {
@@ -37,7 +37,7 @@ function failureExecution(db,err,phInstance,id) {
             _id:mongoResult.insertedId
         },{
             $set: {
-                "end":Date.now(),
+                "end":new Date()(),
                 "status":"failed",
                 "logs": err.toString()
             }
@@ -61,7 +61,7 @@ MongoClient.connect(url, function(err, db) {
     }else {
         db.collection('jobs').insertOne({
             "jobName":"linkedin",
-            "start":Date.now(),
+            "start":new Date()(),
             "end":undefined,
             "status":"running",
             "logs":"clear :)"
@@ -360,11 +360,9 @@ MongoClient.connect(url, function(err, db) {
                                                             if(err){
                                                                 console.log(err);
                                                                 failureExecution(db,err,phInstance,mongoResult.insertedId);
-                                                            }
-                                                            if(res){
+                                                            }else if(res){
                                                                 console.log(res);
-                                                            }
-                                                            if(status){
+                                                            }else if(status){
                                                                 console.log(status);
                                                             }
                                                             console.log("executed");

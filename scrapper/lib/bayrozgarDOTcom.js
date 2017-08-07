@@ -12,7 +12,7 @@ function successExecution(db,id) {
             _id:id
         },{
             $set: {
-                "end":Date.now(),
+                "end":new Date(),
                 "status":"completed"
             }
         },function (err,result) {
@@ -34,7 +34,7 @@ function failureExecution(db,err,id) {
             _id:id
         },{
             $set: {
-                "end":Date.now(),
+                "end":new Date(),
                 "status":"failed",
                 "logs": err.toString()
             }
@@ -61,7 +61,7 @@ MongoClient.connect(url, function(err, db) {
     }else {
         db.collection('jobs').insertOne({
             "jobName":"bayrozgar",
-            "start":Date.now(),
+            "start":new Date(),
             "end":undefined,
             "status":"running",
             "logs":"clear :)"
@@ -84,8 +84,7 @@ MongoClient.connect(url, function(err, db) {
                             if(error) {
                                 console.log("Error: " + error);
                                 failureExecution(db,error,mongoResult.insertedId);
-                            }
-                            if(response.statusCode === 200) {
+                            }else if(response.statusCode === 200) {
                                 // Parse the document body
                                 var $ = cheerio.load(body);
                                 var jobsList = [];

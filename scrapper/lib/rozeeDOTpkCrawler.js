@@ -5,6 +5,7 @@ var _ = require('underscore');
 var client = require('../config/connection.js');
 var MongoClient = require('mongodb').MongoClient;
 var url = require('../config/urls').mongo;
+var fs = require('fs');
 
 function successExecution(db,id) {
     db.collection('jobs').updateOne(
@@ -12,7 +13,7 @@ function successExecution(db,id) {
             _id:id
         },{
             $set: {
-                "end":Date.now(),
+                "end":new Date(),
                 "status":"completed"
             }
         },function (err,result) {
@@ -34,7 +35,7 @@ function failureExecution(db,err,id) {
             _id:id
         },{
             $set: {
-                "end":Date.now(),
+                "end":new Date(),
                 "status":"failed",
                 "logs": err.toString()
             }
@@ -61,7 +62,7 @@ MongoClient.connect(url, function(err, db) {
     }else {
         db.collection('jobs').insertOne({
             "jobName":"rozee",
-            "start":Date.now(),
+            "start":new Date(),
             "end":undefined,
             "status":"running",
             "logs":"clear :)"
@@ -84,8 +85,7 @@ MongoClient.connect(url, function(err, db) {
                             if(error) {
                                 console.log("Error: " + error);
                                 failureExecution(db,error,mongoResult.insertedId);
-                            }
-                            if(response.statusCode === 200) {
+                            }else if(response.statusCode === 200) {
                                 // Parse the document body
                                 var $ = cheerio.load(body);
                                 var jobslist = [];
@@ -105,8 +105,7 @@ MongoClient.connect(url, function(err, db) {
                                             if(error1) {
                                                 console.log("Error: " + error1);
                                                 failureExecution(db,error1,mongoResult.insertedId);
-                                            }
-                                            if(response1.statusCode === 200){
+                                            }else if(response1.statusCode === 200){
                                                 var $ = cheerio.load(body1);
                                                 var id = link.split(".");
                                                 id = id[id.length-2].split("-");
@@ -159,11 +158,9 @@ MongoClient.connect(url, function(err, db) {
                                                         if(err){
                                                             console.log(err);
                                                             failureExecution(db,err,mongoResult.insertedId)
-                                                        }
-                                                        if(res){
+                                                        }else if(res){
                                                             console.log(res);
-                                                        }
-                                                        if(status){
+                                                        }else if(status){
                                                             console.log(status);
                                                         }
                                                         callback();
@@ -173,21 +170,27 @@ MongoClient.connect(url, function(err, db) {
                                         });
                                     }
                                 },function (err) {
-                                    if(err) failureExecution(db,err,mongoResult.insertedId);
-                                    console.log('done crawling : '+url);
-                                    fpn+=20;
-                                    if(fpn < 60){
-                                        rootUrl.push('https://www.rozee.pk/job/jsearch/q/all/?fpn='+fpn);
+                                    if(err) {
+                                        failureExecution(db,err,mongoResult.insertedId);
+                                    }else {
+                                        console.log('done crawling : '+url);
+                                        fpn+=20;
+                                        if(fpn < 60){
+                                            rootUrl.push('https://www.rozee.pk/job/jsearch/q/all/?fpn='+fpn);
+                                        }
+                                        callbackOuter(null,'all done');
                                     }
-                                    callbackOuter(null,'all done');
                                 });
                             }
                         });
                     },
                     function (err,msg) {
-                        if(err) failureExecution(db,err,mongoResult.insertedId);
-                        console.log(msg);
-                        successExecution(db,mongoResult.insertedId);
+                        if(err) {
+                            failureExecution(db,err,mongoResult.insertedId);
+                        } else {
+                            console.log(msg);
+                            successExecution(db,mongoResult.insertedId);
+                        }
                     }
                 );
 
