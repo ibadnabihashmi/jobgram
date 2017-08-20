@@ -15,7 +15,7 @@ function successExecution(db,phInstance,id) {
             _id:id
         },{
             $set: {
-                "end":new Date()(),
+                "end":new Date(),
                 "status":"completed"
             }
         },function (err,result) {
@@ -37,7 +37,7 @@ function failureExecution(db,err,phInstance,id) {
             _id:mongoResult.insertedId
         },{
             $set: {
-                "end":new Date()(),
+                "end":new Date(),
                 "status":"failed",
                 "logs": err.toString()
             }
@@ -61,7 +61,7 @@ MongoClient.connect(url, function(err, db) {
     }else {
         db.collection('jobs').insertOne({
             "jobName":"linkedin",
-            "start":new Date()(),
+            "start":new Date(),
             "end":undefined,
             "status":"running",
             "logs":"clear :)"
@@ -121,7 +121,7 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : 'JSESSIONID',
-                                            'value'    : '"ajax:0743401093896612512"',
+                                            'value'    : '"ajax:2335886841055819240"',
                                             'domain'   : '.www.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
@@ -130,7 +130,7 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : 'RT',
-                                            'value'    : 's=1495954211880&r=https%3A%2F%2Fwww.linkedin.com%2F',
+                                            'value'    : 's=1503158146889&r=https%3A%2F%2Fwww.linkedin.com%2Fuas%2Flogin%3Fgoback%3D%26trk%3Dhb_signin',
                                             'domain'   : '.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
@@ -175,7 +175,7 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : '_ga',
-                                            'value'    : 'GA1.2.2498185.1471514951',
+                                            'value'    : 'GA1.2.446100211.1472762252',
                                             'domain'   : '.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
@@ -193,7 +193,7 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : '_lipt',
-                                            'value'    : 'CwEAAAFcyTPp_IL2j6WP_PGCnkGykFxteKbeNhYqC3pZfxd0IdCCm3iqzUKmqCGMKhxh9XxXh9-PRrFk_7RnmDN7Wbf20wNOq2TfGTMnPrOOTd5NIOZ0H-OoN5RkCKsDshML5m5qbWkkvh7DP-YSUxLt9apYXaMewiM9Zgg8LFPmrfCc87qHm7hdphOTb0QeE-2EHgkyXxRrQm6fhlIfErrGwBK_6HCmEDOVqdUlgBlmfBaIfhDN1SMVtnsg6V1lLqWBVG0m9PNbZTRuOjnBkjjuA-VVTqI3BERVbOf9NViuqW5MP4P6w5p0oCegwd9QMHL2mZX5vdbQCup6jF27zS_rJOR-Dhf_kuAqNg3EMlHsV90vZCz5edEsCWTP9N30ovaHY0mNXEbK9ONt',
+                                            'value'    : 'CwEAAAFd-zWrdGBuiRklo1M7SbznfgjW5tZcASHpXQ7rSDcd19jI0IvqXTBPAC_IkSXsARVbEBx2MvusrztLATAO2aWQVBrAxDq-c-dFqljdtCQXXbpdWmltnc8qxgj7SnllIHo4r36osi1Xq7LGxWc5PVWV1CtoYyZ3SrZma02oDa-UW2hsfqJMhOgnLwEMQ-nO_e2vJ1KCqZYVf27PTl_jz__A8I2yFEheXX-GDTfNGTmRHCeDuETE2aw14NmWy-At2rEq-2fu9X_YoJQtIc_Jwmbi9pQfVwxCLpbPhAONl2hbyXtLezPG9cWI1tAe8N_xGfwo9GfZc9wGrPowRz61SGcQ0ZGxYWk43nuLZDwmyiRd-qye-QsntheWUk5CucOp1UdD1PX9MFrFHm41HjWqlxStLa6LHycAe6cVndGT69Yct_rU-1yXpkmwsDwvu4v9K64vIPnHOmU',
                                             'domain'   : '.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
@@ -202,7 +202,7 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : 'bcookie',
-                                            'value'    : '"v=2&bdb240a5-3278-4b47-8832-d64dd6c6d98a"',
+                                            'value'    : '"v=2&d6f567f2-dc5a-49d3-842c-ba4ea9c87a02"',
                                             'domain'   : '.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
@@ -211,7 +211,7 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : 'bscookie',
-                                            'value'    : '"v=1&20170512132337f87efcfe-188b-4969-8efd-314d2552bfe9AQFy9vluKwXFnuKdl5nWd4QBMXYD69F9"',
+                                            'value'    : '"v=1&201705130557293709094e-0bda-4a94-86a4-2c8410e2d39bAQGlRAYp3gPMTOKCD4CWT8FIXcotF-eb"',
                                             'domain'   : '.www.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
@@ -220,7 +220,7 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : 'lang',
-                                            'value'    : 'v=2&lang=en-us',
+                                            'value'    : '"v=2&lang=en-us"',
                                             'domain'   : '.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
@@ -229,7 +229,7 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : 'li_at',
-                                            'value'    : 'AQEDARSoPqoERyadAAABXL87CPwAAAFcyq_sjVEAT0fWWph9ZqvaS91fxfh29qAxq5yb0lR13HqVPG5FurSheiM0_swmg5y-LggT6Ck_5-vybdCHVZjljR6T2wDCoSSsr-TnIaR0ESAWMxB673QsbqF9',
+                                            'value'    : 'AQEDARSoPqoA5NRVAAABXfs1FSUAAAFeH0GZJVEAwZJOEtcp2eATE5UsE0J8WWqtCbseztGifGQ0zONeqdloOJiM0_O1jc3ZqTnsCnLCP6k3wYWXmrAqa03oxPE4smDnojjzBHnz9h_-q4YQqspl2DiK',
                                             'domain'   : '.www.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
@@ -247,7 +247,7 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : 'lidc',
-                                            'value'    : '"b=SB10:g=27:u=96:i=1498024271:t=1498028509:s=AQGGuWFImXkppm3pEcdl72aTNnL0aORN"',
+                                            'value'    : '"b=SB10:g=36:u=117:i=1503158193:t=1503241197:s=AQElzrUCyg8KK0sQDy96JUcZ2Ccvj8kp"',
                                             'domain'   : '.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
@@ -256,8 +256,17 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : 'sl',
-                                            'value'    : '"v=1&DG61W"',
+                                            'value'    : '"v=1&OpDbF"',
                                             'domain'   : '.www.linkedin.com',
+                                            'path'     : '/',
+                                            'httponly' : false,
+                                            'secure'   : false,
+                                            'expires'  : (new Date()).getTime() + (10000 * 6000 * 600)
+                                        },
+                                        {
+                                            'name'     : 'sdsc',
+                                            'value'    : '22%3A1%2C1503158154714%7ECONN%2C0wlVaisTWihRJg7nHJNfIi5rwWQs%3D',
+                                            'domain'   : '.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
                                             'secure'   : false,
@@ -292,7 +301,16 @@ MongoClient.connect(url, function(err, db) {
                                         },
                                         {
                                             'name'     : '_chartbeat2',
-                                            'value'    : 'B60NauDTD2G_SKkoJ.1473242243423.1479724461196.0000000000000001',
+                                            'value'    : 'COM8QSCOh6jZ4G7P.1497717860744.1502701497098.0000000000000001',
+                                            'domain'   : 'www.linkedin.com',
+                                            'path'     : '/',
+                                            'httponly' : false,
+                                            'secure'   : false,
+                                            'expires'  : (new Date()).getTime() + (10000 * 6000 * 600)
+                                        },
+                                        {
+                                            'name'     : '_cb_ls',
+                                            'value'    : '1',
                                             'domain'   : 'www.linkedin.com',
                                             'path'     : '/',
                                             'httponly' : false,
@@ -306,8 +324,7 @@ MongoClient.connect(url, function(err, db) {
                                         console.log(status);
                                         page.property('content').then(function (content) {
                                             var $ = cheerio.load(content.toString());
-                                            var data = JSON.stringify(JSON.parse($('img')['7'].next.children[0].data),null,2);
-                                            fs.writeFileSync('yolo1.json',data);
+                                            var data = JSON.stringify(JSON.parse($('img')['6'].next.children[0].data),null,2);
                                             var jobsList = [];
                                             JSON.parse(data).elements.forEach(function (element) {
                                                 var id = element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPosting.split(':');
@@ -320,7 +337,6 @@ MongoClient.connect(url, function(err, db) {
                                                     jobLocation:element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPostingResolutionResult.formattedLocation.replace(/\s/ig,'').split(',')
                                                 });
                                             });
-                                            fs.writeFileSync('yolo2.json',JSON.stringify(jobsList,null,2));
                                             async.eachSeries(jobsList,function (list,callback) {
                                                 console.log('openeing -------> '+list.jobLink);
                                                 page.open(list.jobLink).then(function (status) {
