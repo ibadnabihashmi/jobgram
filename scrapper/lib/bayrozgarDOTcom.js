@@ -51,6 +51,14 @@ function failureExecution(db,err,id) {
         });
 }
 
+function getTags(tags) {
+    return tags.replace(/\s/ig, '').toLowerCase().split('/');
+}
+
+function getIndustries(industries) {
+    return industries.split('/');
+}
+
 var page = 1;
 var rootUrl = ['http://www.bayrozgar.com/advance_search/page_'+page+'/'];
 
@@ -137,6 +145,8 @@ MongoClient.connect(url, function(err, db) {
                                                 });
                                                 content += '</div>';
                                                 job['jobContent'] = content;
+                                                job['jobTags'] = getTags($('[itemprop="occupationalCategory"]').text().trim());
+                                                job['jobIndustry'] = getIndustries($('[itemprop="industry"]').text().trim());
                                                 job['jobDatePosted'] = element.datePosted;
                                                 job['jobLocation'] = [element.jobLocation];
                                                 job['jobUrl'] = link;
