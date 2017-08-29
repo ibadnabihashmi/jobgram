@@ -146,7 +146,7 @@ MongoClient.connect(url, function(err, db) {
                                                 content += '</div>';
                                                 job['jobContent'] = content;
                                                 job['jobTags'] = getTags($('[itemprop="occupationalCategory"]').text().trim());
-                                                job['jobIndustry'] = getIndustries($('[itemprop="industry"]').text().trim());
+                                                job['jobTags'] = job['jobTags'].concat(getTags($('[itemprop="industry"]').text().trim()));
                                                 job['jobDatePosted'] = element.datePosted;
                                                 job['jobLocation'] = [element.jobLocation];
                                                 job['jobUrl'] = link;

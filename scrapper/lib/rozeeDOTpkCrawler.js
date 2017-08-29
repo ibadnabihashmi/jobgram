@@ -52,6 +52,10 @@ function failureExecution(db,err,id) {
         });
 }
 
+function getTags(tags) {
+    return tags.replace(/\s/ig, '').toLowerCase().split('/');
+}
+
 var fpn = 0;
 var rootUrl = ['https://www.rozee.pk/job/jsearch/q/all/?fpn='+fpn];
 
@@ -130,6 +134,8 @@ MongoClient.connect(url, function(err, db) {
                                                 }else{
                                                     console.log(time.join(' '));
                                                 }
+                                                job['jobTags'] = getTags($('[itemprop="occupationalCategory"]').text().trim());
+                                                job['jobTags'] = job['jobTags'].concat(getTags($('[itemprop="industry"] .jblk').text().trim()));
                                                 job['jobUrl'] = 'http:'+link;
                                                 job['jobTitle'] = $('[itemprop="title"]').text().trim();
                                                 job['jobProvider'] = $('[itemprop="hiringOrganization"]').text().trim();

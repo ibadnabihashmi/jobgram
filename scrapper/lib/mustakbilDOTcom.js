@@ -56,6 +56,10 @@ function failureExecution(db,err,id) {
         });
 }
 
+function getTags(tags) {
+    return tags.replace(/\s/ig, '').toLowerCase().split();
+}
+
 var page = 1;
 var rootUrl = ['https://www.mustakbil.com/jobs/search/?page='+page];
 
@@ -137,6 +141,7 @@ MongoClient.connect(url, function(err, db) {
                                                     content+='<h3 class="mb10">Specification</h3><div class="lh20">'+$('.table-grid-bordered').next().next().next().next().html()+'</div>';
                                                 }
                                                 content+='</div>';
+                                                job['jobTags'] = getTags($($($('.table-grid-bordered').children()['0']).children()['1']).text().trim());
                                                 job['jobDatePosted'] = (new Date($($($('.table-grid-bordered').children()['3']).children()['1']).html().trim())).getTime();
                                                 job['jobLocation'] = _.uniq($($($('.table-grid-bordered').children()['4']).children()['1']).text().trim().replace(/\r\n\s+/g,'').split(","));
                                                 job['jobContent'] = content;
