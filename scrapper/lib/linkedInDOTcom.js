@@ -8,6 +8,32 @@ var jobs = [];
 var client = require('../config/connection.js');
 var MongoClient = require('mongodb').MongoClient;
 var url = require('../config/urls').mongo;
+var UTILS = require('./utils');
+var _ = require('underscore');
+
+var tags = [];
+
+function saveTags(db,phInstance) {
+    async.eachSeries(tags,function (tag,callback) {
+        UTILS.saveTags(db,tag,function (err,msg) {
+            if(err){
+                callback(err);
+            }else{
+                console.info(msg);
+                callback();
+            }
+        });
+    },function (err) {
+        if(err){
+            console.error(err);
+            db.close();
+            phInstance.exit();
+        }else{
+            db.close();
+            phInstance.exit();
+        }
+    });
+}
 
 function successExecution(db,phInstance,id) {
     db.collection('jobs').updateOne(
@@ -21,20 +47,17 @@ function successExecution(db,phInstance,id) {
         },function (err,result) {
             if(err){
                 console.log(err);
-                db.close();
-                phInstance.exit();
             }else{
                 console.log('state updated');
-                db.close();
-                phInstance.exit();
             }
+            saveTags(db,phInstance);
         });
 }
 
 function failureExecution(db,err,phInstance,id) {
     db.collection('jobs').updateOne(
         {
-            _id:mongoResult.insertedId
+            _id:id
         },{
             $set: {
                 "end":new Date(),
@@ -44,13 +67,10 @@ function failureExecution(db,err,phInstance,id) {
         },function (err,result) {
             if(err){
                 console.log(err);
-                db.close();
-                phInstance.exit();
             }else{
                 console.log('state updated');
-                db.close();
-                phInstance.exit();
             }
+            saveTags(db,phInstance);
         });
 }
 
@@ -367,22 +387,36 @@ MongoClient.connect(url, function(err, db) {
                                                             }
 
                                                         });
-                                                        client.index({
-                                                            index:'jobgram',
-                                                            id:job['jobId'],
-                                                            type:'job',
-                                                            body:job
-                                                        },function (err,res,status) {
+                                                        db.collection("tags").find({}).toArray(function(err, savedTags) {
                                                             if(err){
                                                                 console.log(err);
-                                                                failureExecution(db,err,phInstance,mongoResult.insertedId);
-                                                            }else if(res){
-                                                                console.log(res);
-                                                            }else if(status){
-                                                                console.log(status);
+                                                                db.close();
+                                                            }else{
+                                                                var regex = new RegExp(_.map(savedTags,function (tag) {
+                                                                    return tag.name;
+                                                                }).join("|"),"ig");
+                                                                job['jobTags'] = UTILS.assembleTags(job['jobTitle'].match(regex),job['jobContent'].match(regex));
+                                                                client.index({
+                                                                    index:'jobgram',
+                                                                    id:job['jobId'],
+                                                                    type:'job',
+                                                                    body:job
+                                                                },function (err,res,status) {
+                                                                    if(err){
+                                                                        console.log(err);
+                                                                        failureExecution(db,err,phInstance,mongoResult.insertedId);
+                                                                    }else if(res){
+                                                                        console.log(res);
+                                                                        if(res.created){
+                                                                            tags = UTILS.assembleTags(tags,job['jobTags']);
+                                                                        }
+                                                                    }else if(status){
+                                                                        console.log(status);
+                                                                    }
+                                                                    console.log("executed");
+                                                                    callback();
+                                                                });
                                                             }
-                                                            console.log("executed");
-                                                            callback();
                                                         });
                                                     });
                                                 });

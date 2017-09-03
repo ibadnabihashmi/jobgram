@@ -5,6 +5,31 @@ var _ = require('underscore');
 var client = require('../config/connection.js');
 var MongoClient = require('mongodb').MongoClient;
 var url = require('../config/urls').mongo;
+var UTILS = require('./utils');
+
+var page = 1;
+var rootUrl = ['http://www.bayrozgar.com/advance_search/page_'+page+'/'];
+var tags = [];
+
+function saveTags(db) {
+    async.eachSeries(tags,function (tag,callback) {
+        UTILS.saveTags(db,tag,function (err,msg) {
+            if(err){
+                callback(err);
+            }else{
+                console.info(msg);
+                callback();
+            }
+        });
+    },function (err) {
+        if(err){
+            console.error(err);
+            db.close();
+        }else{
+            db.close();
+        }
+    });
+}
 
 function successExecution(db,id) {
     db.collection('jobs').updateOne(
@@ -18,13 +43,10 @@ function successExecution(db,id) {
         },function (err,result) {
             if(err){
                 console.log(err);
-                db.close();
-                return;
             }else{
                 console.log('state updated');
-                db.close();
-                return;
             }
+            saveTags(db);
         });
 }
 
@@ -41,26 +63,12 @@ function failureExecution(db,err,id) {
         },function (err,result) {
             if(err){
                 console.log(err);
-                db.close();
-                return;
             }else{
                 console.log('state updated');
-                db.close();
-                return;
             }
+            saveTags(db);
         });
 }
-
-function getTags(tags) {
-    return tags.replace(/\s/ig, '').toLowerCase().split('/');
-}
-
-function getIndustries(industries) {
-    return industries.split('/');
-}
-
-var page = 1;
-var rootUrl = ['http://www.bayrozgar.com/advance_search/page_'+page+'/'];
 
 MongoClient.connect(url, function(err, db) {
     if(err){
@@ -144,35 +152,52 @@ MongoClient.connect(url, function(err, db) {
                                                     }
                                                 });
                                                 content += '</div>';
-                                                job['jobContent'] = content;
-                                                job['jobTags'] = getTags($('[itemprop="occupationalCategory"]').text().trim());
-                                                job['jobTags'] = job['jobTags'].concat(getTags($('[itemprop="industry"]').text().trim()));
-                                                job['jobDatePosted'] = element.datePosted;
-                                                job['jobLocation'] = [element.jobLocation];
-                                                job['jobUrl'] = link;
-                                                job['jobTitle'] = element.jobTitle;
-                                                job['jobProvider'] = element.jobProvider;
-                                                job['jobProviderLogo'] = $('.new_img > div > a > img').attr('src');
-                                                job['jobId'] = 'bayrozgar-'+id;
-                                                job['jobSource'] = 'bayrozgar';
-                                                job['jobSourceLogo'] = 'http://www.bayrozgar.com/images/logo.jpg';
-                                                client.index({
-                                                    index:'jobgram',
-                                                    id:job['jobId'],
-                                                    type:'job',
-                                                    body:job
-                                                },function (err,res,status) {
+                                                db.collection("tags").find({}).toArray(function(err, savedTags) {
                                                     if(err){
                                                         console.log(err);
-                                                        failureExecution(db,err,mongoResult.insertedId);
+                                                        db.close();
+                                                    }else{
+                                                        var regex = new RegExp(_.map(savedTags,function (tag) {
+                                                            return tag.name;
+                                                        }).join("|"),"ig");
+                                                        job['jobContent'] = content;
+                                                        job['jobTags'] = UTILS.assembleTags(
+                                                            UTILS.getTags($('[itemprop="occupationalCategory"]').text().trim()),
+                                                            UTILS.getTags($('[itemprop="industry"]').text().trim())
+                                                        );
+                                                        job['jobDatePosted'] = element.datePosted;
+                                                        job['jobLocation'] = [element.jobLocation];
+                                                        job['jobUrl'] = link;
+                                                        job['jobTitle'] = element.jobTitle;
+                                                        job['jobProvider'] = element.jobProvider;
+                                                        job['jobProviderLogo'] = $('.new_img > div > a > img').attr('src');
+                                                        job['jobId'] = 'bayrozgar-'+id;
+                                                        job['jobSource'] = 'bayrozgar';
+                                                        job['jobSourceLogo'] = 'http://www.bayrozgar.com/images/logo.jpg';
+                                                        job['jobTags'] = UTILS.assembleTags(job['jobTags'],job['jobContent'].match(regex));
+                                                        job['jobTags'] = UTILS.assembleTags(job['jobTags'],job['jobTitle'].match(regex));
+                                                        client.index({
+                                                            index:'jobgram',
+                                                            id:job['jobId'],
+                                                            type:'job',
+                                                            body:job
+                                                        },function (err,res,status) {
+                                                            if(err){
+                                                                console.log(err);
+                                                                failureExecution(db,err,mongoResult.insertedId);
+                                                            }
+                                                            if(res){
+                                                                console.log(res);
+                                                                if(res.created){
+                                                                    tags = UTILS.assembleTags(tags,job['jobTags']);
+                                                                }
+                                                            }
+                                                            if(status){
+                                                                console.log(status);
+                                                            }
+                                                            callback();
+                                                        });
                                                     }
-                                                    if(res){
-                                                        console.log(res);
-                                                    }
-                                                    if(status){
-                                                        console.log(status);
-                                                    }
-                                                    callback();
                                                 });
                                             }
                                         });
@@ -181,7 +206,7 @@ MongoClient.connect(url, function(err, db) {
                                     if(err) failureExecution(db,err,mongoResult.insertedId);
                                     console.log('done crawling : '+url);
                                     page+=1;
-                                    if(page < 4){
+                                    if(page < 2){
                                         rootUrl.push('http://www.bayrozgar.com/advance_search/page_'+page+'/');
                                     }
                                     callbackOuter(null,'all done');

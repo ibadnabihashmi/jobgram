@@ -6,9 +6,33 @@ var client = require('../config/connection.js');
 var MongoClient = require('mongodb').MongoClient;
 var url = require('../config/urls').mongo;
 var fs = require('fs');
+var UTILS = require('./utils');
+
+var page = 1;
+var rootUrl = ['https://www.mustakbil.com/jobs/search/?page='+page];
+var tags = [];
+
+function saveTags(db) {
+    async.eachSeries(tags,function (tag,callback) {
+        UTILS.saveTags(db,tag,function (err,msg) {
+            if(err){
+                callback(err);
+            }else{
+                console.info(msg);
+                callback();
+            }
+        });
+    },function (err) {
+        if(err){
+            console.error(err);
+            db.close();
+        }else{
+            db.close();
+        }
+    });
+}
 
 function successExecution(db,id) {
-    fs.appendFileSync('message.txt', '\nSUCCESSFULLY EXECUTED');
     db.collection('jobs').updateOne(
         {
             _id:id
@@ -20,19 +44,14 @@ function successExecution(db,id) {
         },function (err,result) {
             if(err){
                 console.log(err);
-                db.close();
-                return;
             }else{
                 console.log('state updated');
-                fs.appendFileSync('message.txt', '\nstate updated');
-                db.close();
-                return;
             }
+            saveTags(db);
         });
 }
 
 function failureExecution(db,err,id) {
-    fs.appendFileSync('message.txt', '\nFAILURE EXECUTED');
     db.collection('jobs').updateOne(
         {
             _id:id
@@ -45,23 +64,12 @@ function failureExecution(db,err,id) {
         },function (err,result) {
             if(err){
                 console.log(err);
-                db.close();
-                return;
             }else{
                 console.log('state updated');
-                fs.appendFileSync('message.txt', '\nstate updated');
-                db.close();
-                return;
             }
+            saveTags(db);
         });
 }
-
-function getTags(tags) {
-    return tags.replace(/\s/ig, '').toLowerCase().split();
-}
-
-var page = 1;
-var rootUrl = ['https://www.mustakbil.com/jobs/search/?page='+page];
 
 MongoClient.connect(url, function(err, db) {
     if(err){
@@ -141,35 +149,50 @@ MongoClient.connect(url, function(err, db) {
                                                     content+='<h3 class="mb10">Specification</h3><div class="lh20">'+$('.table-grid-bordered').next().next().next().next().html()+'</div>';
                                                 }
                                                 content+='</div>';
-                                                job['jobTags'] = getTags($($($('.table-grid-bordered').children()['0']).children()['1']).text().trim());
-                                                job['jobDatePosted'] = (new Date($($($('.table-grid-bordered').children()['3']).children()['1']).html().trim())).getTime();
-                                                job['jobLocation'] = _.uniq($($($('.table-grid-bordered').children()['4']).children()['1']).text().trim().replace(/\r\n\s+/g,'').split(","));
-                                                job['jobContent'] = content;
-                                                job['jobUrl'] = link;
-                                                job['jobTitle'] = element.jobTitle;
-                                                job['jobProvider'] = element.jobProvider;
-                                                job['jobProviderLogo'] = element.image !== undefined ? 'http://www.mustakbil.com'+element.image : 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
-                                                job['jobSource'] = 'mustakbil';
-                                                job['jobSourceLogo'] = 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
-                                                job['shortDescription'] = element.jobShortDescription;
-                                                client.index({
-                                                    index:'jobgram',
-                                                    id:job['jobId'],
-                                                    type:'job',
-                                                    body:job
-                                                },function (err,res,status) {
+                                                db.collection("tags").find({}).toArray(function(err, savedTags) {
                                                     if(err){
                                                         console.log(err);
-                                                        fs.appendFileSync('message.txt', '\nerror');
-                                                        failureExecution(db,err,mongoResult.insertedId);
-                                                    }else if(res){
-                                                        console.log(res);
-                                                        fs.appendFileSync('message.txt', '\nres');
-                                                    }else if(status){
-                                                        console.log(status);
-                                                        fs.appendFileSync('message.txt', '\nstatus');
+                                                        db.close();
+                                                    }else{
+                                                        var regex = new RegExp(_.map(savedTags,function (tag) {
+                                                            return tag.name;
+                                                        }).join("|"),"ig");
+                                                        job['jobTags'] = UTILS.getTags($($($('.table-grid-bordered').children()['0']).children()['1']).text().trim());
+                                                        job['jobDatePosted'] = (new Date($($($('.table-grid-bordered').children()['3']).children()['1']).html().trim())).getTime();
+                                                        job['jobLocation'] = _.uniq($($($('.table-grid-bordered').children()['4']).children()['1']).text().trim().replace(/\r\n\s+/g,'').split(","));
+                                                        job['jobContent'] = content;
+                                                        job['jobUrl'] = link;
+                                                        job['jobTitle'] = element.jobTitle;
+                                                        job['jobProvider'] = element.jobProvider;
+                                                        job['jobProviderLogo'] = element.image !== undefined ? 'http://www.mustakbil.com'+element.image : 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
+                                                        job['jobSource'] = 'mustakbil';
+                                                        job['jobSourceLogo'] = 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
+                                                        job['shortDescription'] = element.jobShortDescription;
+                                                        job['jobTags'] = UTILS.assembleTags(job['jobTags'],job['jobContent'].match(regex));
+                                                        job['jobTags'] = UTILS.assembleTags(job['jobTags'],job['jobTitle'].match(regex));
+                                                        client.index({
+                                                            index:'jobgram',
+                                                            id:job['jobId'],
+                                                            type:'job',
+                                                            body:job
+                                                        },function (err,res,status) {
+                                                            if(err){
+                                                                console.log(err);
+                                                                fs.appendFileSync('message.txt', '\nerror');
+                                                                failureExecution(db,err,mongoResult.insertedId);
+                                                            }else if(res){
+                                                                console.log(res);
+                                                                if(res.created){
+                                                                    tags = UTILS.assembleTags(tags,job['jobTags']);
+                                                                }
+                                                                fs.appendFileSync('message.txt', '\nres');
+                                                            }else if(status){
+                                                                console.log(status);
+                                                                fs.appendFileSync('message.txt', '\nstatus');
+                                                            }
+                                                            callback();
+                                                        });
                                                     }
-                                                    callback();
                                                 });
                                             }
                                         });

@@ -6,6 +6,31 @@ var client = require('../config/connection.js');
 var MongoClient = require('mongodb').MongoClient;
 var url = require('../config/urls').mongo;
 var fs = require('fs');
+var UTILS = require('./utils');
+
+var fpn = 0;
+var rootUrl = ['https://www.rozee.pk/job/jsearch/q/all/?fpn='+fpn];
+var tags = [];
+
+function saveTags(db) {
+    async.eachSeries(tags,function (tag,callback) {
+        UTILS.saveTags(db,tag,function (err,msg) {
+            if(err){
+                callback(err);
+            }else{
+                console.info(msg);
+                callback();
+            }
+        });
+    },function (err) {
+        if(err){
+            console.error(err);
+            db.close();
+        }else{
+            db.close();
+        }
+    });
+}
 
 function successExecution(db,id) {
     db.collection('jobs').updateOne(
@@ -19,13 +44,10 @@ function successExecution(db,id) {
         },function (err,result) {
             if(err){
                 console.log(err);
-                db.close();
-                return;
             }else{
                 console.log('state updated');
-                db.close();
-                return;
             }
+            saveTags(db);
         });
 }
 
@@ -42,22 +64,12 @@ function failureExecution(db,err,id) {
         },function (err,result) {
             if(err){
                 console.log(err);
-                db.close();
-                return;
             }else{
                 console.log('state updated');
-                db.close();
-                return;
             }
+            saveTags(db);
         });
 }
-
-function getTags(tags) {
-    return tags.replace(/\s/ig, '').toLowerCase().split('/');
-}
-
-var fpn = 0;
-var rootUrl = ['https://www.rozee.pk/job/jsearch/q/all/?fpn='+fpn];
 
 MongoClient.connect(url, function(err, db) {
     if(err){
@@ -134,44 +146,61 @@ MongoClient.connect(url, function(err, db) {
                                                 }else{
                                                     console.log(time.join(' '));
                                                 }
-                                                job['jobTags'] = getTags($('[itemprop="occupationalCategory"]').text().trim());
-                                                job['jobTags'] = job['jobTags'].concat(getTags($('[itemprop="industry"] .jblk').text().trim()));
-                                                job['jobUrl'] = 'http:'+link;
-                                                job['jobTitle'] = $('[itemprop="title"]').text().trim();
-                                                job['jobProvider'] = $('[itemprop="hiringOrganization"]').text().trim();
-                                                job['jobLocation'] = _.uniq(_loc);
-                                                job['jobProviderLogo'] = $('[alt="Company Logo"]').attr('src') ? $('[alt="Company Logo"]').attr('src').trim() : '';
-                                                job['jobDatePosted'] = (new Date(datePosted - difference)).getTime();
-                                                job['jobContent'] = '<div class="rozeeDOTpk-details">'+$($('.jblk')[0]).html()+$($('.jblk')[1]).html()+$($('.jblk')[2]).html()+'</div>';
-                                                job['jobId'] = "rozee-"+id;
-                                                job['jobSource'] = "rozee";
-                                                job['jobSourceLogo'] = "http://parvaaz.rozee.pk/company_images/bucket22/o_17760905819659.gif";
-                                                job['shortDescription'] = $($('.jblk')[0]).text().trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ') + '.....';
-                                                // $($('.jblk')[0]).text().trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,'-')
-                                                if(salary !== 'Please Login to view salary' && salary.split('-')[0].match(/\d+/g)){
-                                                    job['jobSalary'] = {
-                                                        min:Number(salary.split('-')[0].replace(/[^\d]/g,'')),
-                                                        max:Number(salary.split('-')[1].replace(/[^\d]/g,''))
-                                                    }
-                                                }
-                                                if(job.title !== ''  && job.hiringOrganization !== ''){
-                                                    client.index({
-                                                        index:'jobgram',
-                                                        id:job['jobId'],
-                                                        type:'job',
-                                                        body:job
-                                                    },function (err,res,status) {
-                                                        if(err){
-                                                            console.log(err);
-                                                            failureExecution(db,err,mongoResult.insertedId)
-                                                        }else if(res){
-                                                            console.log(res);
-                                                        }else if(status){
-                                                            console.log(status);
+                                                db.collection("tags").find({}).toArray(function(err, savedTags) {
+                                                    if(err){
+                                                        console.log(err);
+                                                        db.close();
+                                                    }else{
+                                                        var regex = new RegExp(_.map(savedTags,function (tag) {
+                                                            return tag.name;
+                                                        }).join("|"),"ig");
+                                                        job['jobTags'] = UTILS.assembleTags(
+                                                            UTILS.getTags($('[itemprop="occupationalCategory"]').text().trim()),
+                                                            UTILS.getTags($('[itemprop="industry"] .jblk').text().trim())
+                                                        );
+                                                        job['jobUrl'] = 'http:'+link;
+                                                        job['jobTitle'] = $('[itemprop="title"]').text().trim();
+                                                        job['jobProvider'] = $('[itemprop="hiringOrganization"]').text().trim();
+                                                        job['jobLocation'] = _.uniq(_loc);
+                                                        job['jobProviderLogo'] = $('[alt="Company Logo"]').attr('src') ? $('[alt="Company Logo"]').attr('src').trim() : '';
+                                                        job['jobDatePosted'] = (new Date(datePosted - difference)).getTime();
+                                                        job['jobContent'] = '<div class="rozeeDOTpk-details">'+$($('.jblk')[0]).html()+$($('.jblk')[1]).html()+$($('.jblk')[2]).html()+'</div>';
+                                                        job['jobId'] = "rozee-"+id;
+                                                        job['jobSource'] = "rozee";
+                                                        job['jobSourceLogo'] = "http://parvaaz.rozee.pk/company_images/bucket22/o_17760905819659.gif";
+                                                        job['shortDescription'] = $($('.jblk')[0]).text().trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ') + '.....';
+                                                        job['jobTags'] = UTILS.assembleTags(job['jobTags'],job['jobContent'].match(regex));
+                                                        job['jobTags'] = UTILS.assembleTags(job['jobTags'],job['jobTitle'].match(regex));
+                                                        // $($('.jblk')[0]).text().trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,'-')
+                                                        if(salary !== 'Please Login to view salary' && salary.split('-')[0].match(/\d+/g)){
+                                                            job['jobSalary'] = {
+                                                                min:Number(salary.split('-')[0].replace(/[^\d]/g,'')),
+                                                                max:Number(salary.split('-')[1].replace(/[^\d]/g,''))
+                                                            }
                                                         }
-                                                        callback();
-                                                    });
-                                                }
+                                                        if(job.title !== ''  && job.hiringOrganization !== ''){
+                                                            client.index({
+                                                                index:'jobgram',
+                                                                id:job['jobId'],
+                                                                type:'job',
+                                                                body:job
+                                                            },function (err,res,status) {
+                                                                if(err){
+                                                                    console.log(err);
+                                                                    failureExecution(db,err,mongoResult.insertedId)
+                                                                }else if(res){
+                                                                    console.log(res);
+                                                                    if(res.created){
+                                                                        tags = UTILS.assembleTags(tags,job['jobTags']);
+                                                                    }
+                                                                }else if(status){
+                                                                    console.log(status);
+                                                                }
+                                                                callback();
+                                                            });
+                                                        }
+                                                    }
+                                                });
                                             }
                                         });
                                     }
