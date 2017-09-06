@@ -424,6 +424,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.fetchFeed = fetchFeed;
+exports.fetchTags = fetchTags;
 exports.applyFilters = applyFilters;
 function fetchFeed(from) {
   return function (dispatch) {
@@ -460,6 +461,31 @@ function fetchFeed(from) {
         }
       });
     }, 1000);
+  };
+}
+
+function fetchTags(page, size) {
+  return function (dispatch) {
+    dispatch({
+      type: 'CLEAR_MESSAGES'
+    });
+    return fetch('http://localhost:3001/api/v1/tags?page=' + page + '&size=' + size, {
+      method: 'get',
+      headers: { 'Content-Type': 'application/json' }
+    }).then(function (response) {
+      if (response.ok) {
+        return response.json().then(function (json) {
+          dispatch({
+            type: 'FETCH_TAGS_SUCCESS',
+            tags: json.resp
+          });
+        });
+      } else {
+        return response.json().then(function (json) {
+          console.log(json);
+        });
+      }
+    });
   };
 }
 
@@ -3373,6 +3399,7 @@ var Home = function (_get__$Component) {
     key: 'componentDidMount',
     value: function componentDidMount() {
       this.props.dispatch(_get__('fetchFeed')(this.state.from));
+      this.props.dispatch(_get__('fetchTags')(0, 10));
     }
   }, {
     key: 'gotoNext',
@@ -3581,6 +3608,28 @@ var Home = function (_get__$Component) {
       return jobs;
     }
   }, {
+    key: 'renderTags',
+    value: function renderTags(tags) {
+      if (!tags.length) {
+        return;
+      }
+      var _tags = [];
+      tags.forEach(function (tag) {
+        _tags.push(_react2.default.createElement(
+          'span',
+          { className: 'tag', key: tag._id },
+          '#',
+          tag.name,
+          _react2.default.createElement(
+            'span',
+            { className: 'tag-count' },
+            tag.count
+          )
+        ));
+      });
+      return _tags;
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _Messages_Component = _get__('Messages');
@@ -3674,76 +3723,7 @@ var Home = function (_get__$Component) {
         _react2.default.createElement(
           'div',
           { className: 'col-lg-3 hashtag-container' },
-          _react2.default.createElement(
-            'span',
-            { className: 'tag' },
-            '#businessdevelopment',
-            _react2.default.createElement(
-              'span',
-              { className: 'tag-count' },
-              '45'
-            )
-          ),
-          _react2.default.createElement(
-            'span',
-            { className: 'tag' },
-            '#java',
-            _react2.default.createElement(
-              'span',
-              { className: 'tag-count' },
-              '4'
-            )
-          ),
-          _react2.default.createElement(
-            'span',
-            { className: 'tag' },
-            '#accounts',
-            _react2.default.createElement(
-              'span',
-              { className: 'tag-count' },
-              '25'
-            )
-          ),
-          _react2.default.createElement(
-            'span',
-            { className: 'tag' },
-            '#industrialdevelopment',
-            _react2.default.createElement(
-              'span',
-              { className: 'tag-count' },
-              '45'
-            )
-          ),
-          _react2.default.createElement(
-            'span',
-            { className: 'tag' },
-            '#photoshop',
-            _react2.default.createElement(
-              'span',
-              { className: 'tag-count' },
-              '8'
-            )
-          ),
-          _react2.default.createElement(
-            'span',
-            { className: 'tag' },
-            '#css',
-            _react2.default.createElement(
-              'span',
-              { className: 'tag-count' },
-              '5'
-            )
-          ),
-          _react2.default.createElement(
-            'span',
-            { className: 'tag' },
-            '#illustrator',
-            _react2.default.createElement(
-              'span',
-              { className: 'tag-count' },
-              '15'
-            )
-          )
+          this.renderTags(this.props.feed.tags)
         )
       );
     }
@@ -3791,6 +3771,9 @@ function _get_original__(variableName) {
   switch (variableName) {
     case 'fetchFeed':
       return _feed.fetchFeed;
+
+    case 'fetchTags':
+      return _feed.fetchTags;
 
     case 'applyFilters':
       return _feed.applyFilters;
@@ -5051,7 +5034,8 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 exports.default = feed;
 var initialState = {
   jobs: {},
-  isLoaded: false
+  isLoaded: false,
+  tags: []
 };
 
 function feed() {
@@ -5066,6 +5050,10 @@ function feed() {
     case 'UPDATE_PLACEHOLDER':
       return Object.assign({}, state, {
         isLoaded: action.isLoaded
+      });
+    case 'FETCH_TAGS_SUCCESS':
+      return Object.assign({}, state, {
+        tags: action.tags
       });
     default:
       return state;

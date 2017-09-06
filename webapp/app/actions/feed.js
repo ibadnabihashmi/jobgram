@@ -36,6 +36,31 @@ export function fetchFeed(from) {
   }
 }
 
+export function fetchTags(page,size) {
+  return (dispatch) => {
+    dispatch({
+      type: 'CLEAR_MESSAGES'
+    });
+    return fetch(`http://localhost:3001/api/v1/tags?page=${page}&size=${size}`,{
+      method:'get',
+      headers: { 'Content-Type': 'application/json' }
+    }).then((response) => {
+      if(response.ok){
+        return response.json().then((json) => {
+          dispatch({
+            type: 'FETCH_TAGS_SUCCESS',
+            tags: json.resp
+          });
+        });
+      }else{
+        return response.json().then((json) => {
+          console.log(json);
+        });
+      }
+    });
+  }
+}
+
 export function applyFilters(filters,from) {
   return (dispatch) => {
     dispatch({

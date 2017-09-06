@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux'
 import Messages from '../Partials/Messages/Messages';
 import TimeAgo from 'react-timeago';
-import { fetchFeed,applyFilters } from '../../actions/feed';
+import { fetchFeed,applyFilters,fetchTags } from '../../actions/feed';
 import PlaceHolder from './FeedPlaceholder';
 
 class Home extends React.Component {
@@ -31,6 +31,7 @@ class Home extends React.Component {
 
   componentDidMount() {
     this.props.dispatch(fetchFeed(this.state.from));
+    this.props.dispatch(fetchTags(0,10));
   }
 
   gotoNext() {
@@ -173,6 +174,24 @@ class Home extends React.Component {
     return jobs;
   }
 
+  renderTags(tags) {
+    if(!tags.length){
+      return;
+    }
+    let _tags = [];
+    tags.forEach(function (tag) {
+      _tags.push(
+        <span className="tag" key={tag._id}>
+          #{tag.name}
+          <span className="tag-count">
+            {tag.count}
+          </span>
+        </span>
+      );
+    });
+    return _tags;
+  }
+
   render() {
     return (
       <div className="col-md-12 home">
@@ -218,13 +237,9 @@ class Home extends React.Component {
           }
         </div>
         <div className="col-lg-3 hashtag-container">
-          <span className="tag">#businessdevelopment<span className="tag-count">45</span></span>
-          <span className="tag">#java<span className="tag-count">4</span></span>
-          <span className="tag">#accounts<span className="tag-count">25</span></span>
-          <span className="tag">#industrialdevelopment<span className="tag-count">45</span></span>
-          <span className="tag">#photoshop<span className="tag-count">8</span></span>
-          <span className="tag">#css<span className="tag-count">5</span></span>
-          <span className="tag">#illustrator<span className="tag-count">15</span></span>
+          {
+            this.renderTags(this.props.feed.tags)
+          }
         </div>
       </div>
     );

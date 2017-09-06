@@ -1,6 +1,7 @@
 const initialState = {
   jobs: {},
-  isLoaded: false
+  isLoaded: false,
+  tags: []
 };
 
 export default function feed(state = initialState, action) {
@@ -12,6 +13,10 @@ export default function feed(state = initialState, action) {
     case 'UPDATE_PLACEHOLDER':
       return Object.assign({}, state, {
         isLoaded: action.isLoaded
+      });
+    case 'FETCH_TAGS_SUCCESS':
+      return Object.assign({},state,{
+        tags: action.tags
       });
     default:
       return state;
