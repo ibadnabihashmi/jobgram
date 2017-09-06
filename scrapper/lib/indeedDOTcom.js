@@ -158,7 +158,7 @@ MongoClient.connect(url, function(err, db) {
                                                         }).join("|"),"ig");
                                                         job['jobContent'] = '<div class="description">'+$('#job_summary').html()+'</div>';
                                                         job['shortDescription'] = element.jobShortDescription.trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ')+'.....';
-                                                        job['jobDatePosted'] = new Date();
+                                                        job['jobDatePosted'] = (new Date()).getTime();
                                                         job['jobLocation'] = element.jobLocation;
                                                         job['jobUrl'] = link;
                                                         job['jobTitle'] = element.jobTitle;
