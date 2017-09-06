@@ -3380,7 +3380,10 @@ var Home = function (_get__$Component) {
         keyword: '',
         location: '',
         salaryMin: '',
-        salaryMax: ''
+        salaryMax: '',
+        tags: [],
+        source: '',
+        provider: ''
       },
       isFilterDirty: false
     };
@@ -3424,7 +3427,7 @@ var Home = function (_get__$Component) {
   }, {
     key: 'applyFilters',
     value: function applyFilters(e) {
-      if (this.state.filters.keyword === '' && this.state.filters.location === '' && this.state.filters.salaryMax === '' && this.state.filters.salaryMin === '') {
+      if (this.state.filters.keyword === '' && this.state.filters.location === '' && this.state.filters.salaryMax === '' && this.state.filters.salaryMin === '' && this.state.filters.tags.length === 0) {
         this.setState({
           from: 0,
           isFilterDirty: false
@@ -3485,6 +3488,42 @@ var Home = function (_get__$Component) {
       this.setState({
         filters: filters
       });
+    }
+  }, {
+    key: 'handleTagsClick',
+    value: function handleTagsClick(tag) {
+      var filters = this.state.filters;
+      if (filters.tags.includes(tag)) {
+        var index = filters.tags.indexOf(tag);
+        filters.tags.splice(index, 1);
+      } else {
+        filters.tags.push(tag);
+      }
+      this.setState({
+        filters: filters
+      });
+    }
+  }, {
+    key: 'renderTags',
+    value: function renderTags(tags, context) {
+      if (!tags.length) {
+        return;
+      }
+      var _tags = [];
+      tags.forEach(function (tag) {
+        _tags.push(_react2.default.createElement(
+          'span',
+          { onClick: context.handleTagsClick.bind(context, tag.name), className: 'tag', key: tag._id },
+          '#',
+          tag.name,
+          _react2.default.createElement(
+            'span',
+            { className: 'tag-count' },
+            tag.count
+          )
+        ));
+      });
+      return _tags;
     }
   }, {
     key: 'renderFeed',
@@ -3608,28 +3647,6 @@ var Home = function (_get__$Component) {
       return jobs;
     }
   }, {
-    key: 'renderTags',
-    value: function renderTags(tags) {
-      if (!tags.length) {
-        return;
-      }
-      var _tags = [];
-      tags.forEach(function (tag) {
-        _tags.push(_react2.default.createElement(
-          'span',
-          { className: 'tag', key: tag._id },
-          '#',
-          tag.name,
-          _react2.default.createElement(
-            'span',
-            { className: 'tag-count' },
-            tag.count
-          )
-        ));
-      });
-      return _tags;
-    }
-  }, {
     key: 'render',
     value: function render() {
       var _Messages_Component = _get__('Messages');
@@ -3723,7 +3740,7 @@ var Home = function (_get__$Component) {
         _react2.default.createElement(
           'div',
           { className: 'col-lg-3 hashtag-container' },
-          this.renderTags(this.props.feed.tags)
+          this.renderTags(this.props.feed.tags, this)
         )
       );
     }

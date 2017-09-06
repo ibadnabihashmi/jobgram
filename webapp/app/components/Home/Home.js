@@ -6,6 +6,7 @@ import { fetchFeed,applyFilters,fetchTags } from '../../actions/feed';
 import PlaceHolder from './FeedPlaceholder';
 
 class Home extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = {
@@ -15,7 +16,10 @@ class Home extends React.Component {
         keyword:'',
         location:'',
         salaryMin:'',
-        salaryMax:''
+        salaryMax:'',
+        tags:[],
+        source:'',
+        provider:''
       },
       isFilterDirty:false
     };
@@ -56,7 +60,8 @@ class Home extends React.Component {
     if(this.state.filters.keyword === '' &&
     this.state.filters.location === '' &&
     this.state.filters.salaryMax === '' &&
-    this.state.filters.salaryMin === '') {
+    this.state.filters.salaryMin === '' &&
+    this.state.filters.tags.length === 0) {
       this.setState({
         from: 0,
         isFilterDirty: false
@@ -112,6 +117,37 @@ class Home extends React.Component {
     this.setState({
       filters: filters
     });
+  }
+
+  handleTagsClick(tag) {
+    let filters = this.state.filters;
+    if(filters.tags.includes(tag)){
+      let index = filters.tags.indexOf(tag);
+      filters.tags.splice(index,1);
+    }else{
+      filters.tags.push(tag);
+    }
+    this.setState({
+      filters: filters
+    })
+  }
+
+  renderTags(tags,context) {
+    if(!tags.length){
+      return;
+    }
+    let _tags = [];
+    tags.forEach(function (tag) {
+      _tags.push(
+        <span onClick={context.handleTagsClick.bind(context,tag.name)} className="tag" key={tag._id}>
+          #{tag.name}
+          <span className="tag-count">
+            {tag.count}
+          </span>
+        </span>
+      );
+    });
+    return _tags;
   }
 
   renderFeed() {
@@ -174,24 +210,6 @@ class Home extends React.Component {
     return jobs;
   }
 
-  renderTags(tags) {
-    if(!tags.length){
-      return;
-    }
-    let _tags = [];
-    tags.forEach(function (tag) {
-      _tags.push(
-        <span className="tag" key={tag._id}>
-          #{tag.name}
-          <span className="tag-count">
-            {tag.count}
-          </span>
-        </span>
-      );
-    });
-    return _tags;
-  }
-
   render() {
     return (
       <div className="col-md-12 home">
@@ -238,7 +256,7 @@ class Home extends React.Component {
         </div>
         <div className="col-lg-3 hashtag-container">
           {
-            this.renderTags(this.props.feed.tags)
+            this.renderTags(this.props.feed.tags,this)
           }
         </div>
       </div>

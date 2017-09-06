@@ -64,6 +64,15 @@ router.post('/getFeed',function (req,res) {
       }
     });
   }
+
+  if(req.body.tags && req.body.tags.length > 0){
+    query.bool.must.push({
+      "terms": {
+        "jobTags": req.body.tags
+      }
+    })
+  }
+
   var sMin = req.body.salaryMin && req.body.salaryMin !== '' ? Number(req.body.salaryMin) : 0;
   var sMax = req.body.salaryMax && req.body.salaryMax !== '' ? Number(req.body.salaryMax) : 9999999999;
 
