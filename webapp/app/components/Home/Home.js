@@ -4,6 +4,7 @@ import Messages from '../Partials/Messages/Messages';
 import TimeAgo from 'react-timeago';
 import { fetchFeed,applyFilters,fetchTags } from '../../actions/feed';
 import PlaceHolder from './FeedPlaceholder';
+import Tag from './Tag/Tag';
 
 class Home extends React.Component {
 
@@ -31,6 +32,8 @@ class Home extends React.Component {
     this.handleLocationChange = this.handleLocationChange.bind(this);
     this.handleMinSalaryChange = this.handleMinSalaryChange.bind(this);
     this.handleMaxSalaryChange = this.handleMaxSalaryChange.bind(this);
+    this.handleSourceChange = this.handleSourceChange.bind(this);
+    this.handleProviderChange = this.handleProviderChange.bind(this);
   }
 
   componentDidMount() {
@@ -61,6 +64,8 @@ class Home extends React.Component {
     this.state.filters.location === '' &&
     this.state.filters.salaryMax === '' &&
     this.state.filters.salaryMin === '' &&
+    this.state.filters.source === '' &&
+    this.state.filters.provider === '' &&
     this.state.filters.tags.length === 0) {
       this.setState({
         from: 0,
@@ -95,6 +100,22 @@ class Home extends React.Component {
     });
   }
 
+  handleSourceChange(e) {
+    let filters = this.state.filters;
+    filters.source = e.target.value;
+    this.setState({
+      filters: filters
+    });
+  }
+
+  handleProviderChange(e) {
+    let filters = this.state.filters;
+    filters.provider = e.target.value;
+    this.setState({
+      filters: filters
+    });
+  }
+
   handleLocationChange(e) {
     let filters = this.state.filters;
     filters.location = e.target.value;
@@ -119,19 +140,6 @@ class Home extends React.Component {
     });
   }
 
-  handleTagsClick(tag) {
-    let filters = this.state.filters;
-    if(filters.tags.includes(tag)){
-      let index = filters.tags.indexOf(tag);
-      filters.tags.splice(index,1);
-    }else{
-      filters.tags.push(tag);
-    }
-    this.setState({
-      filters: filters
-    })
-  }
-
   renderTags(tags,context) {
     if(!tags.length){
       return;
@@ -139,12 +147,7 @@ class Home extends React.Component {
     let _tags = [];
     tags.forEach(function (tag) {
       _tags.push(
-        <span onClick={context.handleTagsClick.bind(context,tag.name)} className="tag" key={tag._id}>
-          #{tag.name}
-          <span className="tag-count">
-            {tag.count}
-          </span>
-        </span>
+        <Tag name={tag.name} count={tag.count} key={tag._id} applyFilters={context.applyFilters} filters={context.state.filters}/>
       );
     });
     return _tags;
@@ -217,19 +220,22 @@ class Home extends React.Component {
         <div className="col-lg-3 search">
           <div className="col-lg-3 bs-docs-sidebar hidden-print hidden-sm hidden-xs affix">
             <div className="form-group">
-              <input type="text" className="form-control" value={this.state.filters.keyword} onChange={this.handleKeywordChange} placeholder="keyword or hashtag"/>
+              <input type="text" className="form-control" value={this.state.filters.keyword} onChange={this.handleKeywordChange} onBlur={this.applyFilters} placeholder="keyword or hashtag"/>
             </div>
             <div className="form-group">
-              <input type="text" className="form-control" value={this.state.filters.location} onChange={this.handleLocationChange} placeholder="Location"/>
+              <input type="text" className="form-control" value={this.state.filters.location} onChange={this.handleLocationChange} onBlur={this.applyFilters} placeholder="Location"/>
+            </div>
+            <div className="form-group">
+              <input type="text" className="form-control" value={this.state.filters.source} onChange={this.handleSourceChange} onBlur={this.applyFilters} placeholder="Job Source ,e.g : Linkedin etc"/>
+            </div>
+            <div className="form-group">
+              <input type="text" className="form-control" value={this.state.filters.provider} onChange={this.handleProviderChange} onBlur={this.applyFilters} placeholder="job provider"/>
             </div>
             <div className="input-group">
               <div className="input-group-addon">min</div>
-              <input type="number" className="form-control" value={this.state.filters.salaryMin} onChange={this.handleMinSalaryChange} placeholder="$$$"/>
-              <input type="number" className="form-control" value={this.state.filters.salaryMax} onChange={this.handleMaxSalaryChange} placeholder="$$$"/>
+              <input type="number" className="form-control" value={this.state.filters.salaryMin} onChange={this.handleMinSalaryChange} onBlur={this.applyFilters} placeholder="$$$"/>
+              <input type="number" className="form-control" value={this.state.filters.salaryMax} onChange={this.handleMaxSalaryChange} onBlur={this.applyFilters} placeholder="$$$"/>
               <div className="input-group-addon">max</div>
-            </div>
-            <div className="form-group">
-              <button className="btn btn-default" onClick={this.applyFilters.bind(this)}>Search</button>
             </div>
           </div>
         </div>

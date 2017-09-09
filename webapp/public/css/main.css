@@ -5851,6 +5851,8 @@ body {
   top: 157px;
   left: 319px; }
 
+
+
 .home {
   margin-bottom: 50px;
   margin-top: 65px; }
@@ -5987,33 +5989,49 @@ body {
       border: 2px solid #c8c8c8; }
   .home .feed .result-header {
     padding: 20px; }
-  .home .hashtag-container {
-    background-color: #fff;
-    border: 1px solid #c8c8c8;
-    margin-top: 20px;
-    padding: 10px; }
-    .home .hashtag-container .tag {
-      color: #fff;
-      background-color: #808080;
-      padding: 2px 4px;
-      border-radius: 13px;
-      float: left;
-      margin: 5px;
-      font-weight: 500;
-      cursor: pointer; }
-      .home .hashtag-container .tag .tag-count {
-        background-color: #000;
-        padding: 3px 4px;
-        border-top-right-radius: 12px;
-        border-bottom-right-radius: 12px;
-        position: relative;
-        right: -4px; }
 
 
 
 
 
 
+.hashtag-container {
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+  margin-top: 20px;
+  padding: 10px; }
+  .hashtag-container .tag {
+    color: #fff;
+    background-color: #808080;
+    padding: 2px 4px;
+    border-radius: 13px;
+    float: left;
+    margin: 5px;
+    font-weight: 500;
+    cursor: pointer; }
+    .hashtag-container .tag .tag-count {
+      background-color: #000;
+      padding: 3px 4px;
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+      position: relative;
+      right: -4px; }
+  .hashtag-container .tag-selected {
+    color: #fff;
+    background-color: #005ab7;
+    padding: 2px 4px;
+    border-radius: 13px;
+    float: left;
+    margin: 5px;
+    font-weight: 500;
+    cursor: pointer; }
+    .hashtag-container .tag-selected .tag-count {
+      background-color: #000;
+      padding: 3px 4px;
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+      position: relative;
+      right: -4px; }
 
 
 header {

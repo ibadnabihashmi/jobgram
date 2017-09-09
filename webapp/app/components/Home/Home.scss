@@ -1,12 +1,4 @@
-$grey: #808080;
-$white: #fff;
-$black: #000;
-$border-color: rgb(200, 200, 200);
-$job-provider: #005ab7;
-$salary-background: #ababab;
-$focus-color: #737373;
-$inset1: rgba(107, 107, 107, .075);
-$inset2: rgba(208, 208, 208, .6);
+@import "../../main.scss";
 
 .home {
   margin-bottom: 50px;
@@ -217,33 +209,6 @@ $inset2: rgba(208, 208, 208, .6);
 
     .result-header {
       padding: 20px;
-    }
-  }
-
-  .hashtag-container {
-    background-color: $white;
-    border: 1px solid $border-color;
-    margin-top: 20px;
-    padding: 10px;
-
-    .tag {
-      color: $white;
-      background-color: $grey;
-      padding: 2px 4px;
-      border-radius: 13px;
-      float: left;
-      margin: 5px;
-      font-weight: 500;
-      cursor: pointer;
-
-      .tag-count {
-        background-color: $black;
-        padding: 3px 4px;
-        border-top-right-radius: 12px;
-        border-bottom-right-radius: 12px;
-        position: relative;
-        right: -4px;
-      }
     }
   }
 }

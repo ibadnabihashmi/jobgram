@@ -1,7 +1,4 @@
-$black: #000;
-$black-hover: #5b5b5b;
-$white: #fff;
-$border-color: rgb(200, 200, 200);
+@import "../../../main.scss";
 
 header {
   background-color: $white;
