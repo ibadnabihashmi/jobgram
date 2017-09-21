@@ -21,7 +21,7 @@ router.get('/getFeed',function (req,res) {
       },
       "sort": {
         "jobDatePosted": {
-          "order": "asc"
+          "order": "desc"
         }
       },
       "from":req.query.from,
@@ -89,31 +89,31 @@ router.post('/getFeed',function (req,res) {
     })
   }
 
-  // var sMin = req.body.salaryMin && req.body.salaryMin !== '' ? Number(req.body.salaryMin) : 0;
-  // var sMax = req.body.salaryMax && req.body.salaryMax !== '' ? Number(req.body.salaryMax) : 9999999999;
-  //
-  // query.bool.must.push({
-  //   "bool": {
-  //     "should": [
-  //       {
-  //         "range": {
-  //           "jobSalary.min": {
-  //             "gte": sMin,
-  //             "lte": sMax
-  //           }
-  //         }
-  //       },
-  //       {
-  //         "range": {
-  //           "jobSalary.max": {
-  //             "gte": sMin,
-  //             "lte": sMax
-  //           }
-  //         }
-  //       }
-  //     ]
-  //   }
-  // });
+  var sMin = req.body.salaryMin && req.body.salaryMin !== '' ? Number(req.body.salaryMin) : 0;
+  var sMax = req.body.salaryMax && req.body.salaryMax !== '' ? Number(req.body.salaryMax) : 9999999999;
+
+  query.bool.must.push({
+    "bool": {
+      "should": [
+        {
+          "range": {
+            "jobSalary.min": {
+              "gte": sMin,
+              "lte": sMax
+            }
+          }
+        },
+        {
+          "range": {
+            "jobSalary.max": {
+              "gte": sMin,
+              "lte": sMax
+            }
+          }
+        }
+      ]
+    }
+  });
 
   client.search({
     index: 'jobgram',
@@ -122,7 +122,7 @@ router.post('/getFeed',function (req,res) {
       "query": query,
       "sort": {
         "jobDatePosted": {
-          "order": "asc"
+          "order": "desc"
         }
       },
       "from":req.query.from,

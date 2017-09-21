@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux'
 import Messages from '../Partials/Messages/Messages';
-import TimeAgo from 'react-timeago';
 import { fetchFeed,applyFilters,fetchTags } from '../../actions/feed';
 import PlaceHolder from './FeedPlaceholder';
 import Tag from './Tag/Tag';
+import TimeAgo from 'timeago-react';
 
 class Home extends React.Component {
 
@@ -179,7 +179,7 @@ class Home extends React.Component {
                   <h4><i className="material-icons">business</i> {job._source.jobProvider}</h4>
                 </span>
                 <span className="col-lg-2 text-right">
-                  <i className="material-icons">schedule</i><TimeAgo date={new Date(job._source.jobDatePosted)} />
+                  <i className="material-icons">schedule</i><TimeAgo datetime={job._source.jobDatePosted} locale='en' />
                 </span>
               </div>
             </div>
