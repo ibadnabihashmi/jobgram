@@ -46,3 +46,41 @@ Scrapping : https://www.mustakbil.com/jobs/job/173186/
 ==========================================================
 On page : https://www.mustakbil.com/jobs/search/?page=1
 ==========================================================
+==========================================================
+On page : https://www.mustakbil.com/jobs/search/?page=1
+==========================================================
+Number of links retrieved for page : 0
+done crawling : https://www.mustakbil.com/jobs/search/?page=1
+==========================================================
+On page : https://www.mustakbil.com/jobs/search/?page=2
+==========================================================
+Number of links retrieved for page : 0
+done crawling : https://www.mustakbil.com/jobs/search/?page=2
+==========================================================
+On page : https://www.mustakbil.com/jobs/search/?page=3
+==========================================================
+Number of links retrieved for page : 0
+done crawling : https://www.mustakbil.com/jobs/search/?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/176488
