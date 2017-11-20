@@ -115,6 +115,7 @@ MongoClient.connect(url, function(err, db) {
                                     fs.appendFileSync('message.txt', '\nScrapping : '+link);
                                     request(link, function (error1, response1, body1) {
                                         var _job = JSON.parse(body1);
+                                        console.log(_job);
                                         var job = {};
                                         if(error1) {
                                             console.log("Error: " + error1);
@@ -131,20 +132,20 @@ MongoClient.connect(url, function(err, db) {
                                                     }).join("|"),"ig");
                                                     job['jobId'] = "mustakbil-"+_job.id;
                                                     job['jobSalary'] = {
-                                                        min:Number(_job.salaryMin.replace(/[^\d]/g,'')),
-                                                        max:Number(_job.salaryMax.replace(/[^\d]/g,''))
+                                                        min:Number(_job.salaryMin),
+                                                        max:Number(_job.salaryMax)
                                                     };
-                                                    job['jobTags'] = UTILS.getTags(.trim());
-                                                    job['jobDatePosted'] = (new Date($($($('.table-grid-bordered').children()['3']).children()['1']).html().trim())).getTime();
-                                                    job['jobLocation'] = _.uniq($($($('.table-grid-bordered').children()['4']).children()['1']).text().trim().replace(/\r\n\s+/g,'').split(","));
-                                                    job['jobContent'] = content;
-                                                    job['jobUrl'] = link;
-                                                    job['jobTitle'] = element.jobTitle;
-                                                    job['jobProvider'] = element.jobProvider;
-                                                    job['jobProviderLogo'] = element.image !== undefined ? 'http://www.mustakbil.com'+element.image : 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
+                                                    job['jobTags'] = UTILS.getTags(_job.companyIndustry+","+_job.category);
+                                                    job['jobDatePosted'] = (new Date(_job.postedOn)).getTime();
+                                                    job['jobLocation'] = _.uniq([_job.companyCountry,_job.companyCity].join(",").replace(/\r\n\s+/g,'').split(","));
+                                                    job['jobContent'] = cheerio.load(_job.description).text();
+                                                    job['jobUrl'] = "http://www.mustakbil.com/jobs/job/"+_job.id;
+                                                    job['jobTitle'] = _job.title;
+                                                    job['jobProvider'] = _job.company;
+                                                    job['jobProviderLogo'] = _job.logo !== undefined ? 'http://www.mustakbil.com'+_job.logo : 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
                                                     job['jobSource'] = 'mustakbil';
                                                     job['jobSourceLogo'] = 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
-                                                    job['shortDescription'] = element.jobShortDescription;
+                                                    job['shortDescription'] = job['jobContent'].split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ') + '.....';
                                                     job['jobTags'] = UTILS.assembleTags(job['jobTags'],job['jobContent'].match(regex));
                                                     job['jobTags'] = UTILS.assembleTags(job['jobTags'],job['jobTitle'].match(regex));
                                                     client.index({
@@ -181,7 +182,7 @@ MongoClient.connect(url, function(err, db) {
                                         fs.appendFileSync('message.txt', '\ndone crawling : '+url);
                                         page+=1;
                                         if(page < 4){
-                                            rootUrl.push('https://www.mustakbil.com/jobs/search/?page='+page);
+                                            rootUrl.push('https://www.mustakbil.com/ws/jobs/search?page='+page);
                                         }
                                         callbackOuter(null,'all done');
                                     }

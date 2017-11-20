@@ -115,6 +115,8 @@ router.post('/getFeed',function (req,res) {
     }
   });
 
+  console.log(JSON.stringify(query,null,2));
+
   client.search({
     index: 'jobgram',
     type: 'job',
