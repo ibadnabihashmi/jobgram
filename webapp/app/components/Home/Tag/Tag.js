@@ -29,9 +29,9 @@ class Tag extends React.Component {
     return (
       <span onClick={this.toggleSelect.bind(this,this.props.name)} className={this.state.isSelected ? `tag-selected` : `tag`}>
           #{this.props.name}
-        <span className="tag-count">
-            {this.props.count}
-        </span>
+        {/*<span className="tag-count">*/}
+            {/*{this.props.count}*/}
+        {/*</span>*/}
       </span>
     );
   }

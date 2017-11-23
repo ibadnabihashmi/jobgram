@@ -92,30 +92,30 @@ router.post('/getFeed',function (req,res) {
   var sMin = req.body.salaryMin && req.body.salaryMin !== '' ? Number(req.body.salaryMin) : 0;
   var sMax = req.body.salaryMax && req.body.salaryMax !== '' ? Number(req.body.salaryMax) : 9999999999;
 
-  query.bool.must.push({
-    "bool": {
-      "should": [
-        {
-          "range": {
-            "jobSalary.min": {
-              "gte": sMin,
-              "lte": sMax
+  if(sMin !== 0 && sMax !== 9999999999){
+    query.bool.should.push({
+      "bool": {
+        "should": [
+          {
+            "range": {
+              "jobSalary.min": {
+                "gte": sMin,
+                "lte": sMax
+              }
+            }
+          },
+          {
+            "range": {
+              "jobSalary.max": {
+                "gte": sMin,
+                "lte": sMax
+              }
             }
           }
-        },
-        {
-          "range": {
-            "jobSalary.max": {
-              "gte": sMin,
-              "lte": sMax
-            }
-          }
-        }
-      ]
-    }
-  });
-
-  console.log(JSON.stringify(query,null,2));
+        ]
+      }
+    });
+  }
 
   client.search({
     index: 'jobgram',
@@ -140,3 +140,4 @@ router.post('/getFeed',function (req,res) {
 });
 
 module.exports = router;
+

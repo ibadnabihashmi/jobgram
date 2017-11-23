@@ -206,7 +206,7 @@ MongoClient.connect(url, function(err, db) {
                                     if(err) failureExecution(db,err,mongoResult.insertedId);
                                     console.log('done crawling : '+url);
                                     page+=1;
-                                    if(page < 2){
+                                    if(page < 4){
                                         rootUrl.push('http://www.bayrozgar.com/advance_search/page_'+page+'/');
                                     }
                                     callbackOuter(null,'all done');

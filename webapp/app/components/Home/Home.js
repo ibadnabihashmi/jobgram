@@ -146,9 +146,11 @@ class Home extends React.Component {
     }
     let _tags = [];
     tags.forEach(function (tag) {
-      _tags.push(
-        <Tag name={tag.name} count={tag.count} key={tag._id} applyFilters={context.applyFilters} filters={context.state.filters}/>
-      );
+      if(tag.name !== ''){
+        _tags.push(
+          <Tag name={tag.name} count={tag.count} key={tag._id} applyFilters={context.applyFilters} filters={context.state.filters}/>
+        );
+      }
     });
     return _tags;
   }

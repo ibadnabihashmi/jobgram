@@ -1,3 +1,5 @@
+import { API } from "../config/config";
+
 export function fetchFeed(from) {
   return (dispatch) => {
     dispatch({
@@ -8,7 +10,7 @@ export function fetchFeed(from) {
       isLoaded: false
     });
     setTimeout(function () {
-      return fetch(`http://localhost:3001/api/v1/feed/getFeed?from=${from}`, {
+      return fetch(`${API}/api/v1/feed/getFeed?from=${from}`, {
         method: 'get',
         headers: { 'Content-Type': 'application/json' },
       }).then((response) => {
@@ -41,7 +43,7 @@ export function fetchTags(page,size) {
     dispatch({
       type: 'CLEAR_MESSAGES'
     });
-    return fetch(`http://localhost:3001/api/v1/tags?page=${page}&size=${size}`,{
+    return fetch(`${API}/api/v1/tags?page=${page}&size=${size}`,{
       method:'get',
       headers: { 'Content-Type': 'application/json' }
     }).then((response) => {
@@ -71,7 +73,7 @@ export function applyFilters(filters,from) {
       isLoaded: false
     });
     setTimeout(function () {
-      return fetch(`http://localhost:3001/api/v1/feed/getFeed?from=${from}`, {
+      return fetch(`${API}/api/v1/feed/getFeed?from=${from}`, {
         method: 'post',
         body: JSON.stringify(filters),
         headers: { 'Content-Type': 'application/json' },
