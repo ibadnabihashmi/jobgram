@@ -11,7 +11,9 @@ var mongoose          = require('mongoose');
 var passport          = require('passport');
 var cors              = require('cors');
 
-var api = require('./api/v1');
+var api               = require('./api/v1');
+
+var APIUSER           = require('./models/ApiUser');
 
 // Load environment variables from .env file
 dotenv.load();
@@ -44,7 +46,24 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.use('/api/v1',api);
+app.use('/api/v1',function (req,res,next) {
+  APIUSER
+    .findOne({
+      '$and':[
+        {'key':req.headers.key},
+        {'user':req.host}
+      ]
+    })
+    .exec(function (err,apiuser) {
+      if(err || !apiuser){
+        res.status(403).send({
+          err:'not authorized'
+        });
+      }else{
+        next();
+      }
+    });
+},api);
 
 // Production error handler
 if (app.get('env') === 'production') {

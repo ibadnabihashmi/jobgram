@@ -1,4 +1,4 @@
-import { API } from "../config/config";
+import { API, API_KEY } from "../config/config";
 
 export function fetchFeed(from) {
   return (dispatch) => {
@@ -12,7 +12,7 @@ export function fetchFeed(from) {
     setTimeout(function () {
       return fetch(`${API}/api/v1/feed/getFeed?from=${from}`, {
         method: 'get',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json','key':API_KEY },
       }).then((response) => {
         if (response.ok) {
           return response.json().then((json) => {
@@ -45,7 +45,7 @@ export function fetchTags(page,size) {
     });
     return fetch(`${API}/api/v1/tags?page=${page}&size=${size}`,{
       method:'get',
-      headers: { 'Content-Type': 'application/json' }
+      headers: { 'Content-Type': 'application/json','key':API_KEY }
     }).then((response) => {
       if(response.ok){
         return response.json().then((json) => {
@@ -76,7 +76,7 @@ export function applyFilters(filters,from) {
       return fetch(`${API}/api/v1/feed/getFeed?from=${from}`, {
         method: 'post',
         body: JSON.stringify(filters),
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json','key':API_KEY },
       }).then((response) => {
         if(response.ok) {
           return response.json().then((json) => {

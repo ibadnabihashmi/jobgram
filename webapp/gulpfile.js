@@ -65,54 +65,54 @@ gulp.task('react', () => {
 
 gulp.task('watchify', () => {
   const bundler = watchify(browserify({ entries: 'app/main.js', debug: true }, watchify.args));
-bundler.transform('babelify', { presets: ['es2015', 'react'] });
-bundler.on('update', rebundle);
-bundler.on('update', lint);
-return rebundle();
+  bundler.transform('babelify', { presets: ['es2015', 'react'] });
+  bundler.on('update', rebundle);
+  bundler.on('update', lint);
+  return rebundle();
 
-function rebundle() {
-  const start = Date.now();
-  return bundler.bundle()
-    .on('error', function(err) {
-      gutil.log(gutil.colors.red(err.toString()));
-    })
-    .on('end', function() {
-      gutil.log(gutil.colors.green('Finished rebundling in', (Date.now() - start) + 'ms'));
-    })
-    .pipe(source('bundle.js'))
-    .pipe(buffer())
-    .pipe(sourcemaps.init({ loadMaps: true }))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('public/js'));
-}
+  function rebundle() {
+    const start = Date.now();
+    return bundler.bundle()
+      .on('error', function(err) {
+        gutil.log(gutil.colors.red(err.toString()));
+      })
+      .on('end', function() {
+        gutil.log(gutil.colors.green('Finished rebundling in', (Date.now() - start) + 'ms'));
+      })
+      .pipe(source('bundle.js'))
+      .pipe(buffer())
+      .pipe(sourcemaps.init({ loadMaps: true }))
+      .pipe(sourcemaps.write('.'))
+      .pipe(gulp.dest('public/js'));
+  }
 });
 
 gulp.task('lint', lint);
 gulp.task('lint-fix', () => {
   lintFix('app');
-lintFix('test');
+  lintFix('test');
 });
 
 gulp.task('serve', (done) => {
 
   gulp.src('public')
-  .pipe(server({
-    livereload: {
-      enable: true,
-      filter: function(filePath, cb) {
-        if (/\/public\/js\/bundle.js/.test(filePath)) {
-          cb(true);
-        }
-        else if (/\/public\/css\/main.css/.test(filePath)) {
-          cb(true);
-        }
+    .pipe(server({
+      livereload: {
+        enable: true,
+        filter: function(filePath, cb) {
+          if (/\/public\/js\/bundle.js/.test(filePath)) {
+            cb(true);
+          }
+          else if (/\/public\/css\/main.css/.test(filePath)) {
+            cb(true);
+          }
+        },
       },
-    },
-    fallback:'index.html',
-    open: true,
-    port: config.port,
-    host: config.host
-  }));
+      fallback:'index.html',
+      open: true,
+      port: config.port,
+      host: config.host
+    }));
 });
 
 gulp.task('watch', () => {
@@ -128,14 +128,35 @@ gulp.task('scss-lint', function() {
 
 gulp.task('clean', () => {
   gulp.src('build/*', {read: true})
-  .pipe(clean());
+    .pipe(clean());
 });
 
 gulp.task('copy', () => {
-  gulp.src(['public/**/*'])
-  .pipe(gulp.dest('build/'));
+  gulp.src(['public/index.html'])
+    .pipe(gulp.dest('build/'));
 });
 
-gulp.task('build', ['sass', 'react', 'clean', 'copy']);
+gulp.task('sass-prod', () => {
+  return gulp.src(['public/css/globals.scss','app/**/*.scss'])
+    .pipe(plumber())
+    .pipe(sass())
+    .pipe(autoprefixer())
+    .pipe(csso())
+    .pipe(concat('main.css'))
+    .pipe(gulp.dest('build/css'));
+});
+
+gulp.task('react-prod', () => {
+  return browserify({ entries: 'app/main.js', debug: false })
+    .transform('babelify', { presets: ['es2015', 'react'] })
+    .bundle()
+    .pipe(source('bundle.js'))
+    .pipe(buffer())
+    .pipe(uglify())
+    .pipe(gulp.dest('build/js'));
+});
+
+gulp.task('build', ['sass', 'react', 'clean']);
 gulp.task('default', ['build', 'watch', 'watchify', 'lint', 'scss-lint', 'serve']);
 gulp.task('no-lint', ['build', 'watch', 'watchify', 'serve']);
+gulp.task('build-prod',['clean','sass-prod','react-prod','copy']);
