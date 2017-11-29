@@ -9,32 +9,30 @@ export function fetchFeed(from) {
       type: 'UPDATE_PLACEHOLDER',
       isLoaded: false
     });
-    setTimeout(function () {
-      return fetch(`${API}/api/v1/feed/getFeed?from=${from}`, {
-        method: 'get',
-        headers: { 'Content-Type': 'application/json','key':API_KEY },
-      }).then((response) => {
-        if (response.ok) {
-          return response.json().then((json) => {
-            dispatch({
-              type: 'FETCH_FEED_SUCCESS',
-              feed: json.resp
-            });
-            dispatch({
-              type: 'UPDATE_PLACEHOLDER',
-              isLoaded: true
-            });
+    return fetch(`${API}/api/v1/feed/getFeed?from=${from}`, {
+      method: 'get',
+      headers: { 'Content-Type': 'application/json','key':API_KEY },
+    }).then((response) => {
+      if (response.ok) {
+        return response.json().then((json) => {
+          dispatch({
+            type: 'FETCH_FEED_SUCCESS',
+            feed: json.resp
           });
-        } else {
-          return response.json().then((json) => {
-            dispatch({
-              type: 'FETCH_FEED_FAILURE',
-              messages: Array.isArray(json) ? json : [json]
-            });
+          dispatch({
+            type: 'UPDATE_PLACEHOLDER',
+            isLoaded: true
           });
-        }
-      });
-    },1000);
+        });
+      } else {
+        return response.json().then((json) => {
+          dispatch({
+            type: 'FETCH_FEED_FAILURE',
+            messages: Array.isArray(json) ? json : [json]
+          });
+        });
+      }
+    });
   }
 }
 
@@ -72,32 +70,30 @@ export function applyFilters(filters,from) {
       type: 'UPDATE_PLACEHOLDER',
       isLoaded: false
     });
-    setTimeout(function () {
-      return fetch(`${API}/api/v1/feed/getFeed?from=${from}`, {
-        method: 'post',
-        body: JSON.stringify(filters),
-        headers: { 'Content-Type': 'application/json','key':API_KEY },
-      }).then((response) => {
-        if(response.ok) {
-          return response.json().then((json) => {
-            dispatch({
-              type: 'FETCH_FEED_SUCCESS',
-              feed: json.resp
-            });
-            dispatch({
-              type: 'UPDATE_PLACEHOLDER',
-              isLoaded: true
-            });
+    return fetch(`${API}/api/v1/feed/getFeed?from=${from}`, {
+      method: 'post',
+      body: JSON.stringify(filters),
+      headers: { 'Content-Type': 'application/json','key':API_KEY },
+    }).then((response) => {
+      if(response.ok) {
+        return response.json().then((json) => {
+          dispatch({
+            type: 'FETCH_FEED_SUCCESS',
+            feed: json.resp
           });
-        }else{
-          return response.json().then((json) => {
-            dispatch({
-              type: 'FETCH_FEED_SUCCESS',
-              feed: json.resp
-            });
+          dispatch({
+            type: 'UPDATE_PLACEHOLDER',
+            isLoaded: true
           });
-        }
-      });
-    },1000);
+        });
+      }else{
+        return response.json().then((json) => {
+          dispatch({
+            type: 'FETCH_FEED_SUCCESS',
+            feed: json.resp
+          });
+        });
+      }
+    });
   }
 }
