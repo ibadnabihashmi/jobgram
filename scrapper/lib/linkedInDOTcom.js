@@ -340,7 +340,7 @@ MongoClient.connect(url, function(err, db) {
                                     ]
                                 ).then(function () {
                                     console.log('Opening page .....');
-                                    page.open('https://www.linkedin.com/jobs/search/?locationId=pk%3A0&sortBy=DD&start=75').then(function (status) {
+                                    page.open('https://www.linkedin.com/jobs/search/?locationId=pk%3A0&sortBy=DD&start=0').then(function (status) {
                                         console.log(status);
                                         page.property('content').then(function (content) {
                                             var $ = cheerio.load(content.toString());

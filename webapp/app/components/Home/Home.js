@@ -5,6 +5,7 @@ import { fetchFeed,applyFilters,fetchTags } from '../../actions/feed';
 import PlaceHolder from './FeedPlaceholder';
 import Tag from './Tag/Tag';
 import TimeAgo from 'timeago-react';
+import { Filters } from './Filters/Filters';
 
 class Home extends React.Component {
 
@@ -28,12 +29,6 @@ class Home extends React.Component {
     this.gotoNext = this.gotoNext.bind(this);
     this.applyFilters = this.applyFilters.bind(this);
     this.clearFilters = this.clearFilters.bind(this);
-    this.handleKeywordChange = this.handleKeywordChange.bind(this);
-    this.handleLocationChange = this.handleLocationChange.bind(this);
-    this.handleMinSalaryChange = this.handleMinSalaryChange.bind(this);
-    this.handleMaxSalaryChange = this.handleMaxSalaryChange.bind(this);
-    this.handleSourceChange = this.handleSourceChange.bind(this);
-    this.handleProviderChange = this.handleProviderChange.bind(this);
   }
 
   componentDidMount() {
@@ -89,54 +84,6 @@ class Home extends React.Component {
         salaryMin:'',
         salaryMax:''
       }
-    });
-  }
-
-  handleKeywordChange(e) {
-    let filters = this.state.filters;
-    filters.keyword = e.target.value;
-    this.setState({
-      filters: filters
-    });
-  }
-
-  handleSourceChange(e) {
-    let filters = this.state.filters;
-    filters.source = e.target.value;
-    this.setState({
-      filters: filters
-    });
-  }
-
-  handleProviderChange(e) {
-    let filters = this.state.filters;
-    filters.provider = e.target.value;
-    this.setState({
-      filters: filters
-    });
-  }
-
-  handleLocationChange(e) {
-    let filters = this.state.filters;
-    filters.location = e.target.value;
-    this.setState({
-      filters: filters
-    });
-  }
-
-  handleMinSalaryChange(e) {
-    let filters = this.state.filters;
-    filters.salaryMin = e.target.value;
-    this.setState({
-      filters: filters
-    });
-  }
-
-  handleMaxSalaryChange(e) {
-    let filters = this.state.filters;
-    filters.salaryMax = e.target.value;
-    this.setState({
-      filters: filters
     });
   }
 
@@ -220,26 +167,7 @@ class Home extends React.Component {
       <div className="col-md-12 home">
         <Messages messages={this.props.messages}/>
         <div className="col-lg-3 search">
-          <div className="col-lg-3 bs-docs-sidebar hidden-print hidden-sm hidden-xs affix">
-            <div className="form-group">
-              <input type="text" className="form-control" value={this.state.filters.keyword} onChange={this.handleKeywordChange} onBlur={this.applyFilters} placeholder="keyword or hashtag"/>
-            </div>
-            <div className="form-group">
-              <input type="text" className="form-control" value={this.state.filters.location} onChange={this.handleLocationChange} onBlur={this.applyFilters} placeholder="Location"/>
-            </div>
-            <div className="form-group">
-              <input type="text" className="form-control" value={this.state.filters.source} onChange={this.handleSourceChange} onBlur={this.applyFilters} placeholder="Job Source ,e.g : Linkedin etc"/>
-            </div>
-            <div className="form-group">
-              <input type="text" className="form-control" value={this.state.filters.provider} onChange={this.handleProviderChange} onBlur={this.applyFilters} placeholder="job provider"/>
-            </div>
-            <div className="input-group">
-              <div className="input-group-addon">min</div>
-              <input type="number" className="form-control" value={this.state.filters.salaryMin} onChange={this.handleMinSalaryChange} onBlur={this.applyFilters} placeholder="$$$"/>
-              <input type="number" className="form-control" value={this.state.filters.salaryMax} onChange={this.handleMaxSalaryChange} onBlur={this.applyFilters} placeholder="$$$"/>
-              <div className="input-group-addon">max</div>
-            </div>
-          </div>
+          <Filters applyFilters={this.applyFilters} filters={this.state.filters}/>
         </div>
         <div className="col-lg-6 feed">
           {

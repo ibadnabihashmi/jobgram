@@ -93,7 +93,7 @@ router.post('/getFeed',function (req,res) {
   var sMax = req.body.salaryMax && req.body.salaryMax !== '' ? Number(req.body.salaryMax) : 9999999999;
 
   if(sMin !== 0 && sMax !== 9999999999){
-    query.bool.should.push({
+    query.bool.must.push({
       "bool": {
         "should": [
           {

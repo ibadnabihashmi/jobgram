@@ -5995,6 +5995,31 @@ body {
 
 
 
+
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #c8c8c8;
+  height: 67px; }
+  header nav .navbar-nav {
+    text-align: center;
+    width: 100%; }
+    header nav .navbar-nav li {
+      display: inline-block;
+      float: none; }
+      header nav .navbar-nav li a {
+        color: #000;
+        font-size: 40px; }
+        header nav .navbar-nav li a:hover {
+          background-color: transparent;
+          color: #5b5b5b;
+          cursor: pointer; }
+      header nav .navbar-nav li .main-logo {
+        padding: 20px 0;
+        font-family: 'Yesteryear', cursive;
+        font-weight: 900; }
+
+
 .hashtag-container {
   background-color: #fff;
   border: 1px solid #c8c8c8;
@@ -6032,27 +6057,3 @@ body {
       border-bottom-right-radius: 12px;
       position: relative;
       right: -4px; }
-
-
-header {
-  background-color: #fff;
-  border-bottom: 1px solid #c8c8c8;
-  height: 67px; }
-  header nav .navbar-nav {
-    text-align: center;
-    width: 100%; }
-    header nav .navbar-nav li {
-      display: inline-block;
-      float: none; }
-      header nav .navbar-nav li a {
-        color: #000;
-        font-size: 40px; }
-        header nav .navbar-nav li a:hover {
-          background-color: transparent;
-          color: #5b5b5b;
-          cursor: pointer; }
-      header nav .navbar-nav li .main-logo {
-        padding: 20px 0;
-        font-family: 'Yesteryear', cursive;
-        font-weight: 900; }
-
