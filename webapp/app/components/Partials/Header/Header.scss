@@ -28,6 +28,13 @@ header {
         padding: 20px 0;
         font-family: 'Yesteryear', cursive;
         font-weight: 900;
+
+        @media screen and (max-width: 768px) {
+          padding: 14px 0;
+          font-family: 'Yesteryear', cursive;
+          font-weight: 900;
+          padding-left: 50px;
+        }
       }
     }
   }

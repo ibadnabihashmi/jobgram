@@ -13,15 +13,7 @@ class Header extends React.Component {
       <header role="banner" className="navbar-fixed-top">
         <nav id="navbar-primary" className="navbar" role="navigation">
           <div className="container-fluid">
-            <div className="navbar-header">
-              <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
-                <span className="sr-only">Toggle navigation</span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-                <span className="icon-bar"></span>
-              </button>
-            </div>
-            <div className="collapse navbar-collapse" id="navbar-primary-collapse">
+            <div id="navbar-primary-collapse">
               <ul className="nav navbar-nav">
                 {/*<li><a href="#">Link</a></li>*/}
                 {/*<li><a href="#">Link</a></li>*/}

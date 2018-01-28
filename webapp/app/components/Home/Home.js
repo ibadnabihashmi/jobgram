@@ -117,22 +117,22 @@ class Home extends React.Component {
     this.props.feed.jobs.hits.forEach(function (job) {
       jobs.push(
         <a href={job._source.jobUrl} target="_blank" key={job._id}>
-          <div className="col-lg-12 job">
-            <div className="col-lg-12 job-head">
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 job">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 job-head">
               <div className="row">
-                <span className="col-lg-2">
+                <span className="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                   <img src={job._source.jobProviderLogo ? job._source.jobProviderLogo : job._source.jobSourceLogo}/>
                 </span>
-                <span className="col-lg-8">
-                  <h2>{job._source.jobTitle}</h2>
+                <span className="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                  <h3>{job._source.jobTitle}</h3>
                   <h4><i className="material-icons">business</i> {job._source.jobProvider}</h4>
                 </span>
-                <span className="col-lg-2 text-right">
+                <span className="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right time-span">
                   <i className="material-icons">schedule</i><TimeAgo datetime={job._source.jobDatePosted} locale='en' />
                 </span>
               </div>
             </div>
-            <div className="col-lg-12 job-content">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 job-content">
               {
                 job._source.jobSalary ? (
                   <span><i className="material-icons">attach_money</i> {job._source.jobSalary.min} - {job._source.jobSalary.max}</span>
@@ -152,7 +152,7 @@ class Home extends React.Component {
               }
 
             </div>
-            <div className="col-lg-12 job-footer">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 job-footer">
               <p>via <span>{job._source.jobSource}</span> <img className={`img-${job._source.jobSource}`} src={job._source.jobSourceLogo}/></p>
             </div>
           </div>
@@ -164,15 +164,15 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className="col-md-12 home">
+      <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 col home">
         <Messages messages={this.props.messages}/>
-        <div className="col-lg-3 search">
+        <div className="col-lg-3 col-md-3 search">
           <Filters applyFilters={this.applyFilters} filters={this.state.filters}/>
         </div>
-        <div className="col-lg-6 feed">
+        <div className="col-lg-6 col-md-6 feed">
           {
             this.props.feed.isLoaded ? (
-              <div className="col-lg-12 job result-header">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 job result-header">
                 <span>showing {(this.state.from) + 1} - {(this.state.from) + 10}</span>
                 <span className="pull-right">total {this.props.feed.jobs.total}</span>
               </div>
@@ -190,7 +190,7 @@ class Home extends React.Component {
             ) : ''
           }
         </div>
-        <div className="col-lg-3 hashtag-container">
+        <div className="col-lg-3 col-md-3 hashtag-container">
           {
             this.renderTags(this.props.feed.tags,this)
           }

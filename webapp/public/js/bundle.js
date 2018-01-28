@@ -3552,29 +3552,37 @@ var Filters = exports.Filters = function (_get__$Component) {
   }, {
     key: 'render',
     value: function render() {
+      var _state = this.state,
+          tags = _state.tags,
+          suggestions = _state.suggestions;
+
       return _react2.default.createElement(
         'div',
-        { className: 'col-lg-3 bs-docs-sidebar hidden-print hidden-sm hidden-xs affix' },
+        { className: 'col-lg-3 col-md-3 bs-docs-sidebar affix' },
         _react2.default.createElement(
           'div',
           { className: 'form-group' },
-          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.keyword, onChange: this.handleKeywordChange, onBlur: this.props.applyFilters, placeholder: 'keyword or hashtag' })
+          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.keyword, onChange: this.handleKeywordChange, placeholder: 'Enter any keyword' })
         ),
+        _react2.default.createElement('hr', null),
         _react2.default.createElement(
           'div',
           { className: 'form-group' },
-          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.location, onChange: this.handleLocationChange, onBlur: this.props.applyFilters, placeholder: 'Location' })
+          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.location, onChange: this.handleLocationChange, placeholder: 'City or Country (Comma separated)' })
         ),
+        _react2.default.createElement('hr', null),
         _react2.default.createElement(
           'div',
           { className: 'form-group' },
-          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.source, onChange: this.handleSourceChange, onBlur: this.props.applyFilters, placeholder: 'Job Source ,e.g : Linkedin etc' })
+          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.source, onChange: this.handleSourceChange, placeholder: 'Job Source, e.g: Linkedin etc (Comma separated)' })
         ),
+        _react2.default.createElement('hr', null),
         _react2.default.createElement(
           'div',
           { className: 'form-group' },
-          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.provider, onChange: this.handleProviderChange, onBlur: this.props.applyFilters, placeholder: 'job provider' })
+          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.provider, onChange: this.handleProviderChange, placeholder: 'Company name (Comma separated)' })
         ),
+        _react2.default.createElement('hr', null),
         _react2.default.createElement(
           'div',
           { className: 'input-group' },
@@ -3583,12 +3591,22 @@ var Filters = exports.Filters = function (_get__$Component) {
             { className: 'input-group-addon' },
             'min'
           ),
-          _react2.default.createElement('input', { type: 'number', className: 'form-control', value: this.state.filters.salaryMin, onChange: this.handleMinSalaryChange, onBlur: this.props.applyFilters, placeholder: '$$$' }),
-          _react2.default.createElement('input', { type: 'number', className: 'form-control', value: this.state.filters.salaryMax, onChange: this.handleMaxSalaryChange, onBlur: this.props.applyFilters, placeholder: '$$$' }),
+          _react2.default.createElement('input', { type: 'number', className: 'form-control', value: this.state.filters.salaryMin, onChange: this.handleMinSalaryChange, placeholder: '$$$' }),
+          _react2.default.createElement('input', { type: 'number', className: 'form-control', value: this.state.filters.salaryMax, onChange: this.handleMaxSalaryChange, placeholder: '$$$' }),
           _react2.default.createElement(
             'div',
             { className: 'input-group-addon' },
             'max'
+          )
+        ),
+        _react2.default.createElement('hr', null),
+        _react2.default.createElement(
+          'div',
+          { className: 'form-group' },
+          _react2.default.createElement(
+            'button',
+            { className: 'btn btn-info', onClick: this.props.applyFilters },
+            'Search'
           )
         )
       );
@@ -3875,23 +3893,23 @@ var Home = function (_get__$Component) {
           { href: job._source.jobUrl, target: '_blank', key: job._id },
           _react2.default.createElement(
             'div',
-            { className: 'col-lg-12 job' },
+            { className: 'col-lg-12 col-md-12 col-sm-12 col-xs-12 job' },
             _react2.default.createElement(
               'div',
-              { className: 'col-lg-12 job-head' },
+              { className: 'col-lg-12 col-md-12 col-sm-12 col-xs-12 job-head' },
               _react2.default.createElement(
                 'div',
                 { className: 'row' },
                 _react2.default.createElement(
                   'span',
-                  { className: 'col-lg-2' },
+                  { className: 'col-lg-2 col-md-2 col-sm-2 col-xs-2' },
                   _react2.default.createElement('img', { src: job._source.jobProviderLogo ? job._source.jobProviderLogo : job._source.jobSourceLogo })
                 ),
                 _react2.default.createElement(
                   'span',
-                  { className: 'col-lg-8' },
+                  { className: 'col-lg-7 col-md-7 col-sm-7 col-xs-7' },
                   _react2.default.createElement(
-                    'h2',
+                    'h3',
                     null,
                     job._source.jobTitle
                   ),
@@ -3909,7 +3927,7 @@ var Home = function (_get__$Component) {
                 ),
                 _react2.default.createElement(
                   'span',
-                  { className: 'col-lg-2 text-right' },
+                  { className: 'col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right time-span' },
                   _react2.default.createElement(
                     'i',
                     { className: 'material-icons' },
@@ -3921,7 +3939,7 @@ var Home = function (_get__$Component) {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'col-lg-12 job-content' },
+              { className: 'col-lg-12 col-md-12 col-sm-12 col-xs-12 job-content' },
               job._source.jobSalary ? _react2.default.createElement(
                 'span',
                 null,
@@ -3953,7 +3971,7 @@ var Home = function (_get__$Component) {
             ),
             _react2.default.createElement(
               'div',
-              { className: 'col-lg-12 job-footer' },
+              { className: 'col-lg-12 col-md-12 col-sm-12 col-xs-12 job-footer' },
               _react2.default.createElement(
                 'p',
                 null,
@@ -3983,19 +4001,19 @@ var Home = function (_get__$Component) {
 
       return _react2.default.createElement(
         'div',
-        { className: 'col-md-12 home' },
+        { className: 'col-lg-12 col-md-12 col-sm-12 col-xs-12 col home' },
         _react2.default.createElement(_Messages_Component, { messages: this.props.messages }),
         _react2.default.createElement(
           'div',
-          { className: 'col-lg-3 search' },
+          { className: 'col-lg-3 col-md-3 search' },
           _react2.default.createElement(_Filters_Component, { applyFilters: this.applyFilters, filters: this.state.filters })
         ),
         _react2.default.createElement(
           'div',
-          { className: 'col-lg-6 feed' },
+          { className: 'col-lg-6 col-md-6 feed' },
           this.props.feed.isLoaded ? _react2.default.createElement(
             'div',
-            { className: 'col-lg-12 job result-header' },
+            { className: 'col-lg-12 col-md-12 col-sm-12 col-xs-12 job result-header' },
             _react2.default.createElement(
               'span',
               null,
@@ -4029,7 +4047,7 @@ var Home = function (_get__$Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'col-lg-3 hashtag-container' },
+          { className: 'col-lg-3 col-md-3 hashtag-container' },
           this.renderTags(this.props.feed.tags, this)
         )
       );
@@ -4826,23 +4844,7 @@ var Header = function (_get__$Component) {
             { className: 'container-fluid' },
             _react2.default.createElement(
               'div',
-              { className: 'navbar-header' },
-              _react2.default.createElement(
-                'button',
-                { type: 'button', className: 'navbar-toggle', 'data-toggle': 'collapse', 'data-target': '#navbar-primary-collapse' },
-                _react2.default.createElement(
-                  'span',
-                  { className: 'sr-only' },
-                  'Toggle navigation'
-                ),
-                _react2.default.createElement('span', { className: 'icon-bar' }),
-                _react2.default.createElement('span', { className: 'icon-bar' }),
-                _react2.default.createElement('span', { className: 'icon-bar' })
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'collapse navbar-collapse', id: 'navbar-primary-collapse' },
+              { id: 'navbar-primary-collapse' },
               _react2.default.createElement(
                 'ul',
                 { className: 'nav navbar-nav' },

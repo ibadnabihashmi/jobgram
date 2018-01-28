@@ -5812,22 +5812,26 @@ body {
   left: 70px; }
 
 .header-separator-one {
-  width: 89%;
+  position: relative;
+  float: right;
+  width: 85.8%;
   height: 15px;
-  top: 17px;
-  left: 90px; }
+  top: 17px; }
 
 .header-separator-two {
-  width: 89%;
+  position: relative;
+  width: 85.8%;
   height: 15px;
-  top: 50px;
-  left: 90px; }
+  top: 17px;
+  /* left: 90px; */
+  float: right; }
 
 .header-separator-three {
+  float: right;
   width: 65%;
   height: 18px;
-  top: 32px;
-  left: 243px; }
+  top: 17px;
+  position: relative; }
 
 .header-separator-four {
   width: 40%;
@@ -5846,10 +5850,11 @@ body {
   top: 142px; }
 
 .content-separater-three {
-  width: 54%;
+  position: relative;
+  float: right;
+  width: 50%;
   height: 16px;
-  top: 157px;
-  left: 319px; }
+  top: 109px; }
 
 
 
@@ -5858,8 +5863,15 @@ body {
   margin-top: 65px; }
   .home .search {
     margin-top: 20px; }
+    @media screen and (max-width: 991px) {
+      .home .search {
+        margin-top: 0px; } }
     .home .search .affix {
       left: 20px; }
+      @media screen and (max-width: 991px) {
+        .home .search .affix {
+          left: 0px;
+          position: relative !important; } }
     .home .search input {
       border-radius: 0;
       background-color: #fff;
@@ -5904,8 +5916,6 @@ body {
     border: 1px solid #c8c8c8;
     margin-top: 20px;
     padding-top: 20px; }
-    .home .feed .job .job-head .col-lg-8 {
-      left: -18px; }
     .home .feed .job .job-head img {
       border-radius: 35px;
       width: 70px;
@@ -5915,19 +5925,23 @@ body {
       font-weight: 300;
       margin-top: 0;
       color: #000; }
+    .home .feed .job .job-head h3 {
+      font-weight: 300;
+      margin-top: 0;
+      color: #000; }
     .home .feed .job .job-head h4 {
       color: #005ab7;
       font-weight: 300; }
       .home .feed .job .job-head h4 i {
         font-size: 22px;
         color: #005ab7; }
-    .home .feed .job .job-head i {
+    .home .feed .job .job-head .time-span i {
       font-size: 18px;
       position: relative;
       top: 4px;
       right: 4px;
       color: #808080; }
-    .home .feed .job .job-head time {
+    .home .feed .job .job-head .time-span time {
       color: #808080;
       font-size: 12px; }
     .home .feed .job .job-content {
@@ -6001,6 +6015,10 @@ body {
   border: 1px solid #c8c8c8;
   margin-top: 20px;
   padding: 10px; }
+  @media screen and (max-width: 991px) {
+    .hashtag-container {
+      overflow: auto;
+      margin: 25px 16px; } }
   .hashtag-container .tag {
     color: #fff;
     background-color: #808080;
@@ -6056,4 +6074,10 @@ header {
         padding: 20px 0;
         font-family: 'Yesteryear', cursive;
         font-weight: 900; }
+        @media screen and (max-width: 768px) {
+          header nav .navbar-nav li .main-logo {
+            padding: 14px 0;
+            font-family: 'Yesteryear', cursive;
+            font-weight: 900;
+            padding-left: 50px; } }
 

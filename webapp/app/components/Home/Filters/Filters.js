@@ -13,7 +13,7 @@ export class Filters extends React.Component {
         tags:[],
         source:'',
         provider:''
-      },
+      }
     };
     this.handleKeywordChange = this.handleKeywordChange.bind(this);
     this.handleLocationChange = this.handleLocationChange.bind(this);
@@ -78,25 +78,29 @@ export class Filters extends React.Component {
   }
 
   render(){
+    const { tags, suggestions } = this.state;
     return (
-      <div className="col-lg-3 bs-docs-sidebar hidden-print hidden-sm hidden-xs affix">
+      <div className="col-lg-3 col-md-3 bs-docs-sidebar affix">
         <div className="form-group">
-          <input type="text" className="form-control" value={this.state.filters.keyword} onChange={this.handleKeywordChange} onBlur={this.props.applyFilters} placeholder="keyword or hashtag"/>
-        </div>
+          <input type="text" className="form-control" value={this.state.filters.keyword} onChange={this.handleKeywordChange} placeholder="Enter any keyword"/>
+        </div><hr/>
         <div className="form-group">
-          <input type="text" className="form-control" value={this.state.filters.location} onChange={this.handleLocationChange} onBlur={this.props.applyFilters} placeholder="Location"/>
-        </div>
+          <input type="text" className="form-control" value={this.state.filters.location} onChange={this.handleLocationChange} placeholder="City or Country (Comma separated)"/>
+        </div><hr/>
         <div className="form-group">
-          <input type="text" className="form-control" value={this.state.filters.source} onChange={this.handleSourceChange} onBlur={this.props.applyFilters} placeholder="Job Source ,e.g : Linkedin etc"/>
-        </div>
+          <input type="text" className="form-control" value={this.state.filters.source} onChange={this.handleSourceChange} placeholder="Job Source, e.g: Linkedin etc (Comma separated)"/>
+        </div><hr/>
         <div className="form-group">
-          <input type="text" className="form-control" value={this.state.filters.provider} onChange={this.handleProviderChange} onBlur={this.props.applyFilters} placeholder="job provider"/>
-        </div>
+          <input type="text" className="form-control" value={this.state.filters.provider} onChange={this.handleProviderChange} placeholder="Company name (Comma separated)"/>
+        </div><hr/>
         <div className="input-group">
           <div className="input-group-addon">min</div>
-          <input type="number" className="form-control" value={this.state.filters.salaryMin} onChange={this.handleMinSalaryChange} onBlur={this.props.applyFilters} placeholder="$$$"/>
-          <input type="number" className="form-control" value={this.state.filters.salaryMax} onChange={this.handleMaxSalaryChange} onBlur={this.props.applyFilters} placeholder="$$$"/>
+          <input type="number" className="form-control" value={this.state.filters.salaryMin} onChange={this.handleMinSalaryChange} placeholder="$$$"/>
+          <input type="number" className="form-control" value={this.state.filters.salaryMax} onChange={this.handleMaxSalaryChange} placeholder="$$$"/>
           <div className="input-group-addon">max</div>
+        </div><hr/>
+        <div className="form-group">
+          <button className="btn btn-info" onClick={this.props.applyFilters}>Search</button>
         </div>
       </div>
     );

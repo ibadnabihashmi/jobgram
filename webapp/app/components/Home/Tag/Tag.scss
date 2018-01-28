@@ -6,6 +6,11 @@
   margin-top: 20px;
   padding: 10px;
 
+  @media screen and (max-width: 991px) {
+    overflow: auto;
+    margin: 25px 16px;
+  }
+
   .tag {
     color: $white;
     background-color: $grey;

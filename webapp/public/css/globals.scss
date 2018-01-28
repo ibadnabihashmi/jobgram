@@ -64,24 +64,28 @@ body {
 }
 
 .header-separator-one {
-  width: 89%;
+  position: relative;
+  float: right;
+  width: 85.8%;
   height: 15px;
   top: 17px;
-  left: 90px;
 }
 
 .header-separator-two {
-  width: 89%;
+  position: relative;
+  width: 85.8%;
   height: 15px;
-  top: 50px;
-  left: 90px;
+  top: 17px;
+  /* left: 90px; */
+  float: right;
 }
 
 .header-separator-three {
+  float: right;
   width: 65%;
   height: 18px;
-  top: 32px;
-  left: 243px;
+  top: 17px;
+  position: relative;
 }
 
 .header-separator-four {
@@ -104,8 +108,9 @@ body {
 }
 
 .content-separater-three {
-  width: 54%;
+  position: relative;
+  float: right;
+  width: 50%;
   height: 16px;
-  top: 157px;
-  left: 319px;
+  top: 109px;
 }
