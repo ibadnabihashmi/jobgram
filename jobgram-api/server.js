@@ -47,22 +47,23 @@ app.use(function(req, res, next) {
 });
 
 app.use('/api/v1',function (req,res,next) {
-  APIUSER
-    .findOne({
-      '$and':[
-        {'key':req.headers.key},
-        {'user':req.host}
-      ]
-    })
-    .exec(function (err,apiuser) {
-      if(err || !apiuser){
-        res.status(403).send({
-          err:'not authorized'
-        });
-      }else{
-        next();
-      }
-    });
+  next();
+  // APIUSER
+  //   .findOne({
+  //     '$and':[
+  //       {'key':req.headers.key},
+  //       {'user':req.host}
+  //     ]
+  //   })
+  //   .exec(function (err,apiuser) {
+  //     if(err || !apiuser){
+  //       res.status(403).send({
+  //         err:'not authorized'
+  //       });
+  //     }else{
+        
+  //     }
+  //   });
 },api);
 
 // Production error handler

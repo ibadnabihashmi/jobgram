@@ -29,6 +29,15 @@ header {
         font-family: 'Yesteryear', cursive;
         font-weight: 900;
 
+        span {
+          font-family: sans-serif;
+          font-size: 10px;
+          font-weight: 200;
+          position: absolute;
+          margin-top: 16px;
+          margin-left: -23px;
+        }
+
         @media screen and (max-width: 768px) {
           padding: 14px 0;
           font-family: 'Yesteryear', cursive;

@@ -4647,7 +4647,7 @@ var Footer = function (_get__$Component) {
         _react2.default.createElement(
           "p",
           { className: "text-center" },
-          "\xA9 2017 Jobgram, Inc. All Rights Reserved."
+          "\xA9 2018 Jobtiv, Inc. All Rights Reserved."
         )
       );
     }
@@ -4854,7 +4854,12 @@ var Header = function (_get__$Component) {
                   _react2.default.createElement(
                     'a',
                     { href: '#', className: 'main-logo' },
-                    'Jobgram'
+                    'Jobtiv',
+                    _react2.default.createElement(
+                      'span',
+                      null,
+                      ' beta'
+                    )
                   )
                 )
               )
@@ -5229,9 +5234,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 var MAILGUN_USERNAME = exports.MAILGUN_USERNAME = 'postmaster@sandbox67c118365e564798a8864434e4b2a3cb.mailgun.org';
 var MAILGUN_PASSWORD = exports.MAILGUN_PASSWORD = 'ed49d942fd9e6c11208ee3aacb29df9d';
-// export const MONGODB='jobgram:25tolife@ds119736.mlab.com:19736/jobgram';
-var MONGODB = exports.MONGODB = 'localhost:27017/jobgram';
-var API = exports.API = 'http://localhost:3001';
+var MONGODB = exports.MONGODB = 'jobgram:25tolife@ds119736.mlab.com:19736/jobgram';
+// export const MONGODB='localhost:27017/jobgram';
+// export const API='http://localhost:3001';
+var API = exports.API = 'http://139.59.58.18:3001';
 var API_KEY = exports.API_KEY = 'myuniquekey';
 var PORT = exports.PORT = 3000;
 var HOST = exports.HOST = 'localhost';
@@ -5240,7 +5246,7 @@ var FACEBOOK_SECRET = exports.FACEBOOK_SECRET = 'fb9416c436edd2690c6f6adbd94374d
 var GOOGLE_SECRET = exports.GOOGLE_SECRET = 'SyXmZcdT6vPFeqcs0jaPhdVP';
 var TWITTER_KEY = exports.TWITTER_KEY = '6NNBDyJ2TavL407A3lWxPFKBI';
 var TWITTER_SECRET = exports.TWITTER_SECRET = 'ZHaYyK3DQCqv49Z9ofsYdqiUgeoICyh6uoBgFfu7OeYC7wTQKa';
-var ENV = exports.ENV = 'development';
+var ENV = exports.ENV = 'production';
 
 },{}],21:[function(require,module,exports){
 'use strict';
