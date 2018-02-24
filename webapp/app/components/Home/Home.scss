@@ -93,8 +93,10 @@
         img {
           border-radius: 35px;
           width: 70px;
-          height: 70px;
           border: 2px solid $border-color;
+          @media screen and (max-width: 375px) {
+            width: 52px;
+          }
         }
 
         h2 {
@@ -103,19 +105,57 @@
           color: $black;
         }
 
-        h3 {
-          font-weight: 300;
-          margin-top: 0;
-          color: $black;
-        }
-
-        h4 {
-          color: $job-provider;
-          font-weight: 300;
-
-          i {
-            font-size: 22px;
+        .col-lg-7 {
+          h3 {
+            font-weight: 300;
+            margin-top: 0;
+            color: $black;
+  
+            @media screen and (max-width: 500px) {
+              font-size: 20px;
+              margin-left: 14px;
+            }
+  
+            @media screen and (max-width: 375px) {
+              font-size: 15px;
+              margin-left: 14px;
+              margin-top: 2px;
+            }
+          }
+  
+          h4 {
             color: $job-provider;
+            font-weight: 300;
+  
+            i {
+              font-size: 22px;
+              color: $job-provider;
+              @media screen and (max-width: 500px) {
+                font-size: 17px;
+                color: #005ab7;
+              }
+  
+              @media screen and (max-width: 375px) {
+                font-size: 17px;
+                color: #005ab7;
+                top: 3px;
+                position: inherit;
+              }
+            }
+  
+            @media screen and (max-width: 500px) {
+              font-size: 16px;
+              margin-left: 13px;
+            }
+  
+            @media screen and (max-width: 375px) {
+              font-size: 14px;
+              margin-left: 13px;
+              position: relative;
+            }
+          }
+          @media screen and (max-width: 375px){
+            padding-right: 0px;
           }
         }
 
@@ -126,11 +166,21 @@
             top: 4px;
             right: 4px;
             color: $grey;
+            @media screen and (max-width: 500px) {
+              font-size: 14px;
+              position: relative;
+              top: 3px;
+              right: 4px;
+              color: #808080;
+            }
           }
 
           time {
             color: $grey;
             font-size: 12px;
+            @media screen and (max-width: 500px) {
+              font-size: 9px;
+            }
           }
 
           //@media screen and (max-width: 1200px) {
@@ -149,6 +199,12 @@
         p {
           margin-top: 14px;
           color: $black;
+
+          @media screen and (max-width: 375px) {
+            margin-top: -7px;
+            color: #000;
+            font-size: 15px;
+          } 
         }
 
         i {

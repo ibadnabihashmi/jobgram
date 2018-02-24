@@ -339,98 +339,114 @@ MongoClient.connect(url, function(err, db) {
                                         }
                                     ]
                                 ).then(function () {
-                                    console.log('Opening page .....');
-                                    page.open('https://www.linkedin.com/jobs/search/?locationId=pk%3A0&sortBy=DD&start=0').then(function (status) {
-                                        console.log(status);
-                                        page.property('content').then(function (content) {
-                                            var $ = cheerio.load(content.toString());
-                                            var data = JSON.stringify(JSON.parse($('img')['6'].next.children[0].data),null,2);
-                                            var jobsList = [];
-                                            JSON.parse(data).elements.forEach(function (element) {
-                                                var id = element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPosting.split(':');
-                                                id = id[id.length-1];
-                                                jobsList.push({
-                                                    id:id,
-                                                    jobLink:'https://www.linkedin.com/jobs/view/'+id,
-                                                    jobTitle:element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPostingResolutionResult.title,
-                                                    datePosted:element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPostingResolutionResult.listedAt,
-                                                    jobLocation:element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPostingResolutionResult.formattedLocation.replace(/\s/ig,'').split(',')
-                                                });
-                                            });
-                                            async.eachSeries(jobsList,function (list,callback) {
-                                                console.log('openeing -------> '+list.jobLink);
-                                                page.open(list.jobLink).then(function (status) {
-                                                    console.log(status);
-                                                    console.log('opening -------> '+list.jobLink);
-                                                    page.property('content').then(function (content) {
-                                                        $ = cheerio.load(content.toString());
-                                                        var job = {};
-                                                        $('img').each(function () {
-                                                            try {
-                                                                var data = JSON.parse($(this).next().text());
-                                                                if(data.hasOwnProperty('companyDetails')){
-                                                                    console.log("extracting ........");
-                                                                    job['jobContent'] = data.description.text;
-                                                                    job['shortDescription'] = data.description.text.trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ')+'.....';
-                                                                    job['jobDatePosted'] = list.datePosted;
-                                                                    job['jobLocation'] = list.jobLocation;
-                                                                    job['jobUrl'] = list.jobLink;
-                                                                    job['jobTitle'] = list.jobTitle;
-                                                                    job['jobProvider'] = data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.name;
-                                                                    job['jobProviderLogo'] = 'https://media.licdn.com/mpr/mpr/shrink_200_200'+data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.logo.image["com.linkedin.voyager.common.MediaProcessorImage"].id;
-                                                                    job['jobId'] = 'linkedin-'+list.id;
-                                                                    job['jobSource'] = 'linkedin';
-                                                                    job['jobSourceLogo'] = 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png';
-                                                                }
-                                                            } catch (e) {
-                                                                console.log("exception thrown");
-                                                            }
-
-                                                        });
-                                                        db.collection("tags").find({}).toArray(function(err, savedTags) {
-                                                            if(err){
-                                                                console.log(err);
-                                                                db.close();
-                                                            }else{
-                                                                var regex = new RegExp(_.map(savedTags,function (tag) {
-                                                                    return tag.name;
-                                                                }).join("|"),"ig");
-                                                                job['jobTags'] = UTILS.assembleTags(job['jobTitle'].match(regex),job['jobContent'].match(regex));
-                                                                client.index({
-                                                                    index:'jobgram',
-                                                                    id:job['jobId'],
-                                                                    type:'job',
-                                                                    body:job
-                                                                },function (err,res,status) {
-                                                                    if(err){
-                                                                        console.log(err);
-                                                                        failureExecution(db,err,phInstance,mongoResult.insertedId);
-                                                                    }else if(res){
-                                                                        console.log(res);
-                                                                        if(res.created){
-                                                                            tags = UTILS.assembleTags(tags,job['jobTags']);
-                                                                        }
-                                                                    }else if(status){
-                                                                        console.log(status);
-                                                                    }
-                                                                    console.log("executed");
-                                                                    callback();
-                                                                });
-                                                            }
-                                                        });
+                                    var pages = ['0', '25', '50'];
+                                    async.eachSeries(pages, function(pageNumber, pageDone){
+                                        console.log('Opening page .....');
+                                        page.open('https://www.linkedin.com/jobs/search/?locationId=pk%3A0&sortBy=DD&start='+pageNumber).then(function (status) {
+                                            console.log('******************************************************************');
+                                            console.log('******************************************************************');
+                                            console.log('******************************************************************');
+                                            console.log(status);
+                                            page.property('content').then(function (content) {
+                                                var $ = cheerio.load(content.toString());
+                                                var data = JSON.stringify(JSON.parse($('img')['6'].next.children[0].data),null,2);
+                                                var jobsList = [];
+                                                JSON.parse(data).elements.forEach(function (element) {
+                                                    var id = element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPosting.split(':');
+                                                    id = id[id.length-1];
+                                                    jobsList.push({
+                                                        id:id,
+                                                        jobLink:'https://www.linkedin.com/jobs/view/'+id,
+                                                        jobTitle:element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPostingResolutionResult.title,
+                                                        datePosted:element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPostingResolutionResult.listedAt,
+                                                        jobLocation:element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPostingResolutionResult.formattedLocation.replace(/\s/ig,'').split(',')
                                                     });
                                                 });
-                                            },function (err) {
-                                                if(err){
-                                                    console.log(err);
-                                                    failureExecution(db,err,phInstance,mongoResult.insertedId)
-                                                }else{
-                                                    console.log('done!');
-                                                    console.log('waiting....');
-                                                    successExecution(db,phInstance,mongoResult.insertedId)
-                                                }
+                                                async.eachSeries(jobsList,function (list,callback) {
+                                                    console.log('openeing -------> '+list.jobLink);
+                                                    page.open(list.jobLink).then(function (status) {
+                                                        console.log(status);
+                                                        console.log('opening -------> '+list.jobLink);
+                                                        page.property('content').then(function (content) {
+                                                            $ = cheerio.load(content.toString());
+                                                            var job = {};
+                                                            $('img').each(function () {
+                                                                try {
+                                                                    var data = JSON.parse($(this).next().text());
+                                                                    if(data.hasOwnProperty('companyDetails')){
+                                                                        console.log("extracting ........");
+                                                                        job['jobContent'] = data.description.text;
+                                                                        job['shortDescription'] = data.description.text.trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ')+'.....';
+                                                                        job['jobDatePosted'] = list.datePosted;
+                                                                        job['jobLocation'] = list.jobLocation;
+                                                                        job['jobUrl'] = list.jobLink;
+                                                                        job['jobTitle'] = list.jobTitle;
+                                                                        job['jobProvider'] = data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.name;
+                                                                        job['jobProviderLogo'] = 'https://media.licdn.com/mpr/mpr/shrink_200_200'+data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.logo.image["com.linkedin.voyager.common.MediaProcessorImage"].id;
+                                                                        job['jobId'] = 'linkedin-'+list.id;
+                                                                        job['jobSource'] = 'linkedin';
+                                                                        job['jobSourceLogo'] = 'http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo.png';
+                                                                    }
+                                                                } catch (e) {
+                                                                    console.log("exception thrown");
+                                                                }
+    
+                                                            });
+                                                            db.collection("tags").find({}).toArray(function(err, savedTags) {
+                                                                if(err){
+                                                                    console.log(err);
+                                                                    db.close();
+                                                                }else{
+                                                                    var regex = new RegExp(_.map(savedTags,function (tag) {
+                                                                        return tag.name;
+                                                                    }).join("|"),"ig");
+                                                                    job['jobTags'] = UTILS.assembleTags(job['jobTitle'].match(regex),job['jobContent'].match(regex));
+                                                                    client.index({
+                                                                        index:'jobgram',
+                                                                        id:job['jobId'],
+                                                                        type:'job',
+                                                                        body:job
+                                                                    },function (err,res,status) {
+                                                                        if(err){
+                                                                            console.log(err);
+                                                                            failureExecution(db,err,phInstance,mongoResult.insertedId);
+                                                                        }else if(res){
+                                                                            console.log(res);
+                                                                            if(res.created){
+                                                                                tags = UTILS.assembleTags(tags,job['jobTags']);
+                                                                            }
+                                                                        }else if(status){
+                                                                            console.log(status);
+                                                                        }
+                                                                        console.log("executed");
+                                                                        callback();
+                                                                    });
+                                                                }
+                                                            });
+                                                        });
+                                                    });
+                                                },function (err) {
+                                                    if(err){
+                                                        console.log(err);
+                                                        failureExecution(db,err,phInstance,mongoResult.insertedId)
+                                                    }else{
+                                                        console.log('done with this page');
+                                                        pageDone();
+                                                    }
+                                                });
                                             });
                                         });
+                                    }, function(err) {
+                                        if(err){
+                                            console.log(err);
+                                            failureExecution(db,err,phInstance,mongoResult.insertedId);
+                                        }else{
+                                            console.log('DONE COMPLETED!!!');
+                                            console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
+                                            console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
+                                            console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
+                                            successExecution(db,phInstance,mongoResult.insertedId)
+                                        }
                                     });
                                 });
                             });

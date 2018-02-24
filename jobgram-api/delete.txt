@@ -1,0 +1,9 @@
+curl https://e0r0qbfw0r:rviz1rnrrt@first-cluster-6366936209.us-east-1.bonsaisearch.net/jobgram/job/_delete_by_query -d 
+'{ 
+    "query": { 
+        "range": { 
+            "jobDe": 1483210800000, 
+            "lte": 1516820400000 
+        } 
+    }
+}'

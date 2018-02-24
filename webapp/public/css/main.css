@@ -5919,37 +5919,85 @@ body {
     .home .feed .job .job-head img {
       border-radius: 35px;
       width: 70px;
-      height: 70px;
       border: 2px solid #c8c8c8; }
+      @media screen and (max-width: 375px) {
+        .home .feed .job .job-head img {
+          width: 52px; } }
     .home .feed .job .job-head h2 {
       font-weight: 300;
       margin-top: 0;
       color: #000; }
-    .home .feed .job .job-head h3 {
+    .home .feed .job .job-head .col-lg-7 h3 {
       font-weight: 300;
       margin-top: 0;
       color: #000; }
-    .home .feed .job .job-head h4 {
+      @media screen and (max-width: 500px) {
+        .home .feed .job .job-head .col-lg-7 h3 {
+          font-size: 20px;
+          margin-left: 14px; } }
+      @media screen and (max-width: 375px) {
+        .home .feed .job .job-head .col-lg-7 h3 {
+          font-size: 15px;
+          margin-left: 14px;
+          margin-top: 2px; } }
+    .home .feed .job .job-head .col-lg-7 h4 {
       color: #005ab7;
       font-weight: 300; }
-      .home .feed .job .job-head h4 i {
+      .home .feed .job .job-head .col-lg-7 h4 i {
         font-size: 22px;
         color: #005ab7; }
+        @media screen and (max-width: 500px) {
+          .home .feed .job .job-head .col-lg-7 h4 i {
+            font-size: 17px;
+            color: #005ab7; } }
+        @media screen and (max-width: 375px) {
+          .home .feed .job .job-head .col-lg-7 h4 i {
+            font-size: 17px;
+            color: #005ab7;
+            top: 3px;
+            position: inherit; } }
+      @media screen and (max-width: 500px) {
+        .home .feed .job .job-head .col-lg-7 h4 {
+          font-size: 16px;
+          margin-left: 13px; } }
+      @media screen and (max-width: 375px) {
+        .home .feed .job .job-head .col-lg-7 h4 {
+          font-size: 14px;
+          margin-left: 13px;
+          position: relative; } }
+    @media screen and (max-width: 375px) {
+      .home .feed .job .job-head .col-lg-7 {
+        padding-right: 0px; } }
     .home .feed .job .job-head .time-span i {
       font-size: 18px;
       position: relative;
       top: 4px;
       right: 4px;
       color: #808080; }
+      @media screen and (max-width: 500px) {
+        .home .feed .job .job-head .time-span i {
+          font-size: 14px;
+          position: relative;
+          top: 3px;
+          right: 4px;
+          color: #808080; } }
     .home .feed .job .job-head .time-span time {
       color: #808080;
       font-size: 12px; }
+      @media screen and (max-width: 500px) {
+        .home .feed .job .job-head .time-span time {
+          font-size: 9px; } }
     .home .feed .job .job-content {
       font-size: 16px;
       padding: 10px 15px; }
       .home .feed .job .job-content p {
         margin-top: 14px;
         color: #000; }
+        @media screen and (max-width: 375px) {
+          .home .feed .job .job-content p {
+            margin-top: -7px;
+            color: #000;
+            font-size: 15px; } }
       .home .feed .job .job-content i {
         font-size: 30px;
         top: 8px;
