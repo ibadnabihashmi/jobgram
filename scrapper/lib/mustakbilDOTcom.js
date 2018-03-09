@@ -142,7 +142,7 @@ MongoClient.connect(url, function(err, db) {
                                                     job['jobUrl'] = "http://www.mustakbil.com/jobs/job/"+_job.id;
                                                     job['jobTitle'] = _job.title;
                                                     job['jobProvider'] = _job.company;
-                                                    job['jobProviderLogo'] = _job.logo !== undefined ? 'http://www.mustakbil.com'+_job.logo : 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
+                                                    job['jobProviderLogo'] = _job.logo !== undefined ? 'https://www.mustakbil.com'+_job.logo : 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
                                                     job['jobSource'] = 'mustakbil';
                                                     job['jobSourceLogo'] = 'https://lh3.googleusercontent.com/i113bxHlU-Cq5SgB0BqNxDSUSIvYrRFq1MI9KvICFVdXcwbaRAVrN22-IexCaQEX9g=w300';
                                                     job['shortDescription'] = job['jobContent'].split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ') + '.....';

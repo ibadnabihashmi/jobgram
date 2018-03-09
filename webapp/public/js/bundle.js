@@ -3562,25 +3562,25 @@ var Filters = exports.Filters = function (_get__$Component) {
         _react2.default.createElement(
           'div',
           { className: 'form-group' },
-          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.keyword, onChange: this.handleKeywordChange, placeholder: 'Enter any keyword' })
+          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.props.filters.keyword, onChange: this.handleKeywordChange, placeholder: 'Enter any keyword' })
         ),
         _react2.default.createElement('hr', null),
         _react2.default.createElement(
           'div',
           { className: 'form-group' },
-          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.location, onChange: this.handleLocationChange, placeholder: 'City or Country (Comma separated)' })
+          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.props.filters.location, onChange: this.handleLocationChange, placeholder: 'City or Country (Comma separated)' })
         ),
         _react2.default.createElement('hr', null),
         _react2.default.createElement(
           'div',
           { className: 'form-group' },
-          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.source, onChange: this.handleSourceChange, placeholder: 'Job Source, e.g: Linkedin etc (Comma separated)' })
+          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.props.filters.source, onChange: this.handleSourceChange, placeholder: 'Job Source, e.g: Linkedin etc (Comma separated)' })
         ),
         _react2.default.createElement('hr', null),
         _react2.default.createElement(
           'div',
           { className: 'form-group' },
-          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.state.filters.provider, onChange: this.handleProviderChange, placeholder: 'Company name (Comma separated)' })
+          _react2.default.createElement('input', { type: 'text', className: 'form-control', value: this.props.filters.provider, onChange: this.handleProviderChange, placeholder: 'Company name (Comma separated)' })
         ),
         _react2.default.createElement('hr', null),
         _react2.default.createElement(
@@ -3591,8 +3591,8 @@ var Filters = exports.Filters = function (_get__$Component) {
             { className: 'input-group-addon' },
             'min'
           ),
-          _react2.default.createElement('input', { type: 'number', className: 'form-control', value: this.state.filters.salaryMin, onChange: this.handleMinSalaryChange, placeholder: '$$$' }),
-          _react2.default.createElement('input', { type: 'number', className: 'form-control', value: this.state.filters.salaryMax, onChange: this.handleMaxSalaryChange, placeholder: '$$$' }),
+          _react2.default.createElement('input', { type: 'number', className: 'form-control', value: this.props.filters.salaryMin, onChange: this.handleMinSalaryChange, placeholder: '$$$' }),
+          _react2.default.createElement('input', { type: 'number', className: 'form-control', value: this.props.filters.salaryMax, onChange: this.handleMaxSalaryChange, placeholder: '$$$' }),
           _react2.default.createElement(
             'div',
             { className: 'input-group-addon' },
@@ -3761,6 +3761,8 @@ var _timeagoReact2 = _interopRequireDefault(_timeagoReact);
 
 var _Filters = require('./Filters/Filters');
 
+var _reactRouter = require('react-router');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -3801,8 +3803,31 @@ var Home = function (_get__$Component) {
   _createClass(Home, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      this.props.dispatch(_get__('fetchFeed')(this.state.from));
-      this.props.dispatch(_get__('fetchTags')(0, 10));
+      if (Object.keys(this.props.location.query).length) {
+        this.setStateFromQueryString();
+      } else {
+        this.props.dispatch(_get__('fetchFeed')(this.state.from));
+      }
+      this.props.dispatch(_get__('fetchTags')(0, 30));
+    }
+  }, {
+    key: 'setStateFromQueryString',
+    value: function setStateFromQueryString() {
+      var filters = this.state.filters;
+      var query = this.props.location.query;
+      for (var q in query) {
+        if (q === 'tags') {
+          filters[q] = query[q].split(',');
+        } else {
+          filters[q] = query[q];
+        }
+      }
+      this.setState({
+        from: 0,
+        isFilterDirty: true,
+        filters: filters
+      });
+      this.props.dispatch(_get__('applyFilters')(this.state.filters, 0));
     }
   }, {
     key: 'gotoNext',
@@ -3825,6 +3850,23 @@ var Home = function (_get__$Component) {
       window.scrollTo(0, 0);
     }
   }, {
+    key: 'getQueryStringFromFilters',
+    value: function getQueryStringFromFilters() {
+      var qs = [];
+      for (var f in this.state.filters) {
+        if (f === 'tags') {
+          if (this.state.filters[f].length !== 0) {
+            qs.push('tags=' + this.state.filters[f].join(','));
+          }
+        } else {
+          if (this.state.filters[f] !== '') {
+            qs.push(f + '=' + this.state.filters[f]);
+          }
+        }
+      }
+      return '?' + qs.join('&');
+    }
+  }, {
     key: 'applyFilters',
     value: function applyFilters(e) {
       if (this.state.filters.keyword === '' && this.state.filters.location === '' && this.state.filters.salaryMax === '' && this.state.filters.salaryMin === '' && this.state.filters.source === '' && this.state.filters.provider === '' && this.state.filters.tags.length === 0) {
@@ -3833,12 +3875,14 @@ var Home = function (_get__$Component) {
           isFilterDirty: false
         });
         this.props.dispatch(_get__('fetchFeed')(0));
+        _get__('browserHistory').push('/');
       } else {
         this.setState({
           from: 0,
           isFilterDirty: true
         });
         this.props.dispatch(_get__('applyFilters')(this.state.filters, 0));
+        _get__('browserHistory').push(this.getQueryStringFromFilters());
       }
     }
   }, {
@@ -3942,7 +3986,7 @@ var Home = function (_get__$Component) {
               { className: 'col-lg-12 col-md-12 col-sm-12 col-xs-12 job-content' },
               job._source.jobSalary ? _react2.default.createElement(
                 'span',
-                null,
+                { className: 'salary' },
                 _react2.default.createElement(
                   'i',
                   { className: 'material-icons' },
@@ -4103,6 +4147,9 @@ function _get_original__(variableName) {
     case 'applyFilters':
       return _feed.applyFilters;
 
+    case 'browserHistory':
+      return _reactRouter.browserHistory;
+
     case 'Tag':
       return _Tag2.default;
 
@@ -4227,7 +4274,7 @@ exports.__set__ = _set__;
 exports.__ResetDependency__ = _reset__;
 exports.__RewireAPI__ = _RewireAPI__;
 
-},{"../../actions/feed":3,"../Partials/Messages/Messages":19,"./FeedPlaceholder":12,"./Filters/Filters":13,"./Tag/Tag":15,"react":300,"react-redux":234,"timeago-react":319}],15:[function(require,module,exports){
+},{"../../actions/feed":3,"../Partials/Messages/Messages":19,"./FeedPlaceholder":12,"./Filters/Filters":13,"./Tag/Tag":15,"react":300,"react-redux":234,"react-router":267,"timeago-react":319}],15:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4269,6 +4316,15 @@ var Tag = function (_get__$Component) {
   }
 
   _createClass(Tag, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      if (this.props.filters.tags.includes(this.props.name)) {
+        this.setState({
+          isSelected: true
+        });
+      }
+    }
+  }, {
     key: 'toggleSelect',
     value: function toggleSelect(tag) {
       var filters = this.props.filters;
@@ -4850,7 +4906,7 @@ var Header = function (_get__$Component) {
                 { className: 'nav navbar-nav' },
                 _react2.default.createElement(
                   'li',
-                  null,
+                  { className: 'center-link' },
                   _react2.default.createElement(
                     'a',
                     { href: '#', className: 'main-logo' },
@@ -4860,6 +4916,15 @@ var Header = function (_get__$Component) {
                       null,
                       ' beta'
                     )
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  { className: 'right-link' },
+                  _react2.default.createElement(
+                    'a',
+                    { target: '_blank', href: 'https://jobtiv.com/blog' },
+                    'blog'
                   )
                 )
               )
@@ -5237,7 +5302,7 @@ var MAILGUN_PASSWORD = exports.MAILGUN_PASSWORD = 'ed49d942fd9e6c11208ee3aacb29d
 var MONGODB = exports.MONGODB = 'jobgram:25tolife@ds119736.mlab.com:19736/jobgram';
 // export const MONGODB='localhost:27017/jobgram';
 // export const API='http://localhost:3001';
-var API = exports.API = 'http://139.59.58.18:3001';
+var API = exports.API = 'https://jobtiv.com/api';
 var API_KEY = exports.API_KEY = 'myuniquekey';
 var PORT = exports.PORT = 3000;
 var HOST = exports.HOST = 'localhost';

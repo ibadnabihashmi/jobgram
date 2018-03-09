@@ -84,18 +84,20 @@
       padding-top: 20px;
 
       .job-head {
-        .col-lg-7 {
-          //@media screen and (max-width: 1200px) {
-          //  position: absolute;
-          //}
-        }
+        // .col-lg-7 {
+        //   //@media screen and (max-width: 1200px) {
+        //   //  position: absolute;
+        //   //}
+        // }
 
         img {
           border-radius: 35px;
           width: 70px;
+          height: 70px;
           border: 2px solid $border-color;
           @media screen and (max-width: 375px) {
             width: 52px;
+            height: 52px;
           }
         }
 
@@ -214,11 +216,16 @@
           position: relative;
         }
 
-        span {
+        .salary {
           background-color: $salary-background;
           color: $white;
           padding: 4px 8px;
           font-weight: 500;
+
+          @media screen and (max-width: 500px) {
+            position: relative;
+            top: -10px;
+          }
 
           i {
             background-color: $job-provider;
@@ -232,13 +239,18 @@
           }
         }
 
-        .location {
-          background-color: $grey;
-          border-radius: 14px;
-          color: $white;
-          font-size: 14px;
-          margin-right: 6px;
-          padding: 4px 10px;
+        div {
+          word-break: break-all;
+
+          .location {
+            background-color: $grey;
+            border-radius: 14px;
+            color: $white;
+            font-size: 14px;
+            margin-right: 6px;
+            padding: 4px 10px;
+            line-height: 2;
+          }
         }
       }
 

@@ -1910,3 +1910,4442 @@ res
 Scrapping : https://www.mustakbil.com/ws/jobs/job/180284
 res
 done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179913
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179277
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180072
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179911
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179905
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179885
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179884
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179971
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180346
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180342
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180324
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180317
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180300
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180293
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180345
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180344
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180336
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180328
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180327
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180325
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180320
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180318
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180312
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180310
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180309
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180308
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180304
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180303
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180292
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180290
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180287
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180285
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179913
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179277
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180072
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179911
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179905
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179885
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179884
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180352
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180346
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180342
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180324
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180317
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180300
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180293
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180357
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180356
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180355
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180354
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180345
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180344
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180336
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180328
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180327
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180325
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180320
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180318
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180312
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180309
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180310
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180308
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180304
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180303
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180292
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179913
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179277
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180072
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179911
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179905
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179885
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179884
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180352
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180346
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180342
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180324
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180317
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180300
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180357
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180356
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180355
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180354
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180345
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180344
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180336
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180328
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180327
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180325
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180320
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180318
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180312
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180310
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180309
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180308
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180304
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180303
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180293
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180292
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179277
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180072
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179911
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179905
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179885
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179884
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180403
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180352
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180346
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180342
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180324
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180413
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180405
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180402
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180401
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180397
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180394
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180393
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180391
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180389
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180388
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180386
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180380
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180378
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180377
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180374
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180365
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180363
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180357
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180356
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180355
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180354
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179277
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180072
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179911
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179905
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179885
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179884
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180403
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180352
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180346
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180342
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180324
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180420
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180419
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180416
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180413
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180405
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180402
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180401
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180397
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180394
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180393
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180391
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180389
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180388
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180386
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180380
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180378
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180377
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180374
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180365
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180363
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180357
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179277
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180072
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180472
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180471
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180470
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180459
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180449
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180455
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180445
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180434
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180403
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180352
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180346
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180469
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180453
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180451
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180447
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180441
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180440
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180438
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180437
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180435
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180431
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180430
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180429
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180428
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180426
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180425
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180419
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180416
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180413
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180405
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179277
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180072
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180472
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180471
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180470
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180459
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180449
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180455
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180445
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180434
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180403
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180352
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180485
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180484
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180483
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180479
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180478
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180469
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180453
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180451
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180447
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180441
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180440
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180438
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180437
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180435
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180431
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180430
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180429
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180428
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180426
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180072
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180516
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180472
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180471
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180470
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180459
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180449
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180455
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180445
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180434
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180403
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180517
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180515
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180512
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180509
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180507
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180506
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180505
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180504
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180501
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180494
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180485
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180484
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180483
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180479
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180478
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180469
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180453
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180451
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180447
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180441
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180072
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180516
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180472
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180471
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180470
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180459
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180449
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180455
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180445
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180434
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180403
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180548
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180544
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180543
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180542
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180541
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180538
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180535
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180534
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180533
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180531
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180523
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180520
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180519
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180517
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180515
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180512
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180509
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180507
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180506
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180505
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180594
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180551
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180516
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180472
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180471
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180470
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180459
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180449
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180455
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180445
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180434
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180592
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180590
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180589
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180591
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180601
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180598
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180597
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180596
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179505
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179489
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179490
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180585
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180586
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179494
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179495
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179460
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179435
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179496
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179945
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180139
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180594
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180551
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180516
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180472
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180471
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180470
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180459
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180449
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180455
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180445
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180434
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180607
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180589
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180590
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180592
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180591
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180601
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180598
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180597
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180596
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179505
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179489
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179490
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180586
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180585
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179494
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179495
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179460
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179454
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180594
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180551
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180516
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179569
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179570
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179568
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179571
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179525
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179523
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180624
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180398
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180623
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180179
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180594
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180551
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180516
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179571
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179570
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179569
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179568
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180220
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180594
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180551
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180516
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180684
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180682
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180680
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180677
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179491
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179410
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180240
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180225
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180594
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180551
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180684
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180682
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180680
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180677
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180594
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180693
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180689
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180684
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180682
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180680
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180677
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179569
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179568
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179571
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180268
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180255
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180594
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180693
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180689
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180684
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180682
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180680
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180677
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179569
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179568
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179571
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180594
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180693
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180689
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180684
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180682
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180680
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180677
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179568
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179571
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179569
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179570
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179523
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180273
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180594
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180693
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180689
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180684
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180682
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180680
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180677
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179568
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179571
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179569
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179570
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179523
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180693
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180689
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180684
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180682
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180680
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180677
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179568
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179569
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179570
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179571
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179523
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179525
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180624
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180693
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180689
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180684
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180682
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180680
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180677
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179569
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179570
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179571
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179568
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179523
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179525
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180398
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180624
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180693
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180689
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180684
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180682
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180680
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180677
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179569
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179570
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179571
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179568
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179523
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179525
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180398
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180624
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180316
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180307
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180302
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180636
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180706
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180705
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180693
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180689
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180684
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180682
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180680
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180677
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180660
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180658
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180657
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180655
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180653
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180650
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180648
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180645
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180643
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180642
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180632
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180631
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179606
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180629
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179603
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180627
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179566
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179568
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179569
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179570
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179571
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179523
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179525
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180725
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180707
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180659
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180758
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180756
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180755
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180754
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180751
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179792
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179835
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179804
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179780
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179762
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179698
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179699
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180741
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180740
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180737
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180736
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179702
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179692
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179693
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179843
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180730
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179667
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180728
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179663
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179633
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180724
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180721
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180716
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180715
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180713
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180712
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180711
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180709
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180764
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180725
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180707
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180768
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180614
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180618
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180765
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180761
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180760
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180758
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180756
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180755
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180754
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180751
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179792
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179835
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179804
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179780
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179762
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179698
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179699
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180741
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180740
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180737
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180736
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179702
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179692
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179693
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179843
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180730
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179667
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180728
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179663
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179633
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180724
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180721
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180716
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180715
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180764
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180798
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180786
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180725
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180707
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180774
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180773
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180768
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180815
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180814
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180813
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180810
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180801
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180800
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180797
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180796
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180793
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180790
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180785
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180782
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180781
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180780
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180778
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180776
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180775
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180765
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180761
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180760
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180758
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180756
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180755
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180754
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180751
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179792
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179804
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179835
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179780
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179762
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179698
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180764
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179602
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179600
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180798
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180786
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180725
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180707
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180774
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180773
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180768
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180817
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180815
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180814
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180813
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180810
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180801
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180800
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180797
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180796
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180793
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180790
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180785
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180782
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180781
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180780
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180778
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180776
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180775
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180765
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180761
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180760
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180758
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180756
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180755
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180754
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180751
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179792
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179804
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179835
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179780
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179762
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180832
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180764
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179635
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180798
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180786
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180725
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180707
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180774
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180773
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180768
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180855
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180851
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180849
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180848
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180845
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180844
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180843
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180840
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180838
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180837
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180835
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180834
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180833
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180831
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180829
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180828
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180823
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180817
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180815
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180814
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180813
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180810
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180801
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180800
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180797
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180796
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180793
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180790
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180785
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180782
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180781
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180780
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180778
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180832
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180764
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180863
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180798
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180786
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180725
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180707
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180774
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180773
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180768
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180867
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180865
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180864
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180861
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180859
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180858
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180857
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180855
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180851
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180849
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180848
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180845
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180844
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180843
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180840
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180838
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180837
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180835
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180834
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180833
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180831
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180829
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180828
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180823
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180817
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180815
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180814
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180813
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180810
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180801
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180800
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180797
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180796
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180832
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180764
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180909
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180904
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180876
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180863
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180798
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180786
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180725
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180707
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180900
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180898
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180774
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180773
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180768
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180914
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180913
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180912
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180911
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180910
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180907
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180899
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180895
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180892
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180891
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180889
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180886
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180885
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180884
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180882
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180879
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180878
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180877
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180868
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180867
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180865
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180832
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180764
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180909
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180904
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180876
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180863
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180798
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180786
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180725
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180707
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180900
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180898
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180774
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180773
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180768
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180914
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180913
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180912
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180911
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180910
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180907
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180899
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180895
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180892
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180891
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180889
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180886
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180885
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180884
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180882
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180879
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180878
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180877
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180868
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180867
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180865
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180864
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180861
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180859
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180858
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180857
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180855
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180851
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180832
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180764
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180909
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180904
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180876
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180863
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180798
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180786
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180725
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180707
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180900
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180898
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180774
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180773
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180922
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180921
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180918
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180914
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180913
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180912
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180911
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180910
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180907
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180899
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180895
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180892
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180891
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180889
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180886
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180885
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180884
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180882
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180879
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180878
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180877
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180868
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180867
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180865
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180864
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180861
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180859
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180858
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180857
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180832
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180764
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180686
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180654
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180605
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180481
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180385
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180349
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180229
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180190
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180173
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180172
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180123
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179983
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179749
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179726
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180909
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180904
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180876
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180863
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=1
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180798
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180786
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180725
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180707
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180640
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180620
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180619
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180938
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180900
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180948
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179976
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179955
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179939
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179916
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180247
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179869
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179859
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179856
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179864
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179855
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=2
+==========================================================
+On page : https://www.mustakbil.com/ws/jobs/search?page=3
+==========================================================
+Number of links retrieved for page : 20
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179836
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180943
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179833
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/179832
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180942
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180939
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180937
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180936
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180935
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180934
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180931
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180930
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180929
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180928
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180922
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180921
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180918
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180914
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180913
+res
+Scrapping : https://www.mustakbil.com/ws/jobs/job/180912
+res
+done crawling : https://www.mustakbil.com/ws/jobs/search?page=3

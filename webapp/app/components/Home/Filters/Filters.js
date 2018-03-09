@@ -82,21 +82,21 @@ export class Filters extends React.Component {
     return (
       <div className="col-lg-3 col-md-3 bs-docs-sidebar affix">
         <div className="form-group">
-          <input type="text" className="form-control" value={this.state.filters.keyword} onChange={this.handleKeywordChange} placeholder="Enter any keyword"/>
+          <input type="text" className="form-control" value={this.props.filters.keyword} onChange={this.handleKeywordChange} placeholder="Enter any keyword"/>
         </div><hr/>
         <div className="form-group">
-          <input type="text" className="form-control" value={this.state.filters.location} onChange={this.handleLocationChange} placeholder="City or Country (Comma separated)"/>
+          <input type="text" className="form-control" value={this.props.filters.location} onChange={this.handleLocationChange} placeholder="City or Country (Comma separated)"/>
         </div><hr/>
         <div className="form-group">
-          <input type="text" className="form-control" value={this.state.filters.source} onChange={this.handleSourceChange} placeholder="Job Source, e.g: Linkedin etc (Comma separated)"/>
+          <input type="text" className="form-control" value={this.props.filters.source} onChange={this.handleSourceChange} placeholder="Job Source, e.g: Linkedin etc (Comma separated)"/>
         </div><hr/>
         <div className="form-group">
-          <input type="text" className="form-control" value={this.state.filters.provider} onChange={this.handleProviderChange} placeholder="Company name (Comma separated)"/>
+          <input type="text" className="form-control" value={this.props.filters.provider} onChange={this.handleProviderChange} placeholder="Company name (Comma separated)"/>
         </div><hr/>
         <div className="input-group">
           <div className="input-group-addon">min</div>
-          <input type="number" className="form-control" value={this.state.filters.salaryMin} onChange={this.handleMinSalaryChange} placeholder="$$$"/>
-          <input type="number" className="form-control" value={this.state.filters.salaryMax} onChange={this.handleMaxSalaryChange} placeholder="$$$"/>
+          <input type="number" className="form-control" value={this.props.filters.salaryMin} onChange={this.handleMinSalaryChange} placeholder="$$$"/>
+          <input type="number" className="form-control" value={this.props.filters.salaryMax} onChange={this.handleMaxSalaryChange} placeholder="$$$"/>
           <div className="input-group-addon">max</div>
         </div><hr/>
         <div className="form-group">

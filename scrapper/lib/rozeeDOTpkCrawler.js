@@ -167,7 +167,7 @@ MongoClient.connect(url, function(err, db) {
                                                         job['jobContent'] = '<div class="rozeeDOTpk-details">'+$($('.jblk')[0]).html()+$($('.jblk')[1]).html()+$($('.jblk')[2]).html()+'</div>';
                                                         job['jobId'] = "rozee-"+id;
                                                         job['jobSource'] = "rozee";
-                                                        job['jobSourceLogo'] = "http://parvaaz.rozee.pk/company_images/bucket22/o_17760905819659.gif";
+                                                        job['jobSourceLogo'] = "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Rozee.pk_old_logo.png/250px-Rozee.pk_old_logo.png";
                                                         job['shortDescription'] = $($('.jblk')[0]).text().trim().split(' ').splice(0,30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g,' ') + '.....';
                                                         job['jobTags'] = UTILS.assembleTags(job['jobTags'],job['jobContent'].match(regex));
                                                         job['jobTags'] = UTILS.assembleTags(job['jobTags'],job['jobTitle'].match(regex));

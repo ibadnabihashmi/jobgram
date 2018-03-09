@@ -10,6 +10,14 @@ class Tag extends React.Component {
     this.toggleSelect = this.toggleSelect.bind(this);
   }
 
+  componentWillMount() {
+    if (this.props.filters.tags.includes(this.props.name)) {
+      this.setState({
+        isSelected: true
+      });
+    }
+  }
+
   toggleSelect(tag) {
     let filters = this.props.filters;
     if(filters.tags.includes(tag)){
@@ -29,9 +37,9 @@ class Tag extends React.Component {
     return (
       <span onClick={this.toggleSelect.bind(this,this.props.name)} className={this.state.isSelected ? `tag-selected` : `tag`}>
           #{this.props.name}
-        {/*<span className="tag-count">*/}
-            {/*{this.props.count}*/}
-        {/*</span>*/}
+        {/* <span className="tag-count">
+            {this.props.count}
+        </span> */}
       </span>
     );
   }

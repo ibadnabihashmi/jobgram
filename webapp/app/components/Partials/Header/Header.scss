@@ -9,7 +9,7 @@ header {
     text-align: center;
     width: 100%;
 
-    li {
+    .center-link {
       display: inline-block;
       float: none;
 
@@ -43,6 +43,25 @@ header {
           font-family: 'Yesteryear', cursive;
           font-weight: 900;
           padding-left: 50px;
+        }
+      }
+    }
+
+    .right-link {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 6px;
+
+      a {
+        color: $black;
+        font-size: 19px;
+        font-weight: 900;
+
+        &:hover {
+          background-color: transparent;
+          color: $black-hover;
+          cursor: pointer;
         }
       }
     }

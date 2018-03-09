@@ -6,6 +6,7 @@ import PlaceHolder from './FeedPlaceholder';
 import Tag from './Tag/Tag';
 import TimeAgo from 'timeago-react';
 import { Filters } from './Filters/Filters';
+import { browserHistory } from 'react-router';
 
 class Home extends React.Component {
 
@@ -32,8 +33,30 @@ class Home extends React.Component {
   }
 
   componentDidMount() {
-    this.props.dispatch(fetchFeed(this.state.from));
-    this.props.dispatch(fetchTags(0,10));
+    if (Object.keys(this.props.location.query).length) {
+      this.setStateFromQueryString();
+    } else {
+      this.props.dispatch(fetchFeed(this.state.from));
+    }
+    this.props.dispatch(fetchTags(0,30));
+  }
+
+  setStateFromQueryString() {
+    const filters = this.state.filters;
+    const query = this.props.location.query;
+    for (const q in query) {
+      if (q === 'tags') {
+        filters[q] = query[q].split(',');
+      } else {
+        filters[q] = query[q]
+      }
+    }
+    this.setState({
+      from: 0,
+      isFilterDirty: true,
+      filters: filters
+    });
+    this.props.dispatch(applyFilters(this.state.filters,0));
   }
 
   gotoNext() {
@@ -54,6 +77,22 @@ class Home extends React.Component {
     window.scrollTo(0, 0);
   }
 
+  getQueryStringFromFilters() {
+    let qs = [];
+    for (const f in this.state.filters) {
+      if (f === 'tags') {
+        if (this.state.filters[f].length !== 0) {
+          qs.push(`tags=${this.state.filters[f].join(',')}`);
+        }
+      } else {
+        if (this.state.filters[f] !== '') {
+          qs.push(`${f}=${this.state.filters[f]}`);
+        }
+      }
+    }
+    return `?${qs.join('&')}`;
+  }
+
   applyFilters(e) {
     if(this.state.filters.keyword === '' &&
     this.state.filters.location === '' &&
@@ -67,12 +106,14 @@ class Home extends React.Component {
         isFilterDirty: false
       });
       this.props.dispatch(fetchFeed(0));
+      browserHistory.push('/');
     }else{
       this.setState({
         from: 0,
         isFilterDirty: true
       });
       this.props.dispatch(applyFilters(this.state.filters,0));
+      browserHistory.push(this.getQueryStringFromFilters());
     }
   }
 
@@ -135,7 +176,7 @@ class Home extends React.Component {
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 job-content">
               {
                 job._source.jobSalary ? (
-                  <span><i className="material-icons">attach_money</i> {job._source.jobSalary.min} - {job._source.jobSalary.max}</span>
+                  <span className='salary'><i className="material-icons">attach_money</i> {job._source.jobSalary.min} - {job._source.jobSalary.max}</span>
                 ) : ''
               }
               <p>{job._source.shortDescription}</p>
