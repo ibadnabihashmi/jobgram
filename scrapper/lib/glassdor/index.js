@@ -151,13 +151,12 @@ MongoClient.connect(url, function (err, db) {
                                                                             .replace(/&gt;/ig, '>')
                                                                             .replace(//ig, '')
                                                                             .replace(/<[^>]*>/ig, ' ');
-                                                                        fs.writeFileSync('shit1.json', stringjob);
                                                                         var jsonjob = JSON.parse(stringjob);
                                                                         console.log("extracting ........");
                                                                         job['jobContent'] = jsonjob.description ? jsonjob.description : '';
                                                                         job['shortDescription'] = job['jobContent'].trim().split(' ').splice(0, 30).join(' ').toLowerCase().replace(/[^a-zA-Z0-9]+/g, ' ') + '.....';
-                                                                        job['jobDatePosted'] = jsonjob.datePosted ? new Date(jsonjob.datePosted) : '';
-                                                                        job['jobLocation'] = jsonjob.jobLocation ? jsonjob.address ? jsonjob.addressLocality : '' : '';
+                                                                        job['jobDatePosted'] = (new Date(jsonjob.datePosted)).getTime();
+                                                                        job['jobLocation'] = jsonjob.jobLocation ? jsonjob.jobLocation.address ? [jsonjob.jobLocation.address.addressLocality] : [] : [];
                                                                         job['jobUrl'] = list.jobLink;
                                                                         job['jobTitle'] = jsonjob.title;
                                                                         job['jobProvider'] = jsonjob.hiringOrganization ? jsonjob.hiringOrganization.name : '';

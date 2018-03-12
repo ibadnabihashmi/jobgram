@@ -7,3 +7,18 @@ curl https://e0r0qbfw0r:rviz1rnrrt@first-cluster-6366936209.us-east-1.bonsaisear
         } 
     }
 }'
+
+curl https://e0r0qbfw0r:rviz1rnrrt@first-cluster-6366936209.us-east-1.bonsaisearch.net/jobgram/job/_delete_by_query -d 
+'{ 
+    "query": { 
+        "bool": { 
+            "must": [
+                {
+                    "term": {
+                        "jobSource": "glassdoor"
+                    }
+                }
+            ]
+        } 
+    }
+}'

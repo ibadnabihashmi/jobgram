@@ -2,11 +2,11 @@ var request = require('request');
 var cheerio = require('cheerio');
 var async = require('async');
 var _ = require('underscore');
-var client = require('../config/connection.js');
+var client = require('../../config/connection.js');
 var MongoClient = require('mongodb').MongoClient;
-var url = require('../config/urls').mongo;
+var url = require('../../config/urls').mongo;
 var fs = require('fs');
-var UTILS = require('./utils');
+var UTILS = require('../utils');
 
 var page = 1;
 var rootUrl = ['https://www.mustakbil.com/ws/jobs/search?page='+page];

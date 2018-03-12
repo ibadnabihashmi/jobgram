@@ -5,10 +5,10 @@ var phInstance = null;
 var async = require('async');
 var fs = require('fs');
 var jobs = [];
-var client = require('../config/connection.js');
+var client = require('../../config/connection.js');
 var MongoClient = require('mongodb').MongoClient;
-var url = require('../config/urls').mongo;
-var UTILS = require('./utils');
+var url = require('../../config/urls').mongo;
+var UTILS = require('../utils');
 var _ = require('underscore');
 
 var tags = [];
