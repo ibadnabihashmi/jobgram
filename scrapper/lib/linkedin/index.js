@@ -362,6 +362,7 @@ MongoClient.connect(url, function (err, db) {
                                                         jobLocation: element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPostingResolutionResult.formattedLocation.replace(/\s/ig, '').split(',')
                                                     });
                                                 });
+                                                fs.writeFileSync('linkedin/list.json', JSON.stringify(jobsList, null, 2));
                                                 async.eachSeries(jobsList, function (list, callback) {
                                                     console.log('openeing -------> ' + list.jobLink);
                                                     setTimeout(function () {
@@ -371,10 +372,10 @@ MongoClient.connect(url, function (err, db) {
                                                             page.property('content').then(function (content) {
                                                                 $ = cheerio.load(content.toString());
                                                                 var job = {};
-                                                                fs.writeFileSync('s.html', content.toString());
+                                                                fs.writeFileSync('linkedin/page.html', content.toString());
                                                                 for (var i=0;i<$('img').length;i++) {
                                                                     var data = JSON.parse($($('img')[i]).next().text());
-                                                                    fs.writeFileSync('s.json', JSON.stringify(data, null, 2));
+                                                                    fs.writeFileSync('linkedin/page.json', JSON.stringify(data, null, 2));
                                                                     if (data.hasOwnProperty('companyDetails')) {
                                                                         console.log("extracting ........");
                                                                         job['jobContent'] = data.description.text;
@@ -385,7 +386,18 @@ MongoClient.connect(url, function (err, db) {
                                                                         job['jobTitle'] = list.jobTitle;
                                                                         if (data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"]) {
                                                                             job['jobProvider'] = data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.name;
-                                                                            job['jobProviderLogo'] = 'https://media.licdn.com/mpr/mpr/shrink_200_200' + data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.logo.image["com.linkedin.voyager.common.MediaProcessorImage"].id;
+                                                                            if (data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.logo) {
+                                                                                if (data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.logo.image["com.linkedin.voyager.common.MediaProcessorImage"]) {
+                                                                                    job['jobProviderLogo'] = 'https://media.licdn.com/mpr/mpr/shrink_200_200' + data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.logo.image["com.linkedin.voyager.common.MediaProcessorImage"].id;
+                                                                                } else if (data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.logo.image["com.linkedin.common.VectorImage"]) {
+                                                                                    job['jobProviderLogo'] = data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.logo.image["com.linkedin.common.VectorImage"].rootUrl + 
+                                                                                    data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompany"].companyResolutionResult.logo.image["com.linkedin.common.VectorImage"].artifacts[0].fileIdentifyingUrlPathSegment;
+                                                                                } else {
+                                                                                    job['jobProviderLogo'] = 'https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png';
+                                                                                }
+                                                                            } else {
+                                                                                job['jobProviderLogo'] = 'https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png';
+                                                                            }
                                                                         }
                                                                         if (data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompanyName"]) {
                                                                             job['jobProvider'] = data.companyDetails["com.linkedin.voyager.jobs.JobPostingCompanyName"].companyName;
