@@ -348,8 +348,9 @@ MongoClient.connect(url, function (err, db) {
                                             console.log('******************************************************************');
                                             console.log(status);
                                             page.property('content').then(function (content) {
+                                                fs.writeFileSync('linkedin/list.html', content.toString());
                                                 var $ = cheerio.load(content.toString());
-                                                var data = JSON.stringify(JSON.parse($('img')['6'].next.children[0].data), null, 2);
+                                                var data = JSON.stringify(JSON.parse($('img')['7'].next.children[0].data), null, 2);
                                                 var jobsList = [];
                                                 JSON.parse(data).elements.forEach(function (element) {
                                                     var id = element.hitInfo['com.linkedin.voyager.search.SearchJobJserp'].jobPosting.split(':');

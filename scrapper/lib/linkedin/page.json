@@ -1,217 +1,262 @@
 {
   "companyDetails": {
-    "com.linkedin.voyager.jobs.JobPostingCompany": {
-      "companyResolutionResult": {
-        "entityUrn": "urn:li:fs_normalized_company:12680437",
-        "name": "Fit & Fun"
-      },
-      "company": "urn:li:fs_normalized_company:12680437"
+    "com.linkedin.voyager.jobs.JobPostingCompanyName": {
+      "companyName": "Syntax Bpo"
     }
   },
-  "entityUrn": "urn:li:fs_normalized_jobPosting:641377413",
-  "formattedLocation": "Lahore, Pakistan",
+  "entityUrn": "urn:li:fs_normalized_jobPosting:689667821",
+  "formattedLocation": "Lahore, PK",
   "jobState": "LISTED",
   "description": {
     "attributes": [
       {
-        "start": 0,
-        "length": 26,
+        "start": 142,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 402,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 402,
+        "length": 1,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 26,
-        "length": 20,
+        "start": 521,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 593,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 634,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 722,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 818,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 840,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 858,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 858,
+        "length": 1,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 46,
-        "length": 12,
+        "start": 903,
+        "length": 1,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.LineBreak": {}
         }
       },
       {
-        "start": 58,
-        "length": 35,
+        "start": 936,
+        "length": 1,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.LineBreak": {}
         }
       },
       {
-        "start": 93,
-        "length": 16,
+        "start": 1008,
+        "length": 1,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.LineBreak": {}
         }
       },
       {
-        "start": 109,
-        "length": 26,
+        "start": 1043,
+        "length": 1,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.LineBreak": {}
         }
       },
       {
-        "start": 135,
-        "length": 9,
+        "start": 1050,
+        "length": 1,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.LineBreak": {}
         }
       },
       {
-        "start": 144,
-        "length": 22,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        }
-      },
-      {
-        "start": 166,
+        "start": 1044,
         "length": 7,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.Underline": {}
         }
       },
       {
-        "start": 173,
-        "length": 8,
+        "start": 1044,
+        "length": 7,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.Bold": {}
         }
       },
       {
-        "start": 181,
-        "length": 12,
+        "start": 1059,
+        "length": 1,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.LineBreak": {}
         }
       },
       {
-        "start": 193,
-        "length": 12,
+        "start": 1075,
+        "length": 1,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.LineBreak": {}
         }
       },
       {
-        "start": 205,
-        "length": 10,
+        "start": 1090,
+        "length": 1,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.LineBreak": {}
         }
       },
       {
-        "start": 215,
-        "length": 38,
+        "start": 1102,
+        "length": 1,
         "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
+          "com.linkedin.pemberly.text.LineBreak": {}
         }
       },
       {
-        "start": 253,
-        "length": 10,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        }
-      },
-      {
-        "start": 263,
-        "length": 10,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        }
-      },
-      {
-        "start": 273,
-        "length": 29,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        }
-      },
-      {
-        "start": 302,
-        "length": 25,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        }
-      },
-      {
-        "start": 327,
+        "start": 1103,
         "length": 33,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 360,
-        "length": 14,
+        "start": 1136,
+        "length": 25,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 374,
-        "length": 22,
+        "start": 1161,
+        "length": 25,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 396,
-        "length": 35,
+        "start": 1186,
+        "length": 30,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 431,
-        "length": 8,
+        "start": 1216,
+        "length": 31,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 439,
-        "length": 22,
+        "start": 1247,
+        "length": 46,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 461,
-        "length": 26,
+        "start": 1293,
+        "length": 23,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 487,
-        "length": 24,
+        "start": 1316,
+        "length": 30,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 511,
-        "length": 35,
+        "start": 1346,
+        "length": 40,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 546,
-        "length": 16,
+        "start": 1386,
+        "length": 31,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         }
       },
       {
-        "start": 0,
-        "length": 562,
+        "start": 1417,
+        "length": 28,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1473,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        }
+      },
+      {
+        "start": 1445,
+        "length": 29,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        }
+      },
+      {
+        "start": 1103,
+        "length": 371,
         "type": {
           "com.linkedin.pemberly.text.List": {
             "ordered": false
@@ -219,11 +264,14 @@
         }
       }
     ],
-    "text": "Good communication skills Organization skills Team player Interpersonal communication skills Detail oriented Positive, can-do attitude Flexible Ability to prioritize Honest Helpful Accountable Trustworthy Confident Ability to remain calm under pressure Proactive Authentic Excellent calendaring skills Customer-service focused Excellent time management skills Good listener Professional presence Keeps delicate information private Focused Anticipation of needs Knows what the boss needs Great networking skills Analytical forward thinking skills Microsoft Office"
+    "text": "We are looking for a dynamic, self-motivated individual with experience and skills in web content management, writing and editing for the web.\nThe individual will be responsible for developing the content for all aspects of the organizations online presence. In addition to this he will also be crafting content for site promotions, email newsletters, and online outreach campaigns.**Responsibilities**\nCreate, develop and manage content for organizations web presence (requires working with content management software)-\nConducting in-depth and accurate research on new subjects/topics/ideas-\nCopy edit and proofread all web content-\nOversee freelancers, including writers, copy editors and community outreach organizers-\nKeep current with emerging web technologies through relevant blogs, websites, lists and events-\nSEO article writing**\nRequired Skills**\nExceptional English writing & communication-\nExcellent organizational skills-\nExperience with managing content on popular content management systems-\nPassion, commitment and integrity.\nSkills\n**muse**\n**Blog Writer**\n**SEO writer**\nJob Details\nIndustry**: Telecommunication/ISPFunctional Area**: WriterTotal Positions**: 1 PostJob Shift**: First Shift (Day)Job Type**: Full Time/PermanentJob Location**: Main Gulberg, Lahore, PakistanGender**: No PreferenceMinimum Education**: BachelorsCareer Level**: Experienced ProfessionalExperience**: 2 Years - 4 YearsApply Before**: Jun 08, 2018Posting Date**: May 08, 2018\n"
   },
   "applyMethod": {
-    "com.linkedin.voyager.jobs.SimpleOnsiteApply": {}
+    "com.linkedin.voyager.jobs.OffsiteApply": {
+      "applyStartersPreferenceVoid": false,
+      "companyApplyUrl": "https://www.emprego.pt/en/jobs/show/content-writer-lahore/28147815260103903606534897104?utm_medium=feed&utm_source=linkedin"
+    }
   },
-  "title": "Executive Assistant",
-  "listedAt": 1525160851000
+  "title": "Content Writer",
+  "listedAt": 1525910400000
 }
